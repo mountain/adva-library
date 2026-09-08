@@ -575,7 +575,7 @@
       ],
       "theory": {
         "name": "Checker-layered directory partition: location grants nothing",
-        "version": "Research 0159 v0"
+        "version": "ADR 0043 v0"
       },
       "assumptions": [
         "The partition is documentary engineering, not a module system or a knowledge taxonomy; the axioms consolidate already-recorded rules without adding semantic authority."
@@ -584,11 +584,11 @@
       "recorded_status": "proposed-document",
       "materials": [
         {
-          "path": "docs/research/0161-library-directory-partition-contract.md",
-          "sha256": "fd97a6c8454f1954127614969f5f41933dd84bd15bc1b527178589e04dd8b7dc"
+          "path": "docs/adr/0043-directory-partition-contract.md",
+          "sha256": "f8c56c264f05fed8783611114abf0c31c2783e39662a20581a2d39b5c1f630fc"
         },
         {
-          "path": "docs/research/0161-library-directory-partition-contract.json",
+          "path": "docs/adr/0043-directory-partition-contract.json",
           "sha256": "9bd057f7c4bbfbb9f23b582063423646ecdbde7383e8947ae11a38142b52286b"
         }
       ],
