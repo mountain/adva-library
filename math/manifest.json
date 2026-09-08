@@ -584,11 +584,11 @@
       "recorded_status": "proposed-document",
       "materials": [
         {
-          "path": "docs/research/0159-library-directory-partition-contract.md",
-          "sha256": "bbe9592e56b23ac21e4a3f4ccb55e4a207a10f42bb8e2267074a6f4b9258068e"
+          "path": "docs/research/0161-library-directory-partition-contract.md",
+          "sha256": "fd97a6c8454f1954127614969f5f41933dd84bd15bc1b527178589e04dd8b7dc"
         },
         {
-          "path": "docs/research/0159-library-directory-partition-contract.json",
+          "path": "docs/research/0161-library-directory-partition-contract.json",
           "sha256": "9bd057f7c4bbfbb9f23b582063423646ecdbde7383e8947ae11a38142b52286b"
         }
       ],

@@ -49,7 +49,7 @@ all cryptography as logic. It adds no geometry entry, proof, installed crypto
 dependency, signed obligation or executable task. The proposal has no checker
 or execution evidence and does not change the Open growth obligation.
 
-[Research 0159: 目录分割工程合同](../../docs/research/0159-library-directory-partition-contract.md)
+[Research 0161: 目录分割工程合同](../../docs/research/0161-library-directory-partition-contract.md)
 把 adva-library 的目录角色、跨目录规则、准入程序与修订纪律收拢为一份
 proposed 合同（JSON 同目录），并登记为本目录学条目（logic，
 `logic-directory-partition-contract`）。它不改变检查器、增长义务或任何
