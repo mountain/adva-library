@@ -1,0 +1,12 @@
+[submodule "vendor/pybulletproofs"]
+	path = vendor/pybulletproofs
+	url = https://github.com/initc3/pybulletproofs.git
+[submodule "vendor/pysnark"]
+	path = vendor/pysnark
+	url = https://github.com/meilof/pysnark.git
+[submodule "vendor/zksnake"]
+	path = vendor/zksnake
+	url = https://github.com/Merricx/zksnake.git
+[submodule "vendor/zksnake-py"]
+	path = vendor/zksnake-py
+	url = https://github.com/Merricx/zksnake.git
