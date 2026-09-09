@@ -143,6 +143,15 @@ Use that revision for the historical campaign; this catalog does not rerun it.
 
 ## Revision discipline
 
+The naming entry explicitly registers the original `names/catalog-key-words.json`
+and the separate `names/catalog-key-words-v1.json`. The original bytes remain
+unchanged. With the companion Adva implementation, the explicit flag
+`python3 -S python/adva/adva.py math-check --key-words` additionally checks
+the fixed v1 naming domain, ordered round-trip, full catalog-key coverage and
+seven historical exceptions. The default command retains its documentary/hash
+guarantee. The entry stays proposed-document; topic counts do not change.
+Title semantics, authentication and native admission are not checked or granted.
+
 Add documentary keys explicitly, declare every applicable topic, and preserve
 the distinction between an asserted evidence state and actual proof admission.
 Keep cross-domain interpretation obligations visible. A new topic or schema
