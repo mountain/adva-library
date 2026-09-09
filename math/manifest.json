@@ -634,6 +634,39 @@
       ],
       "home": "logic",
       "geometry_lineage": null
+    },
+    {
+      "key": "logic-meaning-interpretation",
+      "title": "Meaning interpretation of the verification unification (dual-pair reading)",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Mechanism/interpretation duality over the three-holed structure",
+        "version": "Interpretation v0"
+      },
+      "assumptions": [
+        "The duality reading is a proposed interpretation, not a theorem; prose is not validated for truth."
+      ],
+      "scope": "Eight reverse readings of receipts 01-08 plus the dual-pair hypothesis; each reading is pinned to a receipt; the third object (dual-pair-receipt) marks the pair.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-interpretation-v0.md",
+          "sha256": "e45985e0bcef736166b25a8a0db475d5e680b024c166b27ad97972ddc86df207"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the receipt pin; treat the duality section as hypothesis."
+      ],
+      "open_obligations": [
+        "The 6-dimensional Teichmuller reading and its Calabi-Yau character remain hypotheses",
+        "orphan receipts 01/02/04 chain repair undecided"
+      ],
+      "home": "logic",
+      "geometry_lineage": null
     }
   ]
 }

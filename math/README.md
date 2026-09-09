@@ -60,6 +60,11 @@ proposed 合同（JSON 同目录），并登记为本目录学条目（logic，
 Machine→Substrate（基底）、World→Knowledge（知识）、Human→Surface（界面）。
 pascal 原始字节不动，只新增文档映射；不声称三机识别。
 
+[意义解读 v0](../../docs/../adva-library/meaning-interpretation-v0.md)（条目
+`logic-meaning-interpretation`）：机制与解读互为对偶的两张 H²，由第三个
+对象（dual-pair-receipt）标记；6 维泰西穆勒与 Calabi-Yau 读法记为假设。
+散文不被验证为真。
+
 ## Read-only check through the outer CLI
 
 From the repository checkout, using Python's standard library on POSIX:
