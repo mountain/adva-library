@@ -13,7 +13,7 @@
   },
   "source_document": {
     "path": "adva-library/names/catalog-key-words.json",
-    "sha256": "0da2e68912eb4ccf926a45a67dfdb81f189513d184c55b220c8437c5a82c009d"
+    "sha256": "fb1435baac6953ec5d60c4418b9d9b543d4322aa241d020270757c863dc96733"
   },
   "entries": [
     {
@@ -137,6 +137,15 @@
         "logic",
         "meaning",
         "interpretation"
+      ]
+    },
+    {
+      "key": "logic-yau-calabi-mapping",
+      "key_words": [
+        "logic",
+        "yau",
+        "calabi",
+        "mapping"
       ]
     }
   ],
