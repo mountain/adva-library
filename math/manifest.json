@@ -602,6 +602,38 @@
       ],
       "home": "logic",
       "geometry_lineage": null
+    },
+    {
+      "key": "logic-party-naming-layer",
+      "title": "Party naming layer: Substrate / Knowledge / Surface",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Documentary renaming of the Pascal three parties (scheme A)",
+        "version": "Naming layer v0"
+      },
+      "assumptions": [
+        "The rename is a documentary mapping layer over frozen original bytes; it does not claim native three-machine identification."
+      ],
+      "scope": "Maps Machine->Substrate, World->Knowledge, Human->Surface with Chinese glosses, languages and repository pairs; original Pascal bytes unchanged.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/names/party-naming-layer-v0.json",
+          "sha256": "feb270db2d784720bb6803b6f9b17668a06f57594a0ba732223663ae1b1917c8"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote both old and new party names when referencing; math-check read-only pass only."
+      ],
+      "open_obligations": [
+        "Native three-machine identification remains Open; human acceptance of the naming layer itself is not yet recorded."
+      ],
+      "home": "logic",
+      "geometry_lineage": null
     }
   ]
 }
