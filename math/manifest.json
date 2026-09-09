@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "0da2e68912eb4ccf926a45a67dfdb81f189513d184c55b220c8437c5a82c009d"
+          "sha256": "fb1435baac6953ec5d60c4418b9d9b543d4322aa241d020270757c863dc96733"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "c05b0691edd2cb5811db5a0dc7f616f706a682955b0d190974972f839ac5fe36"
+          "sha256": "c158da1784bdd4a3ad47b27c71d5917464d2475c2efb5da49d77df8373c796c1"
         }
       ],
       "evidence": [],
