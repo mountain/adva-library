@@ -667,6 +667,39 @@
       ],
       "home": "logic",
       "geometry_lineage": null
+    },
+    {
+      "key": "logic-yau-calabi-mapping",
+      "title": "Yau's Calabi journey as an arithmetic relation through the research materials",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Five-anchor narrative mapping with the dual-spectrum pillar",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence, not an identification; prose is not validated for truth."
+      ],
+      "scope": "Five narrative anchors (system-to-scalar, topological invariant, zero class, first nontrivial example, scope guard) pinned to receipts 13/17, plus the dual-side spectrum with reciprocal energy products (receipt 18).",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-yau-calabi-mapping-v0.md",
+          "sha256": "43711060f0a6fe0953ad5e5578c8a3bb78c326771652d63aa846c804cc891b3a"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the receipt pins; treat the mapping as proposed pending human review."
+      ],
+      "open_obligations": [
+        "third cusp generator for the three-winding (+, -, -) layout",
+        "human review of the proposed mapping"
+      ],
+      "home": "logic",
+      "geometry_lineage": null
     }
   ]
 }

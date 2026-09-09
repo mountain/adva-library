@@ -65,6 +65,10 @@ pascal 原始字节不动，只新增文档映射；不声称三机识别。
 对象（dual-pair-receipt）标记；6 维泰西穆勒与 Calabi-Yau 读法记为假设。
 散文不被验证为真。
 
+[Yau-Calabi 映射 v0](../../docs/../adva-library/meaning-yau-calabi-mapping-v0.md)（条目
+`logic-yau-calabi-mapping`）：丘先生 Calabi 历程的五锚点算术映射 +
+对偶谱支柱；proposed-mapping，待人类评审；非等同声称。
+
 ## Read-only check through the outer CLI
 
 From the repository checkout, using Python's standard library on POSIX:
