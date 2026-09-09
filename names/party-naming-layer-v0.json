@@ -50,7 +50,7 @@
       "language": "wenyan 文言（人类界面）+ scale-marked cyclic（机制侧工作语言，对方 260b99b，proposed）",
       "repositories": [
         "AEG",
-        "wenyan"
+        "mountain/wenyan（fork，本地 mingli-wenyan）"
       ],
       "duties": "试验、接受、释放"
     }
