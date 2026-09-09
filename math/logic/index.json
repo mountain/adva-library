@@ -11,7 +11,8 @@
     "logic-directory-partition-contract",
     "logic-party-naming-layer",
     "logic-meaning-interpretation",
-    "logic-yau-calabi-mapping"
+    "logic-yau-calabi-mapping",
+    "logic-birman-burau-duality"
   ],
   "owned": [
     "fixed-checking-rule-boundary",
@@ -21,7 +22,8 @@
     "logic-directory-partition-contract",
     "logic-party-naming-layer",
     "logic-meaning-interpretation",
-    "logic-yau-calabi-mapping"
+    "logic-yau-calabi-mapping",
+    "logic-birman-burau-duality"
   ],
   "references": [
     "three-verifier-arithmetic-calibration"
