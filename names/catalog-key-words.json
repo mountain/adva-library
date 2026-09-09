@@ -1,0 +1,137 @@
+{
+  "schema": "adva.catalog-key-words.research",
+  "version": 0,
+  "status": "proposed-document",
+  "purpose": "explicit source phrases whose link (lowercase, '-' joined, order retained, no repeated segment) equals each catalog key; the missing input of the linking operation",
+  "declared_rules": [
+    "link(words) joins the words with '-' in order",
+    "unlink recovers the complete word sequence",
+    "no segment repeats within one name",
+    "the first segment is the home-topic root (catalog prefix rule)"
+  ],
+  "entries": [
+    {
+      "key": "polynomial-shadow-epochs",
+      "key_words": [
+        "polynomial",
+        "shadow",
+        "epochs"
+      ]
+    },
+    {
+      "key": "composite-proposal-recipes",
+      "key_words": [
+        "composite",
+        "proposal",
+        "recipes"
+      ]
+    },
+    {
+      "key": "three-verifier-arithmetic-calibration",
+      "key_words": [
+        "three",
+        "verifier",
+        "arithmetic",
+        "calibration"
+      ]
+    },
+    {
+      "key": "frozen-policy-campaign",
+      "key_words": [
+        "frozen",
+        "policy",
+        "campaign"
+      ]
+    },
+    {
+      "key": "pascal-research-presentations",
+      "key_words": [
+        "pascal",
+        "research",
+        "presentations"
+      ]
+    },
+    {
+      "key": "q4-m6-relation-presentations",
+      "key_words": [
+        "q4",
+        "m6",
+        "relation",
+        "presentations"
+      ]
+    },
+    {
+      "key": "fixed-checking-rule-boundary",
+      "key_words": [
+        "fixed",
+        "checking",
+        "rule",
+        "boundary"
+      ]
+    },
+    {
+      "key": "logic-as-research-content",
+      "key_words": [
+        "logic",
+        "as",
+        "research",
+        "content"
+      ]
+    },
+    {
+      "key": "geometry-pascal-incidence-task",
+      "key_words": [
+        "geometry",
+        "pascal",
+        "incidence",
+        "task"
+      ]
+    },
+    {
+      "key": "logic-finite-task-calibrations",
+      "key_words": [
+        "logic",
+        "finite",
+        "task",
+        "calibrations"
+      ]
+    },
+    {
+      "key": "logic-cryptographic-sealing-and-calibration-boundary",
+      "key_words": [
+        "logic",
+        "cryptographic",
+        "sealing",
+        "and",
+        "calibration",
+        "boundary"
+      ]
+    },
+    {
+      "key": "logic-directory-partition-contract",
+      "key_words": [
+        "logic",
+        "directory",
+        "partition",
+        "contract"
+      ]
+    },
+    {
+      "key": "logic-party-naming-layer",
+      "key_words": [
+        "logic",
+        "party",
+        "naming",
+        "layer"
+      ]
+    },
+    {
+      "key": "logic-meaning-interpretation",
+      "key_words": [
+        "logic",
+        "meaning",
+        "interpretation"
+      ]
+    }
+  ]
+}
