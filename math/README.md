@@ -32,9 +32,9 @@ programs, identifies two programs or copies their evidence.
 | --- | ---: | --- |
 | arithmetic | 6 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference |
 | geometry | 3 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor |
-| logic | 5 | external calibration reference, fixed rules, organizational proposal, existing finite logic tasks, proposed cryptographic trust boundary |
+| logic | 9 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals |
 
-There are **11 distinct entries**, not fourteen independent results. Counts describe
+There are **15 distinct entries**, with 18 topic memberships. Counts describe
 this catalog only, not an inventory of all project knowledge. In particular,
 Pascal remains proposed; M6 retains its missing filler; logic has no newly
 installed native calculus. The old `adva-library/index.json` remains its
@@ -64,6 +64,10 @@ pascal 原始字节不动，只新增文档映射；不声称三机识别。
 `logic-meaning-interpretation`）：机制与解读互为对偶的两张 H²，由第三个
 对象（dual-pair-receipt）标记；6 维泰西穆勒与 Calabi-Yau 读法记为假设。
 散文不被验证为真。
+
+[Yau-Calabi 映射 v0](../../docs/../adva-library/meaning-yau-calabi-mapping-v0.md)（条目
+`logic-yau-calabi-mapping`）：丘先生 Calabi 历程的五锚点算术映射 +
+对偶谱支柱；proposed-mapping，待人类评审；非等同声称。
 
 ## Read-only check through the outer CLI
 
@@ -142,15 +146,6 @@ unchanged and refer to its original runtime commit `5d956de` (merge `8c94621`).
 Use that revision for the historical campaign; this catalog does not rerun it.
 
 ## Revision discipline
-
-The naming entry explicitly registers the original `names/catalog-key-words.json`
-and the separate `names/catalog-key-words-v1.json`. The original bytes remain
-unchanged. With the companion Adva implementation, the explicit flag
-`python3 -S python/adva/adva.py math-check --key-words` additionally checks
-the fixed v1 naming domain, ordered round-trip, full catalog-key coverage and
-seven historical exceptions. The default command retains its documentary/hash
-guarantee. The entry stays proposed-document; topic counts do not change.
-Title semantics, authentication and native admission are not checked or granted.
 
 Add documentary keys explicitly, declare every applicable topic, and preserve
 the distinction between an asserted evidence state and actual proof admission.

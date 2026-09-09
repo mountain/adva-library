@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "0da2e68912eb4ccf926a45a67dfdb81f189513d184c55b220c8437c5a82c009d"
+          "sha256": "fb1435baac6953ec5d60c4418b9d9b543d4322aa241d020270757c863dc96733"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "c05b0691edd2cb5811db5a0dc7f616f706a682955b0d190974972f839ac5fe36"
+          "sha256": "c158da1784bdd4a3ad47b27c71d5917464d2475c2efb5da49d77df8373c796c1"
         }
       ],
       "evidence": [],
@@ -672,6 +672,39 @@
       "open_obligations": [
         "The 6-dimensional Teichmuller reading and its Calabi-Yau character remain hypotheses",
         "orphan receipts 01/02/04 chain repair undecided"
+      ],
+      "home": "logic",
+      "geometry_lineage": null
+    },
+    {
+      "key": "logic-yau-calabi-mapping",
+      "title": "Yau's Calabi journey as an arithmetic relation through the research materials",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Five-anchor narrative mapping with the dual-spectrum pillar",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence, not an identification; prose is not validated for truth."
+      ],
+      "scope": "Five narrative anchors (system-to-scalar, topological invariant, zero class, first nontrivial example, scope guard) pinned to receipts 13/17, plus the dual-side spectrum with reciprocal energy products (receipt 18).",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-yau-calabi-mapping-v0.md",
+          "sha256": "c405998596898ef879ec9350c0403c8a3ebd90273eab80e8d8ca81de2b843760"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the receipt pins; treat the mapping as proposed pending human review."
+      ],
+      "open_obligations": [
+        "third cusp generator for the three-winding (+, -, -) layout",
+        "human review of the proposed mapping"
       ],
       "home": "logic",
       "geometry_lineage": null
