@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "fb1435baac6953ec5d60c4418b9d9b543d4322aa241d020270757c863dc96733"
+          "sha256": "d51c18507236ac1cd65133ef26bfc9ab7edf81e93c320d7b5334454054a40aae"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "c158da1784bdd4a3ad47b27c71d5917464d2475c2efb5da49d77df8373c796c1"
+          "sha256": "51f889792bd65124c26547d828bf9d2a3f2f366df2926bba0a40eb627e325958"
         }
       ],
       "evidence": [],
@@ -704,6 +704,39 @@
       ],
       "open_obligations": [
         "third cusp generator for the three-winding (+, -, -) layout",
+        "human review of the proposed mapping"
+      ],
+      "home": "logic",
+      "geometry_lineage": null
+    },
+    {
+      "key": "logic-birman-burau-duality",
+      "title": "Birman-Burau duality mapping of the NYT story structure",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Eight-fold duality reading of the B4 Burau faithfulness story",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence over our research materials; prose is not validated for truth."
+      ],
+      "scope": "Eight duality anchors (representation, P/N/R trichotomy, five-strand lift, tool reversal, cancellation, private language, time, inheritance reversal) with the arXiv boundary pair.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-birman-burau-duality-v0.md",
+          "sha256": "6474936fc71491dada87b421d2cf288013497fcc5b88401529be76c84cc3055d"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the arXiv pair and the receipt pins; treat the mapping as proposed."
+      ],
+      "open_obligations": [
+        "the BBB paper remains a claimed solution pending peer review",
         "human review of the proposed mapping"
       ],
       "home": "logic",
