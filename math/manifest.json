@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "d51c18507236ac1cd65133ef26bfc9ab7edf81e93c320d7b5334454054a40aae"
+          "sha256": "0a3a8f6213e62f414008e67ff458d6e5fa212641a3f68cf8bae7a781d8005e7f"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "51f889792bd65124c26547d828bf9d2a3f2f366df2926bba0a40eb627e325958"
+          "sha256": "f8ff8ecfc8429943427082b7e4c475417e07ce44c2408078dcce1f69f5b3c28d"
         }
       ],
       "evidence": [],
@@ -741,6 +741,100 @@
       ],
       "home": "logic",
       "geometry_lineage": null
+    },
+    {
+      "key": "logic-symbol-surface-swap",
+      "title": "Symbol surface swap: from construction records to name-side questions",
+      "domains": [
+        "logic"
+      ],
+      "home": "logic",
+      "geometry_lineage": null,
+      "theory": {
+        "name": "Proposed documentary endpoint swap retaining source and residuals",
+        "version": "Symbol surface swap v0; source Adva PR #170 at 6538f98555db89f0569aed39952d355bc10c0cd0"
+      },
+      "assumptions": [
+        "The relation consists of retained documentary references, not native program identities.",
+        "Exchanging endpoint coordinates does not make reverse lookup unique or prove payload mathematics."
+      ],
+      "scope": "A library-facing reverse view of three symbolic records, with eight unchanged source files and nine open obligations. No arithmetic evaluation or game execution.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-symbol-surface-swap-v0.md",
+          "sha256": "255264ccd158da5e092b910c863e544807b1a115e388f9a905c86af1f9766fc1"
+        },
+        {
+          "path": "adva-library/symbol-surface/record-to-name.json",
+          "sha256": "e2357ee44d3c428e6190767105410aa24db4865ef0f4eb2ef689935573adb10b"
+        },
+        {
+          "path": "adva-library/symbol-surface/name-to-record.json",
+          "sha256": "79d5c998543b547dff96326718b649dacb1d1d0f3aa8e39008c0a226407f9b2b"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/README.md",
+          "sha256": "e5a38e5745de316fbba026705230ee9d090221a1a0fb836c0b31b80af73eab37"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/construct_records.py",
+          "sha256": "4ecc19589e8062be072703cc1f2f1d8a18f9221f07ab00f17f22099b294cb0ca"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/contract.json",
+          "sha256": "c566ca8994543a60ff40bdf3ea60fe4d76756258fd72ac657b2a934fe7faa97c"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/inspect_representation.py",
+          "sha256": "9afaa502ab9caa8bcf24be489ab0b1b6a078932c34f45faa26b9a4a4a8a79127"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/inspection.json",
+          "sha256": "d4776017411d1888dc55442b5bab1ba189d874c9851de001d967583d2ac3d8ac"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/obligations.json",
+          "sha256": "8443a82b97c1e2e0665c4c073f7d9a87095438dc82509d6001c1260b4be34587"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/presentation.json",
+          "sha256": "c8f97bdd90ff33805f4db93660b9d6de432e4ca117c9f794027d24a99cdc5d34"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/symbol-surface.adva",
+          "sha256": "c0ebd5accd88d73d1f64616f1adc9e10183993e5d48c8c5fb8ea3b37460c29db"
+        },
+        {
+          "path": "adva-library/symbol-surface/handoff.json",
+          "sha256": "059a7e09967326e1030c1c367095aa86be7bd21e1950da85b7c4020803722923"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "adva-library/symbol-surface/swap-report.json",
+          "sha256": "d20974bff1ab429df2d80323f8fd4304aced6e3302cbd910d12b74d25d89369b"
+        }
+      ],
+      "checker": {
+        "name": "External finite documentary endpoint and retained-source checker; not Rust authority",
+        "version": "symbol-surface/swap.py v0",
+        "sources": [
+          {
+            "path": "adva-library/symbol-surface/swap.py",
+            "sha256": "3b9f6d785e64d8b2aacb675965c22b730c14ff17cb53d66fedd1a5117ad67a01"
+          }
+        ]
+      },
+      "reuse_requires": [
+        "Pin the source and both views; replay swap.py and the outer documentary catalog check.",
+        "Preserve all alternatives and open obligations; native reuse still needs the original Rust boundary."
+      ],
+      "open_obligations": [
+        "Native read-only document loading remains NotRun; no native payload resolver is installed.",
+        "All nine source obligations remain Open; no new theorem application or game rules are supplied.",
+        "The proposed reading of swap needs review; it does not redefine the matrix-basis swap of Research 0160."
+      ]
     }
   ]
 }

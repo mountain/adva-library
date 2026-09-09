@@ -30,3 +30,10 @@ its earlier commits retain the preceding source bytes. Pascal materials and
 the Open growth obligation remain unchanged. See Adva PR #166 and
 `docs/research/catalog-key-words-alignment.md` for the paired baseline and
 repair evidence, including a fresh sixteenth-key control.
+
+## Symbol surface continuation
+
+The current manifest and both naming documents now cover 17 keys.
+`logic-symbol-surface-swap` is appended after the sixteen-entry baseline;
+the source digest and the naming-layer material pins are updated together.
+Earlier counts above describe historical checkpoints. No lexical policy changes.

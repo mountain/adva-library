@@ -12,7 +12,8 @@
     "logic-party-naming-layer",
     "logic-meaning-interpretation",
     "logic-yau-calabi-mapping",
-    "logic-birman-burau-duality"
+    "logic-birman-burau-duality",
+    "logic-symbol-surface-swap"
   ],
   "owned": [
     "fixed-checking-rule-boundary",
@@ -23,7 +24,8 @@
     "logic-party-naming-layer",
     "logic-meaning-interpretation",
     "logic-yau-calabi-mapping",
-    "logic-birman-burau-duality"
+    "logic-birman-burau-duality",
+    "logic-symbol-surface-swap"
   ],
   "references": [
     "three-verifier-arithmetic-calibration"
