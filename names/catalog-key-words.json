@@ -7,7 +7,8 @@
     "link(words) joins the words with '-' in order",
     "unlink recovers the complete word sequence",
     "no segment repeats within one name",
-    "the first segment is the home-topic root (catalog prefix rule)"
+    "the first segment is the home-topic root (catalog prefix rule)",
+    "the home-topic root rule applies to keys added after ADR 0042; the seven pre-ADR keys below are grandfathered with their historical first segments, declared here rather than silently renamed"
   ],
   "entries": [
     {
@@ -133,5 +134,14 @@
         "interpretation"
       ]
     }
+  ],
+  "grandfathered_keys": [
+    "polynomial-shadow-epochs",
+    "composite-proposal-recipes",
+    "three-verifier-arithmetic-calibration",
+    "frozen-policy-campaign",
+    "pascal-research-presentations",
+    "q4-m6-relation-presentations",
+    "fixed-checking-rule-boundary"
   ]
 }
