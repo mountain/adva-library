@@ -9,7 +9,8 @@
     "logic-finite-task-calibrations",
     "logic-cryptographic-sealing-and-calibration-boundary",
     "logic-directory-partition-contract",
-    "logic-party-naming-layer"
+    "logic-party-naming-layer",
+    "logic-meaning-interpretation"
   ],
   "owned": [
     "fixed-checking-rule-boundary",
@@ -17,7 +18,8 @@
     "logic-finite-task-calibrations",
     "logic-cryptographic-sealing-and-calibration-boundary",
     "logic-directory-partition-contract",
-    "logic-party-naming-layer"
+    "logic-party-naming-layer",
+    "logic-meaning-interpretation"
   ],
   "references": [
     "three-verifier-arithmetic-calibration"
