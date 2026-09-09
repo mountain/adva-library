@@ -55,6 +55,11 @@ proposed 合同（JSON 同目录），并登记为本目录学条目（logic，
 `logic-directory-partition-contract`）。它不改变检查器、增长义务或任何
 已 pin 字节；math-check 通过仍只允许浏览声明引用。
 
+[Party naming layer](../../docs/research/../adva-library/names/party-naming-layer-v0.json)（条目
+`logic-party-naming-layer`）：按明理 2026-09-09 裁定执行方案 A——
+Machine→Substrate（基底）、World→Knowledge（知识）、Human→Surface（界面）。
+pascal 原始字节不动，只新增文档映射；不声称三机识别。
+
 ## Read-only check through the outer CLI
 
 From the repository checkout, using Python's standard library on POSIX:
