@@ -10,7 +10,8 @@
     "logic-cryptographic-sealing-and-calibration-boundary",
     "logic-directory-partition-contract",
     "logic-party-naming-layer",
-    "logic-meaning-interpretation"
+    "logic-meaning-interpretation",
+    "logic-yau-calabi-mapping"
   ],
   "owned": [
     "fixed-checking-rule-boundary",
@@ -19,7 +20,8 @@
     "logic-cryptographic-sealing-and-calibration-boundary",
     "logic-directory-partition-contract",
     "logic-party-naming-layer",
-    "logic-meaning-interpretation"
+    "logic-meaning-interpretation",
+    "logic-yau-calabi-mapping"
   ],
   "references": [
     "three-verifier-arithmetic-calibration"
