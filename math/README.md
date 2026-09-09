@@ -32,9 +32,9 @@ programs, identifies two programs or copies their evidence.
 | --- | ---: | --- |
 | arithmetic | 6 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference |
 | geometry | 3 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor |
-| logic | 5 | external calibration reference, fixed rules, organizational proposal, existing finite logic tasks, proposed cryptographic trust boundary |
+| logic | 9 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals |
 
-There are **11 distinct entries**, not fourteen independent results. Counts describe
+There are **15 distinct entries**, with 18 topic memberships. Counts describe
 this catalog only, not an inventory of all project knowledge. In particular,
 Pascal remains proposed; M6 retains its missing filler; logic has no newly
 installed native calculus. The old `adva-library/index.json` remains its
