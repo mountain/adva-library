@@ -16,7 +16,8 @@
     "logic-symbol-surface-swap",
     "logic-al-khwarizmi-duality",
     "logic-jiuzhang-gaussian-duality",
-    "logic-qin-jiushao-dayan-duality"
+    "logic-qin-jiushao-dayan-duality",
+    "logic-reflexive-duality-conservation"
   ],
   "owned": [
     "fixed-checking-rule-boundary",
@@ -31,7 +32,8 @@
     "logic-symbol-surface-swap",
     "logic-al-khwarizmi-duality",
     "logic-jiuzhang-gaussian-duality",
-    "logic-qin-jiushao-dayan-duality"
+    "logic-qin-jiushao-dayan-duality",
+    "logic-reflexive-duality-conservation"
   ],
   "references": [
     "three-verifier-arithmetic-calibration"

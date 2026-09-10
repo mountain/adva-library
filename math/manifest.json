@@ -629,7 +629,7 @@
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "f2060b140d9fc91b35c9c6d0c5caadce6fae94f37aaf2642293fd9d0eb713c65"
+          "sha256": "3f89e398ef6d15c1a0562be9b94f997999ffb11dd223e89b75d37ee277fe8b7b"
         }
       ],
       "evidence": [],
@@ -1028,6 +1028,40 @@
         "standard textbook account used; the Shushu Jiuzhang original not checked",
         "human review of the proposed mapping",
         "Coprime uniqueness does not establish source fidelity; the finite calibration retains a counterexample. A formal mapping from checker independence to coprimality and an Adva source-to-projection witness remain unconstructed."
+      ],
+      "home": "logic",
+      "geometry_lineage": null
+    },
+    {
+      "key": "logic-reflexive-duality-conservation",
+      "title": "Reflexive duality conservation mapping of the (+, -, -) structure",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Six-fold duality reading of the cube-root triple {1, w, w^2}",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence over our research materials; prose is not validated for truth."
+      ],
+      "scope": "Six duality anchors from the (+, -, -) cube-root triple: attraction (1 + w + w^2 = 0), repulsion (conjugate mirror reflection at the boundary), conservation (det products, zero resource grants, LedgerConsistent), the Minkowski signature analogy, the reflexive polytope polar duality, and the unit that qiu-yi seeks.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-reflexive-duality-conservation-v0.md",
+          "sha256": "456761337d0f40d965e454a4f05d3673c460155c81095d8106cb8bb959d107fe"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the receipt pins and the research numbers; treat the mapping as proposed."
+      ],
+      "open_obligations": [
+        "the {1, w, w^2} to (+, -, -) correspondence uses real parts and is interpretation, not isomorphism",
+        "the spacetime reading is an analogy, not a physics claim",
+        "human review of the proposed mapping"
       ],
       "home": "logic",
       "geometry_lineage": null
