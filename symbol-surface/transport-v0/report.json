@@ -1,0 +1,81 @@
+{
+  "schema": "adva.text-transport-calibration.proposed",
+  "version": 0,
+  "status": "SyntheticTransportChecked",
+  "fixtures": [
+    {
+      "fixture": "first-transfer",
+      "uncompressed_bytes": 180000,
+      "target": {
+        "fixture": "first-transfer",
+        "bytes": 180073,
+        "sha256": "3a1d6bd673a6aa8e491b486f156bfa52aba4601065288b7b0de11936ff2c95b3"
+      },
+      "parts": 4,
+      "status": "SyntheticPinnedBytesVerified",
+      "construction_ms": 6.094514999858802,
+      "packaging_ms": 0.5961490023764782,
+      "verification_ms": 0.8198069990612566,
+      "filesystem_serialization_and_replay_ms": 2.197845999035053
+    },
+    {
+      "fixture": "new-instance-reuse",
+      "uncompressed_bytes": 260000,
+      "target": {
+        "fixture": "new-instance-reuse",
+        "bytes": 260098,
+        "sha256": "bd75d76aa82ba3efea29bb7d1452b0803bdfb7a5527fe066eea51af8c3505ab7"
+      },
+      "parts": 6,
+      "status": "SyntheticPinnedBytesVerified",
+      "construction_ms": 8.087652000540402,
+      "packaging_ms": 0.6306620016403031,
+      "verification_ms": 1.0734200004662853,
+      "filesystem_serialization_and_replay_ms": 1.6491079986735713
+    }
+  ],
+  "controls": {
+    "first-transfer/extra-file": "Rejected",
+    "first-transfer/missing": "Rejected",
+    "first-transfer/extra": "Rejected",
+    "first-transfer/duplicate": "Rejected",
+    "first-transfer/reorder": "Rejected",
+    "first-transfer/tamper": "Rejected",
+    "first-transfer/invalid-base64": "Rejected",
+    "first-transfer/wrong-target": "Rejected",
+    "first-transfer/part-budget": "Rejected",
+    "first-transfer/raw-budget": "Rejected",
+    "new-instance-reuse/extra-file": "Rejected",
+    "new-instance-reuse/missing": "Rejected",
+    "new-instance-reuse/extra": "Rejected",
+    "new-instance-reuse/duplicate": "Rejected",
+    "new-instance-reuse/reorder": "Rejected",
+    "new-instance-reuse/tamper": "Rejected",
+    "new-instance-reuse/invalid-base64": "Rejected",
+    "new-instance-reuse/wrong-target": "Rejected",
+    "new-instance-reuse/part-budget": "Rejected",
+    "new-instance-reuse/raw-budget": "Rejected",
+    "duplicate-json-key": "Rejected",
+    "real-target-not-synthetic": "Rejected"
+  },
+  "controls_count": 22,
+  "real_artifact": "NotReceived",
+  "complete_archive_status": "Unknown",
+  "native_replay": "NotRun",
+  "mathematical_discharges": 0,
+  "search_candidates": 0,
+  "wall_ms_before_report": 24.64629400128615,
+  "process_peak_rss_kib_linux": 14352,
+  "budget": {
+    "process_timeout_seconds": 5,
+    "fixture_count": 2,
+    "max_parts": 64,
+    "max_encoded_bytes": 4194304
+  },
+  "unmeasured": [
+    "authoring",
+    "network",
+    "report serialization"
+  ],
+  "residual": "Synthetic reuse tests the transport boundary only; no real native artifact bytes were obtained"
+}
