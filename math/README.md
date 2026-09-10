@@ -32,9 +32,9 @@ programs, identifies two programs or copies their evidence.
 | --- | ---: | --- |
 | arithmetic | 6 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference |
 | geometry | 3 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor |
-| logic | 9 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals |
+| logic | 11 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals |
 
-There are **15 distinct entries**, with 18 topic memberships. Counts describe
+There are **17 distinct entries**, with 20 topic memberships. Counts describe
 this catalog only, not an inventory of all project knowledge. In particular,
 Pascal remains proposed; M6 retains its missing filler; logic has no newly
 installed native calculus. The old `adva-library/index.json` remains its
@@ -154,3 +154,11 @@ requires an explicit catalog version/design decision, not a reinterpretation
 of v0. Studying a candidate logic never authorizes changing the frozen checker
 inside a running experiment. Semantic promotion remains subject to the
 existing research agenda and Rust authority boundary.
+
+## Symbol surface swap companion
+
+[Symbol surface swap v0](../meaning-symbol-surface-swap-v0.md) registers a
+proposed logic-home reverse lookup view of Adva PR #170. Its eight source
+files and nine open obligations survive unchanged. The current catalog has
+17 entries; naming coverage is updated in both source and v1 documents.
+This is documentary relation reordering, not native proof transport.
