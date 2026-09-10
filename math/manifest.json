@@ -985,26 +985,43 @@
         {
           "path": "adva-library/calibrations/crt-source-boundary-v0/README.md",
           "sha256": "71258881910f3da347ee24dce0f143197080f3ebafa6b5acaa95e6c28d723659"
+        },
+        {
+          "path": "adva-library/calibrations/source-projection-witness-v0/README.md",
+          "sha256": "644d1d845e0906c077dd98e5374796df1935596fe4d06713c759759a1132d1ac"
         }
       ],
       "evidence": [
         {
           "path": "adva-library/calibrations/crt-source-boundary-v0/report.json",
           "sha256": "2351c031f89ce85b25edef70ab845dd3f4e7412f77aa6ad89c415e61e7246af9"
+        },
+        {
+          "path": "adva-library/calibrations/source-projection-witness-v0/report.json",
+          "sha256": "a98c97b396a0838d6b3d0ae25a2ca2feed7fb00bfee49a26937fb47a9f44d459"
         }
       ],
       "checker": {
         "name": "External finite CRT source-fidelity calibration; does not validate historical prose or native semantics",
-        "version": "crt-source-boundary-v0",
+        "version": "crt-source-boundary-v0; disclosed-source projection v0",
         "sources": [
           {
             "path": "adva-library/calibrations/crt-source-boundary-v0/calibrate.py",
             "sha256": "341c4dafe8c467be1d2b491ae2a5ef4163799f58022b587ef74ef867d6247e24"
+          },
+          {
+            "path": "adva-library/calibrations/source-projection-witness-v0/projection.py",
+            "sha256": "9507da18675243bb1b34a722d5d7c6d559e26d5a1bc4069448838e67481b1db8"
+          },
+          {
+            "path": "adva-library/calibrations/source-projection-witness-v0/calibrate.py",
+            "sha256": "26a1680799f28c5b80eeb142dc527ac8f95d4713e4297379d194699535a01184"
           }
         ]
       },
       "reuse_requires": [
-        "Quote with the receipt pins and the research numbers; treat the mapping as proposed."
+        "Quote with the receipt pins and the research numbers; treat the mapping as proposed.",
+        "The disclosed-source projection check requires independently fixed source and policy pins; it establishes record-relative fidelity only, not physical truth or native identity."
       ],
       "open_obligations": [
         "the I Ching line is a name-level correspondence only; no Yijing philology performed",
