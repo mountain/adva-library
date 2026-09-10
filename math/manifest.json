@@ -629,7 +629,7 @@
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "ed8f887df743fad74866be75b543de04fbc3537b3e6ba2e382b929961dab717c"
+          "sha256": "2707f4477690b697ea7d1bac1090d1c7aaa82dab8c925aeaaeb3bc61d33a4ec0"
         }
       ],
       "evidence": [],
@@ -865,6 +865,40 @@
       "open_obligations": [
         "the six-form statement follows the standard textbook account; Rosen's translation not checked",
         "the etymology uses the common dictionary derivation; no Arabic philology performed",
+        "human review of the proposed mapping"
+      ],
+      "home": "logic",
+      "geometry_lineage": null
+    },
+    {
+      "key": "logic-jiuzhang-gaussian-duality",
+      "title": "Jiuzhang-Gaussian duality mapping of the fangcheng elimination method",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Eight-fold duality reading of the Nine Chapters fangcheng chapter",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence over our research materials; prose is not validated for truth."
+      ],
+      "scope": "Eight duality anchors from the counting-rod grid, the positive-negative method and the multiply-through/direct-division elimination, onto the neutral carrier, the signed-arithmetic rounds, the receipt repairs and the ledger checker as forward elimination.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-jiuzhang-gaussian-duality-v0.md",
+          "sha256": "e59b335bdb3cbb467690c465471948d69acdf2487c0b253d416c9b3db1293344"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the receipt pins and the research numbers; treat the mapping as proposed."
+      ],
+      "open_obligations": [
+        "the user description says counting rods on an abacus; the standard account says a counting board - flagged",
+        "standard textbook account used; Guo Shuchun's collated edition not checked",
         "human review of the proposed mapping"
       ],
       "home": "logic",
