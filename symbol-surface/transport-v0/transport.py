@@ -4,6 +4,7 @@ import argparse
 import base64
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 
@@ -117,6 +118,26 @@ def receive(directory, expected):
     return decode(manifest, chunks, expected)
 
 
+def restore(directory, output, expected):
+    """Validate first, then create one fresh stored artifact, without executing it.
+
+    An interrupted write can leave an incomplete file. This operation never
+    treats such a file as verified, overwrites it, or silently removes it.
+    """
+    raw = receive(directory, expected)
+    with output.open('xb') as stream:
+        written = stream.write(raw)
+        require(written == len(raw), 'incomplete output write')
+        stream.flush()
+        os.fsync(stream.fileno())
+    retained = bounded_read(output, expected['bytes'])
+    require(len(retained) == expected['bytes'] and sha(retained) == expected['sha256'],
+            'stored output mismatch')
+    return {'status': 'PinnedStoredBytesRestored', 'bytes': len(retained),
+            'sha256': sha(retained), 'complete_archive_status': 'Unknown',
+            'native_execution': 'NotRun', 'decompression': 'NotRun'}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
@@ -125,6 +146,9 @@ def main():
     pack.add_argument('output', type=Path)
     verify = sub.add_parser('verify', help='receiver: verify only, write or execute nothing')
     verify.add_argument('directory', type=Path)
+    materialize = sub.add_parser('restore', help='verify then create one fresh gzip file; no execution')
+    materialize.add_argument('directory', type=Path)
+    materialize.add_argument('output', type=Path)
     args = parser.parse_args()
     if args.command == 'pack':
         manifest, chunks = encode(bounded_read(args.input, TARGET['bytes']), TARGET)
@@ -134,6 +158,8 @@ def main():
         (args.output / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
         print(json.dumps({'status': 'PinnedBytesPackaged', 'parts': len(chunks),
                           'target': TARGET, 'native_execution': 'NotRun'}))
+    elif args.command == 'restore':
+        print(json.dumps(restore(args.directory, args.output, TARGET)))
     else:
         raw = receive(args.directory, TARGET)
         print(json.dumps({'status': 'PinnedBytesVerified', 'bytes': len(raw),
