@@ -1,0 +1,128 @@
+{
+  "schema": "adva.symbol-surface.receiving-acknowledgment.proposed",
+  "version": 0,
+  "status": "RecordedReplyBoundToHandoff",
+  "predecessor": {
+    "repository": "mountain/adva-library",
+    "commit": "f0312ca4a109e8ca26cc01cb678750ad889c95be",
+    "path": "symbol-surface/handoff.json",
+    "sha256": "059a7e09967326e1030c1c367095aa86be7bd21e1950da85b7c4020803722923"
+  },
+  "received_inputs": {
+    "peer-reply.json": {
+      "commit": "e0e3433ebcaa2da6ec3e0bc1f67bd316f2c38547",
+      "sha256": "5d7d45364e95cd729fa19b36f31222efe54f4b3593740bd71c7971646c2822f8"
+    },
+    "peer-report.json": {
+      "commit": "e0e3433ebcaa2da6ec3e0bc1f67bd316f2c38547",
+      "sha256": "51694ca9400e5561591832bb9909ae62cbb8ef38274c8b98ba86420e674fd614"
+    },
+    "text-audit.json": {
+      "commit": "feef303c35ab2d10e3f7763cb0bd73e216e0571e",
+      "sha256": "78f201f8237421945da8c047ae39e4c6d04c8da1cd5957dac2f3383e51417439"
+    }
+  },
+  "peer_reported": {
+    "native_load_before": "NotRun",
+    "native_load_after": "NativeEnvelopeLoaded",
+    "frame_state": "ready",
+    "verification_formation": "conditional",
+    "open_annotations_before": 9,
+    "open_annotations_after": 9,
+    "native_load_invocations": 8,
+    "recorded_outputs": 0,
+    "mathematical_discharges": 0,
+    "payload_resolution": "NotImplementedByLoader"
+  },
+  "receiver_checked": "Pinned text records and their declared relation boundaries",
+  "prior_text_audit": "TextEvidenceChecked",
+  "complete_archive_status": "Unknown",
+  "local_native_replay": "NotRun",
+  "native_free": "NotGranted",
+  "mathematical_discharges": 0,
+  "remaining_obligations": [
+    {
+      "id": "negative-one-derivation",
+      "status": "Open",
+      "document_frontier_coordinate": {
+        "role": "construction",
+        "hole": 0,
+        "occurrence": 0
+      }
+    },
+    {
+      "id": "occurrence-preservation",
+      "status": "Open",
+      "document_frontier_coordinate": {
+        "role": "construction",
+        "hole": 1,
+        "occurrence": 0
+      }
+    },
+    {
+      "id": "prefix-decode",
+      "status": "Open",
+      "document_frontier_coordinate": {
+        "role": "construction",
+        "hole": 2,
+        "occurrence": 0
+      }
+    },
+    {
+      "id": "cantor-prefix-interpretation",
+      "status": "Open",
+      "document_frontier_coordinate": {
+        "role": "construction",
+        "hole": 3,
+        "occurrence": 0
+      }
+    },
+    {
+      "id": "csb-injections",
+      "status": "Open",
+      "document_frontier_coordinate": {
+        "role": "construction",
+        "hole": 4,
+        "occurrence": 0
+      }
+    },
+    {
+      "id": "tarski-carrier-and-monotonicity",
+      "status": "Open",
+      "document_frontier_coordinate": {
+        "role": "construction",
+        "hole": 5,
+        "occurrence": 0
+      }
+    },
+    {
+      "id": "nested-interval-premises",
+      "status": "Open",
+      "document_frontier_coordinate": {
+        "role": "construction",
+        "hole": 6,
+        "occurrence": 0
+      }
+    },
+    {
+      "id": "pi-branch-and-derivation",
+      "status": "Open",
+      "document_frontier_coordinate": {
+        "role": "construction",
+        "hole": 7,
+        "occurrence": 0
+      }
+    },
+    {
+      "id": "game-turn-and-exit",
+      "status": "Open",
+      "document_frontier_coordinate": {
+        "role": "construction",
+        "hole": 8,
+        "occurrence": 0
+      }
+    }
+  ],
+  "exit": "One finite reception; no polling, execution or automatic continuation",
+  "residual": "Binary bytes, build authentication, native replay and payload mathematics are not checked here"
+}
