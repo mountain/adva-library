@@ -820,6 +820,10 @@
         {
           "path": "adva-library/symbol-surface/receipts/native-load-v0/peer-reply.json",
           "sha256": "5d7d45364e95cd729fa19b36f31222efe54f4b3593740bd71c7971646c2822f8"
+        },
+        {
+          "path": "adva-library/symbol-surface/transport-v0/README.md",
+          "sha256": "d575c8c490b4a74ee5b3f7b5f0e0d780705a229d0bc2146344f9a13533e33fcd"
         }
       ],
       "evidence": [
@@ -842,11 +846,15 @@
         {
           "path": "adva-library/symbol-surface/receipts/native-load-v0/text-audit.json",
           "sha256": "78f201f8237421945da8c047ae39e4c6d04c8da1cd5957dac2f3383e51417439"
+        },
+        {
+          "path": "adva-library/symbol-surface/transport-v0/report.json",
+          "sha256": "79c0bd85868cb2441c060a40926bcf7abc792f6581036270c0c8c2dbee9fb3d3"
         }
       ],
       "checker": {
         "name": "External finite documentary endpoint and retained-source checker; not Rust authority",
-        "version": "symbol-surface/swap.py v0; receiving acknowledgment v0",
+        "version": "symbol-surface/swap.py v0; receiving acknowledgment v0; bounded text transport v0",
         "sources": [
           {
             "path": "adva-library/symbol-surface/swap.py",
@@ -855,13 +863,22 @@
           {
             "path": "adva-library/symbol-surface/receipts/native-load-v0/receive.py",
             "sha256": "5bc6585764046f10bf395e54ddb6ac7fa05b29b1dde47085e32d3d027bfbbcd7"
+          },
+          {
+            "path": "adva-library/symbol-surface/transport-v0/transport.py",
+            "sha256": "d5af02dcf77383a32b851d57dd570a0e07d762c94aa1961746d9cac92581848c"
+          },
+          {
+            "path": "adva-library/symbol-surface/transport-v0/check_transport.py",
+            "sha256": "d99684b6ee45447b2448699ee5bb07a082b08e9d43f9f3a1fde68d792a5a7e48"
           }
         ]
       },
       "reuse_requires": [
         "Pin the source and both views; replay swap.py and the outer documentary catalog check.",
         "Preserve all alternatives and open obligations; native reuse still needs the original Rust boundary.",
-        "Replay the versioned receiving acknowledgment; distinguish peer-reported execution from receiver checks and preserve the original handoff bytes."
+        "Replay the versioned receiving acknowledgment; distinguish peer-reported execution from receiver checks and preserve the original handoff bytes.",
+        "The text transport CLI is pinned to one real native gzip; synthetic calibration cannot change NotReceived or authorize execution."
       ],
       "open_obligations": [
         "Peer native loading is reported at Adva e0e3433; receiver text audit is limited to 53/54 archive artifacts. Complete archive remains Unknown and local native replay NotRun; no native payload resolver is installed.",
