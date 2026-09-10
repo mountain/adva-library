@@ -30,15 +30,16 @@ programs, identifies two programs or copies their evidence.
 
 | Topic | Entries | Examples |
 | --- | ---: | --- |
-| arithmetic | 6 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference |
-| geometry | 3 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor |
-| logic | 14 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals |
+| arithmetic | 7 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference, golden-ratio receipt calibration |
+| geometry | 5 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor, golden-ratio external reference |
+| logic | 15 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals |
 
-There are **20 distinct entries**, with 23 topic memberships. Counts describe
-this catalog only, not an inventory of all project knowledge. In particular,
-Pascal remains proposed; M6 retains its missing filler; logic has no newly
-installed native calculus. The old `adva-library/index.json` remains its
-original two-document catalog.
+There are **23 distinct entries**, with 27 topic memberships. Counts are
+recomputed from the manifest rather than carried over from an earlier
+revision, and they describe this catalog only, not an inventory of all project
+knowledge. In particular, Pascal remains proposed; M6 retains its missing
+filler; logic has no newly installed native calculus. The old
+`adva-library/index.json` remains its original two-document catalog.
 
 [Research 0155: 密码学封存、双语言校准与信任边界](../../docs/research/0155-cryptographic-sealing-and-calibration-boundary.md)
 adds a proposed document about SHA-256/BLAKE3 digests, Ed25519 signatures,
@@ -154,6 +155,24 @@ requires an explicit catalog version/design decision, not a reinterpretation
 of v0. Studying a candidate logic never authorizes changing the frozen checker
 inside a running experiment. Semantic promotion remains subject to the
 existing research agenda and Rust authority boundary.
+
+## Golden-ratio resources as an external reference
+
+[Staged golden-ratio resources](../golden-ratio/README.md) are registered twice:
+the executed calibration as `arithmetic-golden-ratio-receipt-calibration`
+(external-calibration-record, home arithmetic, also a geometry reference) and
+the presentations, plates and captured source as
+`geometry-golden-ratio-external-reference`
+(bounded-research-evidence, home geometry, lineage kind external-reference).
+
+The geometry entry has no same-home parent chain to the Pascal root, so it is
+not a candidate successor: admitted geometry successors remain zero and the
+pinned growth obligation remains Open. Both entries pin the resource index, the
+atlas, the bounded evidence, the research record, the frozen contract and the
+checker. The read-only checker cannot pin the 15 staged artifacts
+individually at 95 of its 96 files, so the per-artifact digests are enforced by
+[`experiments/golden_ratio/calibration.py`](../../experiments/golden_ratio/calibration.py)
+rather than by this catalog.
 
 ## Symbol surface swap companion
 
