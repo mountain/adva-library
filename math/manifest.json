@@ -823,7 +823,7 @@
         },
         {
           "path": "adva-library/symbol-surface/transport-v0/README.md",
-          "sha256": "d575c8c490b4a74ee5b3f7b5f0e0d780705a229d0bc2146344f9a13533e33fcd"
+          "sha256": "2c2247c4f233193f823a68cad99d62284a69d22f0197b0e1171399c2df3187a6"
         }
       ],
       "evidence": [
@@ -850,11 +850,15 @@
         {
           "path": "adva-library/symbol-surface/transport-v0/report.json",
           "sha256": "79c0bd85868cb2441c060a40926bcf7abc792f6581036270c0c8c2dbee9fb3d3"
+        },
+        {
+          "path": "adva-library/symbol-surface/transport-v0/restore-report.json",
+          "sha256": "26d04b0b825572491c0066fb1f2b437a616c09f2f4c4c4ba5d035bc3de1bd686"
         }
       ],
       "checker": {
         "name": "External finite documentary endpoint and retained-source checker; not Rust authority",
-        "version": "symbol-surface/swap.py v0; receiving acknowledgment v0; bounded text transport v0",
+        "version": "symbol-surface/swap.py v0; receiving acknowledgment v0; bounded text transport v0; exclusive restore calibration",
         "sources": [
           {
             "path": "adva-library/symbol-surface/swap.py",
@@ -866,11 +870,15 @@
           },
           {
             "path": "adva-library/symbol-surface/transport-v0/transport.py",
-            "sha256": "d5af02dcf77383a32b851d57dd570a0e07d762c94aa1961746d9cac92581848c"
+            "sha256": "e363e23b75c58ff8728bd5f24233747fb4acdb89620f4794bdd55f96370e5b64"
           },
           {
             "path": "adva-library/symbol-surface/transport-v0/check_transport.py",
             "sha256": "d99684b6ee45447b2448699ee5bb07a082b08e9d43f9f3a1fde68d792a5a7e48"
+          },
+          {
+            "path": "adva-library/symbol-surface/transport-v0/check_restore.py",
+            "sha256": "14382d0b3c992d60c3a9f3c2d30c45a7dfc97290482a0cd4f33f5e5c150052d6"
           }
         ]
       },

@@ -86,3 +86,54 @@ for Jiamin's task has not been measured.
 Next: the producer may publish the real package in response to the existing
 cross-linked PR. Once received, check its byte pin, then separately replay the
 full archive verifier. No automatic polling, merge or native execution follows.
+
+## Transfer-to-archive handoff
+
+The peer's existing `experiments/advance_symbol_surface/verify_evidence.py`
+already bounds gzip reads to 64 MiB plus one sentinel byte and compares the
+original length/digest against the retained report. Its source was inspected
+at Adva `e0e3433`; it is not reimplemented here. The missing interface was that
+the original transport `verify` discarded the recovered stored bytes.
+
+The additional `restore` command validates the entire transfer first, creates
+one fresh output with exclusive creation, flushes and syncs its contents, then
+reads back and verifies the stored bytes. It performs no decompression or native
+execution. Only the frozen real target is accepted by the CLI.
+
+```sh
+timeout 5s python3 symbol-surface/transport-v0/transport.py restore /path/to/received-text-parts /path/to/evidence/run-01/_native.abi3.so.gz
+```
+
+The destination's parent must already exist and the destination must be absent.
+An existing file or symlink is rejected, even when its bytes would match.
+Validation failure creates no output. An interruption, disk-full or write error
+after creation may leave a partial file; that is not a success receipt. The tool
+does not overwrite or automatically delete it. File sync and readback do not
+constitute a crash-atomic publication or an authenticated artifact.
+
+After a successful real restoration, the separate full archive check is:
+
+```sh
+timeout 10s python3 /path/to/adva/experiments/advance_symbol_surface/verify_evidence.py --evidence /path/to/evidence/run-01
+```
+
+This requires all 54 exact archive files. A restore success alone leaves
+complete archive Unknown and native replay NotRun. The full verifier was only
+inspected in this round; it cannot run to completion without the real artifact.
+
+Frozen calibration: two synthetic gzip payloads, seven refusal controls,
+five seconds total, no search and no native calls. The first payload is a
+short string; the reuse payload is 262,144 bytes. The independent fixture
+gzip reader is capped at 262,145 output bytes. Controls cover an existing
+destination, modified input, attempted promotion to the real target and a
+symlink destination. Crash/disk-full fault injection is outside this run.
+
+```sh
+timeout 5s python3 symbol-surface/transport-v0/check_restore.py
+```
+
+`restore-report.json` records the bounded run. Its result is synthetic filesystem
+handoff evidence, not real artifact reception. The previous transfer-only
+report and historical receiving acknowledgment remain unchanged. This small
+addition lets the receiver hand checked stored bytes to the existing archive
+verifier without manually inventing another decoding script.
