@@ -1,0 +1,39 @@
+{
+  "status": "ReceivingContractChecked",
+  "controls": {
+    "wrong-predecessor": {
+      "status": "Rejected",
+      "reason": "wrong predecessor"
+    },
+    "missing-obligation": {
+      "status": "Rejected",
+      "reason": "obligation loss or reorder"
+    },
+    "archive-upgrade": {
+      "status": "Rejected",
+      "reason": "audit scope upgrade"
+    },
+    "audit-source-mismatch": {
+      "status": "Rejected",
+      "reason": "audit source mismatch"
+    }
+  },
+  "serialization_replay": "Matched",
+  "receipt_sha256": "0016872fe863072c5eac395d5e86b2180bd4c54b9cc8e7b33b295239c4eb7f55",
+  "search_candidates": 0,
+  "native_invocations": 0,
+  "wall_ms_before_report": 1.5378889984276611,
+  "receipt_serialization_ms": 0.12837300164392218,
+  "process_peak_rss_kib_linux": 10880,
+  "unmeasured": [
+    "authoring",
+    "retrieval",
+    "report serialization"
+  ],
+  "budget": {
+    "wall_seconds": 5,
+    "max_input_file_bytes": 65536,
+    "input_files": 6,
+    "relation_controls": 4
+  }
+}
