@@ -13,7 +13,7 @@
   },
   "source_document": {
     "path": "adva-library/names/catalog-key-words.json",
-    "sha256": "d51c18507236ac1cd65133ef26bfc9ab7edf81e93c320d7b5334454054a40aae"
+    "sha256": "0a3a8f6213e62f414008e67ff458d6e5fa212641a3f68cf8bae7a781d8005e7f"
   },
   "entries": [
     {
@@ -155,6 +155,15 @@
         "birman",
         "burau",
         "duality"
+      ]
+    },
+    {
+      "key": "logic-symbol-surface-swap",
+      "key_words": [
+        "logic",
+        "symbol",
+        "surface",
+        "swap"
       ]
     }
   ],

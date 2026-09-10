@@ -1,0 +1,194 @@
+{
+  "schema": "adva.symbol-surface.endpoint-swap.proposed",
+  "version": 0,
+  "orientation": "name-to-record",
+  "rows": [
+    {
+      "id": "relation-0",
+      "left": {
+        "kind": "symbol-name",
+        "id": "imaginary-unit",
+        "type": "Complex"
+      },
+      "right": {
+        "kind": "document-record",
+        "file": "source/presentation.json",
+        "pointer": "/symbols/0"
+      },
+      "address_code": "0",
+      "status": "DeclaredNotExecuted",
+      "residual": "Only an atom declaration; no construction witness supplied"
+    },
+    {
+      "id": "relation-1",
+      "left": {
+        "kind": "symbol-name",
+        "id": "pi",
+        "type": "Real"
+      },
+      "right": {
+        "kind": "document-record",
+        "file": "source/presentation.json",
+        "pointer": "/pi_record"
+      },
+      "address_code": "20",
+      "status": "DeclaredNotExecuted",
+      "residual": "Five equation strings; branch and division checks not replayed"
+    },
+    {
+      "id": "relation-2",
+      "left": {
+        "kind": "symbol-name",
+        "id": "negative-one",
+        "type": "Integer"
+      },
+      "right": {
+        "kind": "document-record",
+        "file": "source/presentation.json",
+        "pointer": "/result_claim"
+      },
+      "address_code": "22",
+      "status": "DeclaredNotExecuted",
+      "residual": "Hole filling and typed equality not natively replayed"
+    }
+  ],
+  "source": {
+    "repository": "mountain/adva",
+    "pull_request": 170,
+    "commit": "6538f98555db89f0569aed39952d355bc10c0cd0",
+    "status_at_capture": "Open draft; not merged",
+    "files": [
+      {
+        "path": "experiments/symbol_surface/README.md",
+        "archive": "source/README.md",
+        "sha256": "e5a38e5745de316fbba026705230ee9d090221a1a0fb836c0b31b80af73eab37"
+      },
+      {
+        "path": "experiments/symbol_surface/construct_records.py",
+        "archive": "source/construct_records.py",
+        "sha256": "4ecc19589e8062be072703cc1f2f1d8a18f9221f07ab00f17f22099b294cb0ca"
+      },
+      {
+        "path": "experiments/symbol_surface/inspect_representation.py",
+        "archive": "source/inspect_representation.py",
+        "sha256": "9afaa502ab9caa8bcf24be489ab0b1b6a078932c34f45faa26b9a4a4a8a79127"
+      },
+      {
+        "path": "experiments/symbol_surface/inspection.json",
+        "archive": "source/inspection.json",
+        "sha256": "d4776017411d1888dc55442b5bab1ba189d874c9851de001d967583d2ac3d8ac"
+      },
+      {
+        "path": "experiments/symbol_surface/presentation.json",
+        "archive": "source/presentation.json",
+        "sha256": "c8f97bdd90ff33805f4db93660b9d6de432e4ca117c9f794027d24a99cdc5d34"
+      },
+      {
+        "path": "experiments/symbol_surface/contract.json",
+        "archive": "source/contract.json",
+        "sha256": "c566ca8994543a60ff40bdf3ea60fe4d76756258fd72ac657b2a934fe7faa97c"
+      },
+      {
+        "path": "experiments/symbol_surface/obligations.json",
+        "archive": "source/obligations.json",
+        "sha256": "8443a82b97c1e2e0665c4c073f7d9a87095438dc82509d6001c1260b4be34587"
+      },
+      {
+        "path": "experiments/symbol_surface/symbol-surface.adva",
+        "archive": "source/symbol-surface.adva",
+        "sha256": "c0ebd5accd88d73d1f64616f1adc9e10183993e5d48c8c5fb8ea3b37460c29db"
+      }
+    ]
+  },
+  "preserved": {
+    "obligations": [
+      {
+        "id": "negative-one-derivation",
+        "status": "Open",
+        "document_frontier_coordinate": {
+          "role": "construction",
+          "hole": 0,
+          "occurrence": 0
+        }
+      },
+      {
+        "id": "occurrence-preservation",
+        "status": "Open",
+        "document_frontier_coordinate": {
+          "role": "construction",
+          "hole": 1,
+          "occurrence": 0
+        }
+      },
+      {
+        "id": "prefix-decode",
+        "status": "Open",
+        "document_frontier_coordinate": {
+          "role": "construction",
+          "hole": 2,
+          "occurrence": 0
+        }
+      },
+      {
+        "id": "cantor-prefix-interpretation",
+        "status": "Open",
+        "document_frontier_coordinate": {
+          "role": "construction",
+          "hole": 3,
+          "occurrence": 0
+        }
+      },
+      {
+        "id": "csb-injections",
+        "status": "Open",
+        "document_frontier_coordinate": {
+          "role": "construction",
+          "hole": 4,
+          "occurrence": 0
+        }
+      },
+      {
+        "id": "tarski-carrier-and-monotonicity",
+        "status": "Open",
+        "document_frontier_coordinate": {
+          "role": "construction",
+          "hole": 5,
+          "occurrence": 0
+        }
+      },
+      {
+        "id": "nested-interval-premises",
+        "status": "Open",
+        "document_frontier_coordinate": {
+          "role": "construction",
+          "hole": 6,
+          "occurrence": 0
+        }
+      },
+      {
+        "id": "pi-branch-and-derivation",
+        "status": "Open",
+        "document_frontier_coordinate": {
+          "role": "construction",
+          "hole": 7,
+          "occurrence": 0
+        }
+      },
+      {
+        "id": "game-turn-and-exit",
+        "status": "Open",
+        "document_frontier_coordinate": {
+          "role": "construction",
+          "hole": 8,
+          "occurrence": 0
+        }
+      }
+    ],
+    "full_content": "Eight unchanged source files retained",
+    "native_load": "NotRun",
+    "native_admission": "not-granted",
+    "arithmetic_evaluation": "NotRun",
+    "game_execution": "NotRun"
+  },
+  "scope": "Swap two documentary endpoint coordinates, retaining the third relation record. Not a native swap, conjugation, inverse function, D-star or proof transport."
+}

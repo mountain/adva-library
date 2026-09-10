@@ -156,3 +156,10 @@ ChaCha20-Poly1305, separates signatures from native proofs, and records the
 key-management, directory and finite-run obligations for any later work.
 This registration installs no crypto dependency, issues no signature or
 native Seal, and starts no calibration run.
+
+## Symbol surface swap proposal
+
+[Symbol surface swap v0](meaning-symbol-surface-swap-v0.md) is the library-side
+companion to Adva PR #170: a name-to-record view with unchanged source bytes,
+explicit provenance, finite structural checks and nine open obligations.
+It introduces no native swap or automatic execution.
