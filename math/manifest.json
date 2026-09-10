@@ -1097,11 +1097,11 @@
       "evidence": [
         {
           "path": "experiments/golden_ratio/evidence.json",
-          "sha256": "9602201cdd73cbe98b2a311ea4e9d9b59ac20c5fa9fdfb9155622d1a6e1f4402"
+          "sha256": "5029905ab6a0564f1e8344e45244276494659180f47090a6b969bbb498789fea"
         },
         {
           "path": "docs/research/golden-ratio-receipts-and-source-boundaries.md",
-          "sha256": "28a868ca2b26ba70eb50416fc148ec21546660f3034ece6845fe109c1c1bb8d8"
+          "sha256": "2933f138ec77a2f38d57188ecbfb60631ad9e7f9211a0644cffe9295d4faff33"
         }
       ],
       "checker": {
@@ -1110,11 +1110,11 @@
         "sources": [
           {
             "path": "experiments/golden_ratio/contract.json",
-            "sha256": "08c14bb40769e8d1ff7d19493445952006535370ad77646f68c7d1f1e5119022"
+            "sha256": "27ca6f2b34bc4aabad1e7c24bb227727b0adc114a9fe787f108777344b04db69"
           },
           {
             "path": "experiments/golden_ratio/calibration.py",
-            "sha256": "a626b6000318b592707542a6bb73644ab8548538e5da60a5d0b2dca28daee7fc"
+            "sha256": "7e45b7549a2f038806284c728144e3190087d527eb06c3d534cd41490f6ac284"
           }
         ]
       },
@@ -1161,11 +1161,11 @@
       "evidence": [
         {
           "path": "experiments/golden_ratio/evidence.json",
-          "sha256": "9602201cdd73cbe98b2a311ea4e9d9b59ac20c5fa9fdfb9155622d1a6e1f4402"
+          "sha256": "5029905ab6a0564f1e8344e45244276494659180f47090a6b969bbb498789fea"
         },
         {
           "path": "docs/research/golden-ratio-receipts-and-source-boundaries.md",
-          "sha256": "28a868ca2b26ba70eb50416fc148ec21546660f3034ece6845fe109c1c1bb8d8"
+          "sha256": "2933f138ec77a2f38d57188ecbfb60631ad9e7f9211a0644cffe9295d4faff33"
         }
       ],
       "checker": {
@@ -1174,11 +1174,11 @@
         "sources": [
           {
             "path": "experiments/golden_ratio/contract.json",
-            "sha256": "08c14bb40769e8d1ff7d19493445952006535370ad77646f68c7d1f1e5119022"
+            "sha256": "27ca6f2b34bc4aabad1e7c24bb227727b0adc114a9fe787f108777344b04db69"
           },
           {
             "path": "experiments/golden_ratio/calibration.py",
-            "sha256": "a626b6000318b592707542a6bb73644ab8548538e5da60a5d0b2dca28daee7fc"
+            "sha256": "7e45b7549a2f038806284c728144e3190087d527eb06c3d534cd41490f6ac284"
           }
         ]
       },
