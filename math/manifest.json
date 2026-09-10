@@ -1097,11 +1097,11 @@
       "evidence": [
         {
           "path": "experiments/golden_ratio/evidence.json",
-          "sha256": "5029905ab6a0564f1e8344e45244276494659180f47090a6b969bbb498789fea"
+          "sha256": "098b1f080094924977c457cef1c0fe2f71c99206ec8c003afbd114df215a7600"
         },
         {
           "path": "docs/research/golden-ratio-receipts-and-source-boundaries.md",
-          "sha256": "2933f138ec77a2f38d57188ecbfb60631ad9e7f9211a0644cffe9295d4faff33"
+          "sha256": "ba87b0916114330cc1e29a379d02364071445b4dfae4d2383866bb097c6c2f52"
         }
       ],
       "checker": {
@@ -1114,7 +1114,7 @@
           },
           {
             "path": "experiments/golden_ratio/calibration.py",
-            "sha256": "7e45b7549a2f038806284c728144e3190087d527eb06c3d534cd41490f6ac284"
+            "sha256": "5cfb50457f508cd14a9551de1eba8441c5a0c1a3814f398264c70418c2ebe543"
           }
         ]
       },
@@ -1161,11 +1161,11 @@
       "evidence": [
         {
           "path": "experiments/golden_ratio/evidence.json",
-          "sha256": "5029905ab6a0564f1e8344e45244276494659180f47090a6b969bbb498789fea"
+          "sha256": "098b1f080094924977c457cef1c0fe2f71c99206ec8c003afbd114df215a7600"
         },
         {
           "path": "docs/research/golden-ratio-receipts-and-source-boundaries.md",
-          "sha256": "2933f138ec77a2f38d57188ecbfb60631ad9e7f9211a0644cffe9295d4faff33"
+          "sha256": "ba87b0916114330cc1e29a379d02364071445b4dfae4d2383866bb097c6c2f52"
         }
       ],
       "checker": {
@@ -1178,7 +1178,7 @@
           },
           {
             "path": "experiments/golden_ratio/calibration.py",
-            "sha256": "7e45b7549a2f038806284c728144e3190087d527eb06c3d534cd41490f6ac284"
+            "sha256": "5cfb50457f508cd14a9551de1eba8441c5a0c1a3814f398264c70418c2ebe543"
           }
         ]
       },
