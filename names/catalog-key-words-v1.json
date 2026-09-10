@@ -165,6 +165,34 @@
         "surface",
         "swap"
       ]
+    },
+    {
+      "key": "logic-al-khwarizmi-duality",
+      "key_words": [
+        "logic",
+        "al",
+        "khwarizmi",
+        "duality"
+      ]
+    },
+    {
+      "key": "logic-jiuzhang-gaussian-duality",
+      "key_words": [
+        "logic",
+        "jiuzhang",
+        "gaussian",
+        "duality"
+      ]
+    },
+    {
+      "key": "logic-qin-jiushao-dayan-duality",
+      "key_words": [
+        "logic",
+        "qin",
+        "jiushao",
+        "dayan",
+        "duality"
+      ]
     }
   ],
   "grandfathered_keys": [
