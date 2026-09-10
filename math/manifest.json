@@ -629,7 +629,7 @@
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "f8ff8ecfc8429943427082b7e4c475417e07ce44c2408078dcce1f69f5b3c28d"
+          "sha256": "ed8f887df743fad74866be75b543de04fbc3537b3e6ba2e382b929961dab717c"
         }
       ],
       "evidence": [],
@@ -835,6 +835,40 @@
         "All nine source obligations remain Open; no new theorem application or game rules are supplied.",
         "The proposed reading of swap needs review; it does not redefine the matrix-basis swap of Research 0160."
       ]
+    },
+    {
+      "key": "logic-al-khwarizmi-duality",
+      "title": "Al-Khwarizmi duality mapping of the six forms, al-jabr and al-muqabala",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Eight-fold duality reading of the al-jabr wal-muqabala description",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence over our research materials; prose is not validated for truth."
+      ],
+      "scope": "Eight duality anchors from al-Khwarizmi's six standard forms, restoration/balancing and the geometric completion of the square, onto the receipt discipline, the pair-alignment method and the degree-profile terminology.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-al-khwarizmi-duality-v0.md",
+          "sha256": "86b37b7ffd8059a3a8a84fa34b32d6a461cb426bb93298ae7ca7dffaa8a6d866"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the receipt pins and the research numbers; treat the mapping as proposed."
+      ],
+      "open_obligations": [
+        "the six-form statement follows the standard textbook account; Rosen's translation not checked",
+        "the etymology uses the common dictionary derivation; no Arabic philology performed",
+        "human review of the proposed mapping"
+      ],
+      "home": "logic",
+      "geometry_lineage": null
     }
   ]
 }
