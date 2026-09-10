@@ -436,7 +436,7 @@
     },
     {
       "path": "adva-library/names/catalog-key-words-v1.json",
-      "sha256": "ed8f887df743fad74866be75b543de04fbc3537b3e6ba2e382b929961dab717c",
+      "sha256": "2707f4477690b697ea7d1bac1090d1c7aaa82dab8c925aeaaeb3bc61d33a4ec0",
       "bytes": 3500
     },
     {
@@ -561,7 +561,7 @@
     "version": 1,
     "status": "MatchedDeclaredKeys",
     "path": "adva-library/names/catalog-key-words-v1.json",
-    "sha256": "ed8f887df743fad74866be75b543de04fbc3537b3e6ba2e382b929961dab717c",
+    "sha256": "2707f4477690b697ea7d1bac1090d1c7aaa82dab8c925aeaaeb3bc61d33a4ec0",
     "entries": [
       {
         "key": "polynomial-shadow-epochs",
