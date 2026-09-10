@@ -1,0 +1,52 @@
+{
+  "schema": "adva.restore-calibration.proposed",
+  "version": 0,
+  "status": "SyntheticRestoreChecked",
+  "results": [
+    {
+      "case": 0,
+      "status": "PinnedStoredBytesRestored",
+      "bytes": 51,
+      "sha256": "07c53dc42ac95538e19e9a2312bf0debd8928ba5069161f22f9c17891e4aee3a",
+      "restore_write_sync_readback_ms": 0.1903570009744726,
+      "synthetic_gzip_recovery": "Matched",
+      "original_bytes": 33
+    },
+    {
+      "case": 1,
+      "status": "PinnedStoredBytesRestored",
+      "bytes": 1360,
+      "sha256": "9f5eb39323fb095b84405a11f4759f334bfd56597228757ef99f755753a094fd",
+      "restore_write_sync_readback_ms": 0.1364659983664751,
+      "synthetic_gzip_recovery": "Matched",
+      "original_bytes": 262144
+    }
+  ],
+  "controls": {
+    "existing-output-0": "RejectedAndUnchanged",
+    "tamper-0": "RejectedWithoutOutput",
+    "real-pin-0": "RejectedWithoutOutput",
+    "existing-output-1": "RejectedAndUnchanged",
+    "tamper-1": "RejectedWithoutOutput",
+    "real-pin-1": "RejectedWithoutOutput",
+    "symlink-output": "RejectedAndUnchanged"
+  },
+  "real_artifact": "NotReceived",
+  "complete_archive_status": "Unknown",
+  "native_replay": "NotRun",
+  "mathematical_discharges": 0,
+  "wall_ms_before_report": 4.512195999268442,
+  "process_peak_rss_kib_linux": 12288,
+  "budget": {
+    "timeout_seconds": 5,
+    "fixtures": 2,
+    "refusal_controls": 7,
+    "gzip_fixture_output_cap": 262145
+  },
+  "unmeasured": [
+    "authoring",
+    "retrieval",
+    "report serialization"
+  ],
+  "residual": "Real artifact and full archive were not verified; crash and disk-full injection not performed"
+}

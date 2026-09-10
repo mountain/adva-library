@@ -369,7 +369,7 @@
     },
     {
       "key": "logic-as-research-content",
-      "title": "Mingli Yuan's organizational proposal: logic 降位 into math",
+      "title": "Mingli Yuan's organizational proposal: logic \u964d\u4f4d into math",
       "domains": [
         "logic"
       ],
@@ -531,7 +531,7 @@
     },
     {
       "key": "logic-cryptographic-sealing-and-calibration-boundary",
-      "title": "密码学封存、Python/Rust 校准与 Adva 的信任边界",
+      "title": "\u5bc6\u7801\u5b66\u5c01\u5b58\u3001Python/Rust \u6821\u51c6\u4e0e Adva \u7684\u4fe1\u4efb\u8fb9\u754c",
       "domains": [
         "logic",
         "arithmetic"
@@ -808,30 +808,88 @@
         {
           "path": "adva-library/symbol-surface/handoff.json",
           "sha256": "059a7e09967326e1030c1c367095aa86be7bd21e1950da85b7c4020803722923"
+        },
+        {
+          "path": "adva-library/symbol-surface/receipts/native-load-v0/README.md",
+          "sha256": "88026e4c07108227ba0f6553af80dd586e9aefbc57e12f6a03e2938424f559b3"
+        },
+        {
+          "path": "adva-library/symbol-surface/receipts/native-load-v0/sources.json",
+          "sha256": "abfca14a78959a050847ad130feab9db649c03d2cee7e5bbc3ec3179218d4ad1"
+        },
+        {
+          "path": "adva-library/symbol-surface/receipts/native-load-v0/peer-reply.json",
+          "sha256": "5d7d45364e95cd729fa19b36f31222efe54f4b3593740bd71c7971646c2822f8"
+        },
+        {
+          "path": "adva-library/symbol-surface/transport-v0/README.md",
+          "sha256": "2c2247c4f233193f823a68cad99d62284a69d22f0197b0e1171399c2df3187a6"
         }
       ],
       "evidence": [
         {
           "path": "adva-library/symbol-surface/swap-report.json",
           "sha256": "d20974bff1ab429df2d80323f8fd4304aced6e3302cbd910d12b74d25d89369b"
+        },
+        {
+          "path": "adva-library/symbol-surface/receipts/native-load-v0/receipt.json",
+          "sha256": "0016872fe863072c5eac395d5e86b2180bd4c54b9cc8e7b33b295239c4eb7f55"
+        },
+        {
+          "path": "adva-library/symbol-surface/receipts/native-load-v0/check-report.json",
+          "sha256": "212c78dc15bf75c28b60e680ca084b61a1ad172cd85f23a01db35dc49f800c7a"
+        },
+        {
+          "path": "adva-library/symbol-surface/receipts/native-load-v0/peer-report.json",
+          "sha256": "51694ca9400e5561591832bb9909ae62cbb8ef38274c8b98ba86420e674fd614"
+        },
+        {
+          "path": "adva-library/symbol-surface/receipts/native-load-v0/text-audit.json",
+          "sha256": "78f201f8237421945da8c047ae39e4c6d04c8da1cd5957dac2f3383e51417439"
+        },
+        {
+          "path": "adva-library/symbol-surface/transport-v0/report.json",
+          "sha256": "79c0bd85868cb2441c060a40926bcf7abc792f6581036270c0c8c2dbee9fb3d3"
+        },
+        {
+          "path": "adva-library/symbol-surface/transport-v0/restore-report.json",
+          "sha256": "26d04b0b825572491c0066fb1f2b437a616c09f2f4c4c4ba5d035bc3de1bd686"
         }
       ],
       "checker": {
         "name": "External finite documentary endpoint and retained-source checker; not Rust authority",
-        "version": "symbol-surface/swap.py v0",
+        "version": "symbol-surface/swap.py v0; receiving acknowledgment v0; bounded text transport v0; exclusive restore calibration",
         "sources": [
           {
             "path": "adva-library/symbol-surface/swap.py",
             "sha256": "3b9f6d785e64d8b2aacb675965c22b730c14ff17cb53d66fedd1a5117ad67a01"
+          },
+          {
+            "path": "adva-library/symbol-surface/receipts/native-load-v0/receive.py",
+            "sha256": "5bc6585764046f10bf395e54ddb6ac7fa05b29b1dde47085e32d3d027bfbbcd7"
+          },
+          {
+            "path": "adva-library/symbol-surface/transport-v0/transport.py",
+            "sha256": "e363e23b75c58ff8728bd5f24233747fb4acdb89620f4794bdd55f96370e5b64"
+          },
+          {
+            "path": "adva-library/symbol-surface/transport-v0/check_transport.py",
+            "sha256": "d99684b6ee45447b2448699ee5bb07a082b08e9d43f9f3a1fde68d792a5a7e48"
+          },
+          {
+            "path": "adva-library/symbol-surface/transport-v0/check_restore.py",
+            "sha256": "14382d0b3c992d60c3a9f3c2d30c45a7dfc97290482a0cd4f33f5e5c150052d6"
           }
         ]
       },
       "reuse_requires": [
         "Pin the source and both views; replay swap.py and the outer documentary catalog check.",
-        "Preserve all alternatives and open obligations; native reuse still needs the original Rust boundary."
+        "Preserve all alternatives and open obligations; native reuse still needs the original Rust boundary.",
+        "Replay the versioned receiving acknowledgment; distinguish peer-reported execution from receiver checks and preserve the original handoff bytes.",
+        "The text transport CLI is pinned to one real native gzip; synthetic calibration cannot change NotReceived or authorize execution."
       ],
       "open_obligations": [
-        "Native read-only document loading remains NotRun; no native payload resolver is installed.",
+        "Peer native loading is reported at Adva e0e3433; receiver text audit is limited to 53/54 archive artifacts. Complete archive remains Unknown and local native replay NotRun; no native payload resolver is installed.",
         "All nine source obligations remain Open; no new theorem application or game rules are supplied.",
         "The proposed reading of swap needs review; it does not redefine the matrix-basis swap of Research 0160."
       ]
@@ -923,17 +981,53 @@
         {
           "path": "adva-library/meaning-qin-jiushao-dayan-duality-v0.md",
           "sha256": "9fc407ce776df68a50ac9635a19b37f07812b26785278d0be79b4342f6456673"
+        },
+        {
+          "path": "adva-library/calibrations/crt-source-boundary-v0/README.md",
+          "sha256": "71258881910f3da347ee24dce0f143197080f3ebafa6b5acaa95e6c28d723659"
+        },
+        {
+          "path": "adva-library/calibrations/source-projection-witness-v0/README.md",
+          "sha256": "644d1d845e0906c077dd98e5374796df1935596fe4d06713c759759a1132d1ac"
         }
       ],
-      "evidence": [],
-      "checker": null,
+      "evidence": [
+        {
+          "path": "adva-library/calibrations/crt-source-boundary-v0/report.json",
+          "sha256": "2351c031f89ce85b25edef70ab845dd3f4e7412f77aa6ad89c415e61e7246af9"
+        },
+        {
+          "path": "adva-library/calibrations/source-projection-witness-v0/report.json",
+          "sha256": "a98c97b396a0838d6b3d0ae25a2ca2feed7fb00bfee49a26937fb47a9f44d459"
+        }
+      ],
+      "checker": {
+        "name": "External finite CRT source-fidelity calibration; does not validate historical prose or native semantics",
+        "version": "crt-source-boundary-v0; disclosed-source projection v0",
+        "sources": [
+          {
+            "path": "adva-library/calibrations/crt-source-boundary-v0/calibrate.py",
+            "sha256": "341c4dafe8c467be1d2b491ae2a5ef4163799f58022b587ef74ef867d6247e24"
+          },
+          {
+            "path": "adva-library/calibrations/source-projection-witness-v0/projection.py",
+            "sha256": "9507da18675243bb1b34a722d5d7c6d559e26d5a1bc4069448838e67481b1db8"
+          },
+          {
+            "path": "adva-library/calibrations/source-projection-witness-v0/calibrate.py",
+            "sha256": "26a1680799f28c5b80eeb142dc527ac8f95d4713e4297379d194699535a01184"
+          }
+        ]
+      },
       "reuse_requires": [
-        "Quote with the receipt pins and the research numbers; treat the mapping as proposed."
+        "Quote with the receipt pins and the research numbers; treat the mapping as proposed.",
+        "The disclosed-source projection check requires independently fixed source and policy pins; it establishes record-relative fidelity only, not physical truth or native identity."
       ],
       "open_obligations": [
         "the I Ching line is a name-level correspondence only; no Yijing philology performed",
         "standard textbook account used; the Shushu Jiuzhang original not checked",
-        "human review of the proposed mapping"
+        "human review of the proposed mapping",
+        "Coprime uniqueness does not establish source fidelity; the finite calibration retains a counterexample. A formal mapping from checker independence to coprimality and an Adva source-to-projection witness remain unconstructed."
       ],
       "home": "logic",
       "geometry_lineage": null

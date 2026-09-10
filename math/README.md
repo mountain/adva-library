@@ -32,9 +32,9 @@ programs, identifies two programs or copies their evidence.
 | --- | ---: | --- |
 | arithmetic | 6 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference |
 | geometry | 3 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor |
-| logic | 11 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals |
+| logic | 14 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals |
 
-There are **17 distinct entries**, with 20 topic memberships. Counts describe
+There are **20 distinct entries**, with 23 topic memberships. Counts describe
 this catalog only, not an inventory of all project knowledge. In particular,
 Pascal remains proposed; M6 retains its missing filler; logic has no newly
 installed native calculus. The old `adva-library/index.json` remains its
@@ -159,6 +159,13 @@ existing research agenda and Rust authority boundary.
 
 [Symbol surface swap v0](../meaning-symbol-surface-swap-v0.md) registers a
 proposed logic-home reverse lookup view of Adva PR #170. Its eight source
-files and nine open obligations survive unchanged. The current catalog has
-17 entries; naming coverage is updated in both source and v1 documents.
+files and nine open obligations survive unchanged. That addition grew the catalog to
+17 entries; naming coverage was updated in both source and v1 documents.
 This is documentary relation reordering, not native proof transport.
+
+## Algebraic reconstruction trilogy
+
+The al-Khwarizmi, Jiuzhang and Qin Jiushao proposed mappings extend the catalog
+to 20 entries. The [finite CRT source-boundary calibration](../calibrations/crt-source-boundary-v0/README.md)
+attached to the Qin Jiushao entry distinguishes unique reconstruction from
+faithfulness to the declared source; it does not validate the historical prose.
