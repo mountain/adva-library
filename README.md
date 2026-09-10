@@ -163,3 +163,12 @@ native Seal, and starts no calibration run.
 companion to Adva PR #170: a name-to-record view with unchanged source bytes,
 explicit provenance, finite structural checks and nine open obligations.
 It introduces no native swap or automatic execution.
+
+The [native-load receiving acknowledgment](symbol-surface/receipts/native-load-v0/README.md)
+binds the subsequent peer reply and scoped text audit to that historical handoff.
+Peer execution, receiver validation and the incomplete archive remain separate;
+all nine obligations stay Open.
+
+A [bounded text transport tool](symbol-surface/transport-v0/README.md) now provides
+the producer and receiver commands for the missing artifact. Two synthetic
+transfers are checked; the real native artifact remains NotReceived here.

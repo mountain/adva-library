@@ -1,0 +1,417 @@
+{
+  "schema": "adva.record-projection-calibration.v0",
+  "status": "FiniteRecordProjectionChecked",
+  "cases": [
+    {
+      "label": "first",
+      "inputs": {
+        "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":5}",
+        "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+        "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":1,\"remainder\":2,\"slot\":0},{\"modulus\":4,\"quotient\":1,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5\"}",
+        "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+        "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+      },
+      "judgment": {
+        "status": "RecordedSourceProjectionChecked",
+        "source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+        "policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa",
+        "observations": [
+          2,
+          1
+        ],
+        "checked_rows": 2,
+        "physical_source_truth": "NotEstablished",
+        "native_admission": "NotGranted"
+      },
+      "controls": [
+        {
+          "mutation": "false-remainder",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":5}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":1,\"remainder\":0,\"slot\":0},{\"modulus\":4,\"quotient\":1,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "DivisionEquation"
+          }
+        },
+        {
+          "mutation": "false-quotient",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":5}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":2,\"remainder\":2,\"slot\":0},{\"modulus\":4,\"quotient\":1,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "DivisionEquation"
+          }
+        },
+        {
+          "mutation": "noncanonical-remainder",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":5}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":0,\"remainder\":5,\"slot\":0},{\"modulus\":4,\"quotient\":1,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "DivisionRange"
+          }
+        },
+        {
+          "mutation": "missing-row",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":5}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":1,\"remainder\":2,\"slot\":0}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Unknown",
+            "reason": "ObservationCoverage",
+            "checked_rows": 1
+          }
+        },
+        {
+          "mutation": "duplicate-row",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":5}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":1,\"remainder\":2,\"slot\":0},{\"modulus\":3,\"quotient\":1,\"remainder\":2,\"slot\":0}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "DuplicateSlot"
+          }
+        },
+        {
+          "mutation": "reordered-rows",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":5}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":4,\"quotient\":1,\"remainder\":1,\"slot\":1},{\"modulus\":3,\"quotient\":1,\"remainder\":2,\"slot\":0}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "RowOrder"
+          }
+        },
+        {
+          "mutation": "replace-source-and-witness",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":9}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":3,\"remainder\":0,\"slot\":0},{\"modulus\":4,\"quotient\":2,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"ff1666bed7dbe2e08576a3b3c8b6288c0dd174e5ba694a9d0fb2c767840183a6\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "SourcePinMismatch"
+          }
+        },
+        {
+          "mutation": "replace-policy-and-witness",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":5}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[4,3],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"1adbf3c577626dc2fd91da08ac49ea7797f167c18bd7730067577631a7330786\",\"rows\":[{\"modulus\":4,\"quotient\":1,\"remainder\":1,\"slot\":0},{\"modulus\":3,\"quotient\":1,\"remainder\":2,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "PolicyPinMismatch"
+          }
+        },
+        {
+          "mutation": "equal-value-other-record",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first-other\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":5}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":1,\"remainder\":2,\"slot\":0},{\"modulus\":4,\"quotient\":1,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e9c2c79a96c4e443ac515b7d8f329458c3d6ee397737182abb87c578f3c4ac54\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "SourcePinMismatch"
+          }
+        },
+        {
+          "mutation": "outside-domain-alias",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":5,\"remainder\":2,\"slot\":0},{\"modulus\":4,\"quotient\":4,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"b10d1f9c279f9567a9d824d4aeb796cf8cb04d5254adb73d0622dd774cb34233\"}",
+            "expected_source_sha256": "b10d1f9c279f9567a9d824d4aeb796cf8cb04d5254adb73d0622dd774cb34233",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "SourceOutsideDomain"
+          }
+        },
+        {
+          "mutation": "missing-source",
+          "inputs": {
+            "source_utf8": null,
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":1,\"remainder\":2,\"slot\":0},{\"modulus\":4,\"quotient\":1,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5\"}",
+            "expected_source_sha256": "79b252f48d58788deaa8a785d59246e4646d29eabeef207970941566a13918f5",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Unknown",
+            "reason": "InputUnavailable"
+          }
+        },
+        {
+          "mutation": "boolean-value",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"first\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":true}",
+            "policy_utf8": "{\"interval\":[0,12],\"moduli\":[3,4],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa\",\"rows\":[{\"modulus\":3,\"quotient\":0,\"remainder\":1,\"slot\":0},{\"modulus\":4,\"quotient\":0,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"ba574be4448c1d7304e9e310ec93ac6c58ccdf97050324717a1e14e9b299ff3a\"}",
+            "expected_source_sha256": "ba574be4448c1d7304e9e310ec93ac6c58ccdf97050324717a1e14e9b299ff3a",
+            "expected_policy_sha256": "61102d35e533de861bd74dbef85b1334346ceb377109c6db20e6ed70f6b344aa"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "SourceInteger"
+          }
+        }
+      ]
+    },
+    {
+      "label": "reuse",
+      "inputs": {
+        "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+        "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+        "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":3,\"remainder\":2,\"slot\":0},{\"modulus\":7,\"quotient\":2,\"remainder\":3,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27\"}",
+        "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+        "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+      },
+      "judgment": {
+        "status": "RecordedSourceProjectionChecked",
+        "source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+        "policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6",
+        "observations": [
+          2,
+          3
+        ],
+        "checked_rows": 2,
+        "physical_source_truth": "NotEstablished",
+        "native_admission": "NotGranted"
+      },
+      "controls": [
+        {
+          "mutation": "false-remainder",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":3,\"remainder\":3,\"slot\":0},{\"modulus\":7,\"quotient\":2,\"remainder\":3,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "DivisionEquation"
+          }
+        },
+        {
+          "mutation": "false-quotient",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":4,\"remainder\":2,\"slot\":0},{\"modulus\":7,\"quotient\":2,\"remainder\":3,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "DivisionEquation"
+          }
+        },
+        {
+          "mutation": "noncanonical-remainder",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":2,\"remainder\":7,\"slot\":0},{\"modulus\":7,\"quotient\":2,\"remainder\":3,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "DivisionRange"
+          }
+        },
+        {
+          "mutation": "missing-row",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":3,\"remainder\":2,\"slot\":0}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Unknown",
+            "reason": "ObservationCoverage",
+            "checked_rows": 1
+          }
+        },
+        {
+          "mutation": "duplicate-row",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":3,\"remainder\":2,\"slot\":0},{\"modulus\":5,\"quotient\":3,\"remainder\":2,\"slot\":0}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "DuplicateSlot"
+          }
+        },
+        {
+          "mutation": "reordered-rows",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":7,\"quotient\":2,\"remainder\":3,\"slot\":1},{\"modulus\":5,\"quotient\":3,\"remainder\":2,\"slot\":0}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "RowOrder"
+          }
+        },
+        {
+          "mutation": "replace-source-and-witness",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":3}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":0,\"remainder\":3,\"slot\":0},{\"modulus\":7,\"quotient\":0,\"remainder\":3,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"61171025900e2427c0d26a423cc5796165eebbf20a9fa69d4c30526e4223d5d2\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "SourcePinMismatch"
+          }
+        },
+        {
+          "mutation": "replace-policy-and-witness",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[7,5],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"021c8490462ad3754cb0d6c22a46a5d7da8950d4a48db8cbf2bef7adb7ab94ea\",\"rows\":[{\"modulus\":7,\"quotient\":2,\"remainder\":3,\"slot\":0},{\"modulus\":5,\"quotient\":3,\"remainder\":2,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "PolicyPinMismatch"
+          }
+        },
+        {
+          "mutation": "equal-value-other-record",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse-other\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":17}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":3,\"remainder\":2,\"slot\":0},{\"modulus\":7,\"quotient\":2,\"remainder\":3,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"7b600cc25058e2475eed32618724e742a8cf807b05607c5ac3dfc73605c66182\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "SourcePinMismatch"
+          }
+        },
+        {
+          "mutation": "outside-domain-alias",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":52}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":10,\"remainder\":2,\"slot\":0},{\"modulus\":7,\"quotient\":7,\"remainder\":3,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"78bd8f05685fd2888b05b33f13f012d5947fdc1f21488e3876cfbf20cde2401a\"}",
+            "expected_source_sha256": "78bd8f05685fd2888b05b33f13f012d5947fdc1f21488e3876cfbf20cde2401a",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "SourceOutsideDomain"
+          }
+        },
+        {
+          "mutation": "missing-source",
+          "inputs": {
+            "source_utf8": null,
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":3,\"remainder\":2,\"slot\":0},{\"modulus\":7,\"quotient\":2,\"remainder\":3,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27\"}",
+            "expected_source_sha256": "e3c44213952d375ad627dfb1d9a7d26f0ed6d4d673f36a5c30bea5a1774eba27",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Unknown",
+            "reason": "InputUnavailable"
+          }
+        },
+        {
+          "mutation": "boolean-value",
+          "inputs": {
+            "source_utf8": "{\"record_label\":\"reuse\",\"schema\":\"adva.disclosed-integer-record.v0\",\"value\":true}",
+            "policy_utf8": "{\"interval\":[0,35],\"moduli\":[5,7],\"schema\":\"adva.residue-projection-policy.v0\"}",
+            "witness_utf8": "{\"policy_sha256\":\"6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6\",\"rows\":[{\"modulus\":5,\"quotient\":0,\"remainder\":1,\"slot\":0},{\"modulus\":7,\"quotient\":0,\"remainder\":1,\"slot\":1}],\"schema\":\"adva.record-projection-witness.v0\",\"source_sha256\":\"d8c6510a4ead2fef16f434ff00f1edc364a8a98e5890a973067df1d08f3b9e76\"}",
+            "expected_source_sha256": "d8c6510a4ead2fef16f434ff00f1edc364a8a98e5890a973067df1d08f3b9e76",
+            "expected_policy_sha256": "6b03f04836e340a734005b23fd2132a7e73ae4cb83e728838eb46204daf265d6"
+          },
+          "judgment": {
+            "status": "Rejected",
+            "reason": "SourceInteger"
+          }
+        }
+      ]
+    }
+  ],
+  "checks": 28,
+  "negative_or_missing_controls": 24,
+  "positive_json_replay": "Matched",
+  "search_candidates": 0,
+  "native_calls": 0,
+  "formation_ms": 0.09606399908079766,
+  "verification_ms": 0.5158660023880657,
+  "case_serialization_roundtrip_ms": 0.1378980014123954,
+  "wall_ms_before_report": 1.3357829993765336,
+  "process_peak_rss_kib_linux": 9856,
+  "budget": {
+    "checks": 32,
+    "timeout_seconds": 5,
+    "bytes_per_input": 4096
+  },
+  "unmeasured": [
+    "research and authoring",
+    "network",
+    "final report serialization"
+  ],
+  "residual": [
+    "Caller-side authority for expected pins is assumed, not established",
+    "Physical measurement truth and native source identity are not established",
+    "Disclosed-source baseline; no privacy or acceleration claim"
+  ]
+}
