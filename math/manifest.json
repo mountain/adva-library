@@ -629,7 +629,7 @@
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "2707f4477690b697ea7d1bac1090d1c7aaa82dab8c925aeaaeb3bc61d33a4ec0"
+          "sha256": "f2060b140d9fc91b35c9c6d0c5caadce6fae94f37aaf2642293fd9d0eb713c65"
         }
       ],
       "evidence": [],
@@ -899,6 +899,40 @@
       "open_obligations": [
         "the user description says counting rods on an abacus; the standard account says a counting board - flagged",
         "standard textbook account used; Guo Shuchun's collated edition not checked",
+        "human review of the proposed mapping"
+      ],
+      "home": "logic",
+      "geometry_lineage": null
+    },
+    {
+      "key": "logic-qin-jiushao-dayan-duality",
+      "title": "Qin Jiushao Dayan duality mapping of the seeking-one technique",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Eight-fold duality reading of the Shushu Jiuzhang dayan qiuyi algorithm",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence over our research materials; prose is not validated for truth."
+      ],
+      "scope": "Eight duality anchors from the unknown-thing congruence problem, the seeking-one inverse, coprime moduli, uniqueness mod M and the Euclidean alternation, onto the receipt checkers, the source-to-projection witness, checker independence and the bounded trust interval; closes the trilogy with entries 18 and 19.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-qin-jiushao-dayan-duality-v0.md",
+          "sha256": "9fc407ce776df68a50ac9635a19b37f07812b26785278d0be79b4342f6456673"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the receipt pins and the research numbers; treat the mapping as proposed."
+      ],
+      "open_obligations": [
+        "the I Ching line is a name-level correspondence only; no Yijing philology performed",
+        "standard textbook account used; the Shushu Jiuzhang original not checked",
         "human review of the proposed mapping"
       ],
       "home": "logic",
