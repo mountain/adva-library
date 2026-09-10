@@ -13,7 +13,10 @@
     "logic-meaning-interpretation",
     "logic-yau-calabi-mapping",
     "logic-birman-burau-duality",
-    "logic-symbol-surface-swap"
+    "logic-symbol-surface-swap",
+    "logic-al-khwarizmi-duality",
+    "logic-jiuzhang-gaussian-duality",
+    "logic-qin-jiushao-dayan-duality"
   ],
   "owned": [
     "fixed-checking-rule-boundary",
@@ -25,7 +28,10 @@
     "logic-meaning-interpretation",
     "logic-yau-calabi-mapping",
     "logic-birman-burau-duality",
-    "logic-symbol-surface-swap"
+    "logic-symbol-surface-swap",
+    "logic-al-khwarizmi-duality",
+    "logic-jiuzhang-gaussian-duality",
+    "logic-qin-jiushao-dayan-duality"
   ],
   "references": [
     "three-verifier-arithmetic-calibration"

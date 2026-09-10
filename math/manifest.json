@@ -629,7 +629,7 @@
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "f8ff8ecfc8429943427082b7e4c475417e07ce44c2408078dcce1f69f5b3c28d"
+          "sha256": "f2060b140d9fc91b35c9c6d0c5caadce6fae94f37aaf2642293fd9d0eb713c65"
         }
       ],
       "evidence": [],
@@ -893,6 +893,127 @@
         "All nine source obligations remain Open; no new theorem application or game rules are supplied.",
         "The proposed reading of swap needs review; it does not redefine the matrix-basis swap of Research 0160."
       ]
+    },
+    {
+      "key": "logic-al-khwarizmi-duality",
+      "title": "Al-Khwarizmi duality mapping of the six forms, al-jabr and al-muqabala",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Eight-fold duality reading of the al-jabr wal-muqabala description",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence over our research materials; prose is not validated for truth."
+      ],
+      "scope": "Eight duality anchors from al-Khwarizmi's six standard forms, restoration/balancing and the geometric completion of the square, onto the receipt discipline, the pair-alignment method and the degree-profile terminology.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-al-khwarizmi-duality-v0.md",
+          "sha256": "86b37b7ffd8059a3a8a84fa34b32d6a461cb426bb93298ae7ca7dffaa8a6d866"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the receipt pins and the research numbers; treat the mapping as proposed."
+      ],
+      "open_obligations": [
+        "the six-form statement follows the standard textbook account; Rosen's translation not checked",
+        "the etymology uses the common dictionary derivation; no Arabic philology performed",
+        "human review of the proposed mapping"
+      ],
+      "home": "logic",
+      "geometry_lineage": null
+    },
+    {
+      "key": "logic-jiuzhang-gaussian-duality",
+      "title": "Jiuzhang-Gaussian duality mapping of the fangcheng elimination method",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Eight-fold duality reading of the Nine Chapters fangcheng chapter",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence over our research materials; prose is not validated for truth."
+      ],
+      "scope": "Eight duality anchors from the counting-rod grid, the positive-negative method and the multiply-through/direct-division elimination, onto the neutral carrier, the signed-arithmetic rounds, the receipt repairs and the ledger checker as forward elimination.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-jiuzhang-gaussian-duality-v0.md",
+          "sha256": "e59b335bdb3cbb467690c465471948d69acdf2487c0b253d416c9b3db1293344"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the receipt pins and the research numbers; treat the mapping as proposed."
+      ],
+      "open_obligations": [
+        "the user description says counting rods on an abacus; the standard account says a counting board - flagged",
+        "standard textbook account used; Guo Shuchun's collated edition not checked",
+        "human review of the proposed mapping"
+      ],
+      "home": "logic",
+      "geometry_lineage": null
+    },
+    {
+      "key": "logic-qin-jiushao-dayan-duality",
+      "title": "Qin Jiushao Dayan duality mapping of the seeking-one technique",
+      "domains": [
+        "logic"
+      ],
+      "theory": {
+        "name": "Eight-fold duality reading of the Shushu Jiuzhang dayan qiuyi algorithm",
+        "version": "Mapping v0"
+      },
+      "assumptions": [
+        "The mapping is a proposed correspondence over our research materials; prose is not validated for truth."
+      ],
+      "scope": "Eight duality anchors from the unknown-thing congruence problem, the seeking-one inverse, coprime moduli, uniqueness mod M and the Euclidean alternation, onto the receipt checkers, the source-to-projection witness, checker independence and the bounded trust interval; closes the trilogy with entries 18 and 19.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/meaning-qin-jiushao-dayan-duality-v0.md",
+          "sha256": "9fc407ce776df68a50ac9635a19b37f07812b26785278d0be79b4342f6456673"
+        },
+        {
+          "path": "adva-library/calibrations/crt-source-boundary-v0/README.md",
+          "sha256": "71258881910f3da347ee24dce0f143197080f3ebafa6b5acaa95e6c28d723659"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "adva-library/calibrations/crt-source-boundary-v0/report.json",
+          "sha256": "2351c031f89ce85b25edef70ab845dd3f4e7412f77aa6ad89c415e61e7246af9"
+        }
+      ],
+      "checker": {
+        "name": "External finite CRT source-fidelity calibration; does not validate historical prose or native semantics",
+        "version": "crt-source-boundary-v0",
+        "sources": [
+          {
+            "path": "adva-library/calibrations/crt-source-boundary-v0/calibrate.py",
+            "sha256": "341c4dafe8c467be1d2b491ae2a5ef4163799f58022b587ef74ef867d6247e24"
+          }
+        ]
+      },
+      "reuse_requires": [
+        "Quote with the receipt pins and the research numbers; treat the mapping as proposed."
+      ],
+      "open_obligations": [
+        "the I Ching line is a name-level correspondence only; no Yijing philology performed",
+        "standard textbook account used; the Shushu Jiuzhang original not checked",
+        "human review of the proposed mapping",
+        "Coprime uniqueness does not establish source fidelity; the finite calibration retains a counterexample. A formal mapping from checker independence to coprimality and an Adva source-to-projection witness remain unconstructed."
+      ],
+      "home": "logic",
+      "geometry_lineage": null
     }
   ]
 }

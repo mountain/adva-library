@@ -1,0 +1,104 @@
+{
+  "schema": "adva.crt-source-boundary.calibration",
+  "version": 0,
+  "status": "FiniteCounterexampleChecked",
+  "instances": [
+    {
+      "moduli": [
+        3,
+        4
+      ],
+      "domain": {
+        "lower_inclusive": 0,
+        "upper_exclusive": 12
+      },
+      "source": 5,
+      "crt_coefficients": [
+        4,
+        9
+      ],
+      "honest_observation": [
+        2,
+        1
+      ],
+      "honest_fibre": [
+        5
+      ],
+      "altered_observation": [
+        0,
+        1
+      ],
+      "altered_fibre": [
+        9
+      ],
+      "altered_answer_faithful_to_source": false,
+      "outside_domain_alias": 17,
+      "fully_checked_states": 12,
+      "construction_ms": 0.005197001883061603,
+      "verification_ms": 0.016133999451994896
+    },
+    {
+      "moduli": [
+        5,
+        7
+      ],
+      "domain": {
+        "lower_inclusive": 0,
+        "upper_exclusive": 35
+      },
+      "source": 17,
+      "crt_coefficients": [
+        21,
+        15
+      ],
+      "honest_observation": [
+        2,
+        3
+      ],
+      "honest_fibre": [
+        17
+      ],
+      "altered_observation": [
+        3,
+        3
+      ],
+      "altered_fibre": [
+        3
+      ],
+      "altered_answer_faithful_to_source": false,
+      "outside_domain_alias": 52,
+      "fully_checked_states": 35,
+      "construction_ms": 0.0026339985197409987,
+      "verification_ms": 0.02492800194886513
+    }
+  ],
+  "noncoprime_diagnostic": {
+    "moduli": [
+      4,
+      6
+    ],
+    "domain": "[0,24)",
+    "observation": [
+      1,
+      5
+    ],
+    "fibre": [
+      5,
+      17
+    ],
+    "lcm": 12
+  },
+  "enumerated_nodes": 86,
+  "node_limit": 256,
+  "timeout_seconds": 5,
+  "wall_ms_before_report": 0.06031099837855436,
+  "process_peak_rss_kib_linux": 7936,
+  "native_calls": 0,
+  "new_native_vocabulary": 0,
+  "unmeasured": [
+    "research and authoring",
+    "retrieval",
+    "report serialization"
+  ],
+  "residual": "No Adva source-to-projection witness or equivalence between checker independence and coprimality is constructed"
+}
