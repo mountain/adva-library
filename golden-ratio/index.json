@@ -1,0 +1,336 @@
+{
+  "schema": "adva.golden-ratio-resource-index.research",
+  "version": 0,
+  "status": "StagedExternalResourcesNotAdmitted",
+  "home": "adva-library/golden-ratio",
+  "statement": "Every artifact delivered in the local golden-ratio resource directory is staged here byte for byte under a canonical name. Staging records provenance, digests and structure. It grants no native admission, no proof authority and no geometric reading: the plates and the PDF are source objects and illustrations, not evidence, and the delivered Python checker is an external oracle.",
+  "delivery": {
+    "delivered_directory": "/Users/mingli/Adva/resources/golden-ratio (local sibling directory, not a repository path)",
+    "received": "2026-09-10",
+    "direction": "Mingli Yuan / 苑明理",
+    "formalization_and_computation": "ChatGPT",
+    "atlas_research_date": "2026-09-10",
+    "delivered_artifacts": 15,
+    "excluded_delivered_entries": [
+      {
+        "name": ".DS_Store",
+        "reason": "macOS directory metadata; not a research resource"
+      }
+    ],
+    "staging_policy": "Copy bytes unchanged; canonical staged names only; no delivered byte is edited, regenerated or renamed in place; the delivered directory is left untouched."
+  },
+  "authority": {
+    "authority": "documentary-only",
+    "native_admission": "not-granted",
+    "plates_are_evidence": false,
+    "pdf_is_evidence": false,
+    "external_checker_is_native_witness": false,
+    "recorded_claims_authenticated": false,
+    "plate_content_boundary": "No plate was inspected visually and the atlas names none of the delivered figures, so the delivery carries no per-figure description at all. The Commons-style delivered filenames are source names, not captions; every content gloss in this index is name-derived and is marked as such."
+  },
+  "digest_records": {
+    "delivered_record_path": "adva-library/golden-ratio/source/SHA256.json",
+    "delivered_record_claims": [
+      {
+        "member": "evidence.json",
+        "recorded_sha256": "15d4993477c498d87b0d6bc652e7dab3a06e0478c24a3cb134890f82ec0ffa89",
+        "staged_path": "adva-library/golden-ratio/source/evidence.json",
+        "agrees_with_staged_copy": true
+      },
+      {
+        "member": "golden_geometry.png",
+        "recorded_sha256": "60faba922285f4084a30fd4a8247d9578824dbdadbae953f9ebc45d3868216f8",
+        "staged_path": "adva-library/golden-ratio/source/golden_geometry.png",
+        "agrees_with_staged_copy": true
+      },
+      {
+        "member": "golden_ratio_atlas.md",
+        "recorded_sha256": "0a2836f2cada6518d71c797660d09b6172309b21c64612fc6b7cfd8a6f9fb0b9",
+        "staged_path": "adva-library/golden-ratio/atlas/golden_ratio_atlas.md",
+        "agrees_with_staged_copy": true
+      },
+      {
+        "member": "plot_golden.py",
+        "recorded_sha256": "5122a3fcc2dd9735bd193a0606c4f92184c9ff41698faf0c9182311534a5a230",
+        "staged_path": "adva-library/golden-ratio/source/plot_golden.py",
+        "agrees_with_staged_copy": true
+      },
+      {
+        "member": "verify_golden.py",
+        "recorded_sha256": "1f26e85ddda487f2f02f527c13e2ee5493c9f1321c50b4966ec6927bed7092eb",
+        "staged_path": "adva-library/golden-ratio/source/verify_golden.py",
+        "agrees_with_staged_copy": true
+      }
+    ],
+    "container_members": [
+      {
+        "name": "golden_ratio_atlas.md",
+        "bytes": 36012,
+        "sha256": "0a2836f2cada6518d71c797660d09b6172309b21c64612fc6b7cfd8a6f9fb0b9"
+      },
+      {
+        "name": "verify_golden.py",
+        "bytes": 10723,
+        "sha256": "1f26e85ddda487f2f02f527c13e2ee5493c9f1321c50b4966ec6927bed7092eb"
+      },
+      {
+        "name": "evidence.json",
+        "bytes": 19567,
+        "sha256": "15d4993477c498d87b0d6bc652e7dab3a06e0478c24a3cb134890f82ec0ffa89"
+      },
+      {
+        "name": "plot_golden.py",
+        "bytes": 2705,
+        "sha256": "5122a3fcc2dd9735bd193a0606c4f92184c9ff41698faf0c9182311534a5a230"
+      },
+      {
+        "name": "golden_geometry.png",
+        "bytes": 340824,
+        "sha256": "60faba922285f4084a30fd4a8247d9578824dbdadbae953f9ebc45d3868216f8"
+      },
+      {
+        "name": "SHA256.json",
+        "bytes": 455,
+        "sha256": "2fcb1d1e3f5cfeb12fa127cfa5be82f1e151c8142113fbbf4f2254fe35621caf"
+      }
+    ],
+    "observation": "SHA256.json covers five container members. The seven plates and the PDF carry no delivered digest; their pins are first established at staging and are therefore internally consistent only. The container's atlas member is byte-identical to the loose delivered atlas."
+  },
+  "expected_checks": [
+    "Every staged artifact matches its recorded sha256 and byte count.",
+    "The five delivered SHA256.json claims agree with the staged copies.",
+    "Every zip member is byte-identical to its staged copy.",
+    "The PDF probe recovers its title, creation date and the article revision identifier cited by the atlas.",
+    "Every plate and the rendered PNG expose the recorded media type and pixel dimensions."
+  ],
+  "artifacts": [
+    {
+      "staged_path": "adva-library/golden-ratio/atlas/golden_ratio_atlas.md",
+      "delivered_name": "golden_ratio_atlas.md",
+      "role": "research-presentation",
+      "sha256": "0a2836f2cada6518d71c797660d09b6172309b21c64612fc6b7cfd8a6f9fb0b9",
+      "bytes": 36012,
+      "digest_source": "delivered-sha256-record",
+      "used_by": "documentary:research-record-and-catalog-presentation",
+      "note": "The delivered Chinese atlas: reading index, derivations, corrections and the stated next step."
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/plates/divina-proportione-illustration-13.jpg",
+      "delivered_name": "Divina_proportione_-_Illustration_13,_crop_&_monochrome.jpg",
+      "role": "illustrative-plate",
+      "sha256": "87cfbb435eb3cdd05cc4f012faaf6b1d0267a7823bbb2b28930c65d5f8c78590",
+      "bytes": 79168,
+      "digest_source": "recomputed-at-staging",
+      "used_by": "bounded-calibration:plate-header-and-digest",
+      "note": "Name-derived only: illustration 13 of De divina proportione, cropped and monochrome.",
+      "delivered_structure": {
+        "media_type": "image/jpeg",
+        "width": 500,
+        "height": 515
+      },
+      "content_description_source": "delivered filename; no visual inspection"
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/plates/dodecahedron-vertices.webp",
+      "delivered_name": "Dodecahedron_vertices.svg.webp",
+      "role": "illustrative-plate",
+      "sha256": "34095e25acd8fbe201dd4d5f37edb0c2d481661dcc358842750cd2f2e4eb3be1",
+      "bytes": 32408,
+      "digest_source": "recomputed-at-staging",
+      "used_by": "bounded-calibration:plate-header-and-digest",
+      "note": "Name-derived only: dodecahedron vertices.",
+      "delivered_structure": {
+        "media_type": "image/webp",
+        "chunks": [
+          "VP8L"
+        ],
+        "width": 500,
+        "height": 511
+      },
+      "content_description_source": "delivered filename; no visual inspection"
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/plates/fake-real-log-spiral.webp",
+      "delivered_name": "FakeRealLogSpiral.svg.webp",
+      "role": "illustrative-plate",
+      "sha256": "0bede8692299d8d07ed1ae8533ad0cd027b6a0de7dc255853cc50548f0f0a897",
+      "bytes": 17368,
+      "digest_source": "recomputed-at-staging",
+      "used_by": "bounded-calibration:plate-header-and-digest",
+      "note": "Name-derived only: a logarithmic spiral beside a circular-arc imitation.",
+      "delivered_structure": {
+        "media_type": "image/webp",
+        "chunks": [
+          "VP8L"
+        ],
+        "width": 500,
+        "height": 338
+      },
+      "content_description_source": "delivered filename; no visual inspection"
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/plates/fibonacci-spiral.webp",
+      "delivered_name": "Fibonacci_Spiral.svg.webp",
+      "role": "illustrative-plate",
+      "sha256": "b6115f5d9c8b5dcbb6de870ac95dba2b065f0dc376d6e75c8dd967936d369eb8",
+      "bytes": 18012,
+      "digest_source": "recomputed-at-staging",
+      "used_by": "bounded-calibration:plate-header-and-digest",
+      "note": "Name-derived only: a Fibonacci spiral.",
+      "delivered_structure": {
+        "media_type": "image/webp",
+        "chunks": [
+          "VP8L"
+        ],
+        "width": 500,
+        "height": 310
+      },
+      "content_description_source": "delivered filename; no visual inspection"
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/plates/golden-triangle-and-fibonacci-spiral.webp",
+      "delivered_name": "Golden_triangle_and_Fibonacci_spiral.svg.webp",
+      "role": "illustrative-plate",
+      "sha256": "b301e3e87dbc0c8315bac646a05410f069d1183d6413407958e6fda83645e521",
+      "bytes": 21544,
+      "digest_source": "recomputed-at-staging",
+      "used_by": "bounded-calibration:plate-header-and-digest",
+      "note": "Name-derived only: a golden triangle with a Fibonacci spiral.",
+      "delivered_structure": {
+        "media_type": "image/webp",
+        "chunks": [
+          "VP8L"
+        ],
+        "width": 500,
+        "height": 735
+      },
+      "content_description_source": "delivered filename; no visual inspection"
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/plates/icosahedron-golden-rectangles.webp",
+      "delivered_name": "Icosahedron-golden-rectangles.svg.webp",
+      "role": "illustrative-plate",
+      "sha256": "85c8dd69975c235c2e6cc92636b59d31797fdde1ac2d6362ddc093f68e723a7f",
+      "bytes": 38720,
+      "digest_source": "recomputed-at-staging",
+      "used_by": "bounded-calibration:plate-header-and-digest",
+      "note": "Name-derived only: an icosahedron with golden rectangles.",
+      "delivered_structure": {
+        "media_type": "image/webp",
+        "chunks": [
+          "VP8L"
+        ],
+        "width": 500,
+        "height": 463
+      },
+      "content_description_source": "delivered filename; no visual inspection"
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/plates/whirling-squares.webp",
+      "delivered_name": "Whirling_squares.svg.webp",
+      "role": "illustrative-plate",
+      "sha256": "307b824de02155a05ea7e3c7ccac7d72a7deaa7a3eabca5aa90e1fb5b22a9835",
+      "bytes": 1348,
+      "digest_source": "recomputed-at-staging",
+      "used_by": "bounded-calibration:plate-header-and-digest",
+      "note": "Name-derived only: whirling squares.",
+      "delivered_structure": {
+        "media_type": "image/webp",
+        "chunks": [
+          "VP8L"
+        ],
+        "width": 500,
+        "height": 317
+      },
+      "content_description_source": "delivered filename; no visual inspection"
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/source/SHA256.json",
+      "delivered_name": "SHA256.json",
+      "role": "delivery-digest-record",
+      "sha256": "2fcb1d1e3f5cfeb12fa127cfa5be82f1e151c8142113fbbf4f2254fe35621caf",
+      "bytes": 455,
+      "digest_source": "delivery-container-member",
+      "used_by": "bounded-calibration:delivery-digest-comparison",
+      "note": "Delivery-side digest record for five artifacts; checked against the staged copies.",
+      "container_member": true
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/source/evidence.json",
+      "delivered_name": "evidence.json",
+      "role": "external-checker-record",
+      "sha256": "15d4993477c498d87b0d6bc652e7dab3a06e0478c24a3cb134890f82ec0ffa89",
+      "bytes": 19567,
+      "digest_source": "delivered-sha256-record",
+      "used_by": "bounded-calibration:recorded-output-comparison",
+      "note": "Recorded output of the external checker; replayed, not re-authenticated.",
+      "container_member": true
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/source/golden_geometry.png",
+      "delivered_name": "golden_geometry.png",
+      "role": "illustration-rendering",
+      "sha256": "60faba922285f4084a30fd4a8247d9578824dbdadbae953f9ebc45d3868216f8",
+      "bytes": 340824,
+      "digest_source": "delivered-sha256-record",
+      "used_by": "documentary:illustration-rendering",
+      "note": "Rendered figure for explanation only.",
+      "delivered_structure": {
+        "media_type": "image/png",
+        "width": 2520,
+        "height": 900
+      },
+      "container_member": true
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/source/golden_ratio_reproducible.zip",
+      "delivered_name": "golden_ratio_reproducible.zip",
+      "role": "delivery-container",
+      "sha256": "d7d860e07f51dd5676771f914288270fa99483ac09d223d6ad30e2f52614086a",
+      "bytes": 349683,
+      "digest_source": "recomputed-at-staging",
+      "used_by": "bounded-calibration:container-member-comparison",
+      "note": "Delivery container; its five non-atlas members are staged separately and compared member by member."
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/source/plot_golden.py",
+      "delivered_name": "plot_golden.py",
+      "role": "illustration-source",
+      "sha256": "5122a3fcc2dd9735bd193a0606c4f92184c9ff41698faf0c9182311534a5a230",
+      "bytes": 2705,
+      "digest_source": "delivered-sha256-record",
+      "used_by": "documentary:illustration-source",
+      "note": "Floating-point rendering source; declares itself non-canonical evidence.",
+      "container_member": true
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/source/reference/Golden_ratio.pdf",
+      "delivered_name": "Golden_ratio.pdf",
+      "role": "source-object",
+      "sha256": "981aa5a0d8b8a7c293925d5981ad3cbbc21eb86e996685bcdaf1e4d89af5fd04",
+      "bytes": 2714704,
+      "digest_source": "recomputed-at-staging",
+      "used_by": "bounded-calibration:source-revision-probe",
+      "note": "Browser print-to-PDF capture of the Wikipedia article; carries the revision identifier cited by the atlas.",
+      "delivered_structure": {
+        "header": "%PDF-1.4",
+        "title": "Golden ratio - Wikipedia",
+        "creator": "Mozilla/5.0 \\(X11; Linux x86_64\\",
+        "creation_date": "D:20260910123359+00'00'",
+        "cited_revision_present": true,
+        "trailer_eof": true
+      }
+    },
+    {
+      "staged_path": "adva-library/golden-ratio/source/verify_golden.py",
+      "delivered_name": "verify_golden.py",
+      "role": "external-checker-source",
+      "sha256": "1f26e85ddda487f2f02f527c13e2ee5493c9f1321c50b4966ec6927bed7092eb",
+      "bytes": 10723,
+      "digest_source": "delivery-container-member",
+      "used_by": "bounded-calibration:external-checker-replay",
+      "note": "External standard-library exact checker; not a native Adva or Rust witness.",
+      "container_member": true
+    }
+  ]
+}
