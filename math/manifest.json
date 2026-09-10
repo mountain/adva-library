@@ -629,7 +629,7 @@
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "3f89e398ef6d15c1a0562be9b94f997999ffb11dd223e89b75d37ee277fe8b7b"
+          "sha256": "99979fb74bdc8b0d1f456658add2cf52d7c59f4b72d123961dd2a6e84736e7f1"
         }
       ],
       "evidence": [],
@@ -1065,6 +1065,140 @@
       ],
       "home": "logic",
       "geometry_lineage": null
+    },
+    {
+      "key": "arithmetic-golden-ratio-receipt-calibration",
+      "title": "Golden-ratio receipts: staged resources, exact re-derivation and eight refusals",
+      "domains": [
+        "arithmetic",
+        "geometry"
+      ],
+      "theory": {
+        "name": "Exact quadratic field Q(sqrt 5) with four labelled receipt kinds",
+        "version": "Research golden-ratio receipt v0"
+      },
+      "assumptions": [
+        "The delivered atlas, external checker, plates and captured PDF are documentary inputs; the delivered Python checker is an external oracle, not Rust semantic authority.",
+        "A plate or a captured PDF is never a witness for an arithmetic or geometric claim.",
+        "Recorded digests establish byte integrity only, not authentication or semantic identity."
+      ],
+      "scope": "One staged resource set of 15 artifacts and one bounded external calibration: 806 checks over the exact field, the continued-fraction receipts, the affine word, rectangle coverage, icosahedral incidence, eight source refusals and four receipt kinds.",
+      "recorded_status": "external-calibration-record",
+      "materials": [
+        {
+          "path": "adva-library/golden-ratio/index.json",
+          "sha256": "53f0f41c9a8ee39c392e12d22f6d2845f9056d502d83f9d09d5fa115ea2ccb1d"
+        },
+        {
+          "path": "adva-library/golden-ratio/atlas/golden_ratio_atlas.md",
+          "sha256": "0a2836f2cada6518d71c797660d09b6172309b21c64612fc6b7cfd8a6f9fb0b9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/golden_ratio/evidence.json",
+          "sha256": "5029905ab6a0564f1e8344e45244276494659180f47090a6b969bbb498789fea"
+        },
+        {
+          "path": "docs/research/golden-ratio-receipts-and-source-boundaries.md",
+          "sha256": "2933f138ec77a2f38d57188ecbfb60631ad9e7f9211a0644cffe9295d4faff33"
+        }
+      ],
+      "checker": {
+        "name": "Bounded external golden-ratio resource calibration",
+        "version": "contract v0",
+        "sources": [
+          {
+            "path": "experiments/golden_ratio/contract.json",
+            "sha256": "27ca6f2b34bc4aabad1e7c24bb227727b0adc114a9fe787f108777344b04db69"
+          },
+          {
+            "path": "experiments/golden_ratio/calibration.py",
+            "sha256": "7e45b7549a2f038806284c728144e3190087d527eb06c3d534cd41490f6ac284"
+          }
+        ]
+      },
+      "reuse_requires": [
+        "Re-run the bounded calibration from its frozen contract; the atlas prose, the plates and the captured PDF remain unverified presentations.",
+        "Keep the four receipt kinds separate and keep the replay of the delivered checker distinct from the independent encoding.",
+        "Cite the evidence pins with the exact command and retain the stated residuals."
+      ],
+      "open_obligations": [
+        "No native Adva, Rust or Lisp operation, type or builtin, and no Seal.",
+        "No general receipt calculus and no translation theorem between the two field encodings.",
+        "The plates and the captured PDF carry no delivered digest and no content verification.",
+        "The three-party versioned task/witness presentation proposed by the atlas remains unbuilt."
+      ],
+      "home": "arithmetic",
+      "geometry_lineage": null
+    },
+    {
+      "key": "geometry-golden-ratio-external-reference",
+      "title": "Golden-ratio geometric presentations and plates as an external reference",
+      "domains": [
+        "geometry"
+      ],
+      "theory": {
+        "name": "Golden-ratio plane, polyhedral and spiral presentations with an exact nested-rectangle core",
+        "version": "Research golden-ratio receipt v0"
+      },
+      "assumptions": [
+        "The atlas, plates, rendered figure and captured PDF are external presentation material; their historical, aesthetic and natural readings are neither imported nor validated.",
+        "Length, angle and incidence statements enter only through exact coordinates, never from a rendered figure."
+      ],
+      "scope": "External reference material: one atlas, seven plates, one rendered figure and one captured article revision, with the nested rectangle, the spiral contraction ratio and the icosahedral incidence re-derived exactly by the bounded calibration. No same-home derivation from the pinned Pascal root is supplied.",
+      "recorded_status": "bounded-research-evidence",
+      "materials": [
+        {
+          "path": "adva-library/golden-ratio/index.json",
+          "sha256": "53f0f41c9a8ee39c392e12d22f6d2845f9056d502d83f9d09d5fa115ea2ccb1d"
+        },
+        {
+          "path": "adva-library/golden-ratio/atlas/golden_ratio_atlas.md",
+          "sha256": "0a2836f2cada6518d71c797660d09b6172309b21c64612fc6b7cfd8a6f9fb0b9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/golden_ratio/evidence.json",
+          "sha256": "5029905ab6a0564f1e8344e45244276494659180f47090a6b969bbb498789fea"
+        },
+        {
+          "path": "docs/research/golden-ratio-receipts-and-source-boundaries.md",
+          "sha256": "2933f138ec77a2f38d57188ecbfb60631ad9e7f9211a0644cffe9295d4faff33"
+        }
+      ],
+      "checker": {
+        "name": "Bounded external golden-ratio resource calibration",
+        "version": "contract v0",
+        "sources": [
+          {
+            "path": "experiments/golden_ratio/contract.json",
+            "sha256": "27ca6f2b34bc4aabad1e7c24bb227727b0adc114a9fe787f108777344b04db69"
+          },
+          {
+            "path": "experiments/golden_ratio/calibration.py",
+            "sha256": "7e45b7549a2f038806284c728144e3190087d527eb06c3d534cd41490f6ac284"
+          }
+        ]
+      },
+      "reuse_requires": [
+        "Treat the plates and the captured PDF as illustrations and source objects; cite exact coordinates for any geometric claim.",
+        "Keep the external reference status: it is not a Pascal-rooted successor and grants no derivation rights."
+      ],
+      "open_obligations": [
+        "No Pascal-rooted derivation chain, no admitted geometry successor and no discharged growth obligation.",
+        "No incidence checker consumes the plates.",
+        "The Borromean link certificate, the Penrose patch matching and the sphere-sampling generator are not executed.",
+        "The quarter-circle approximation of the logarithmic spiral carries no error bound here."
+      ],
+      "home": "geometry",
+      "geometry_lineage": {
+        "kind": "external-reference",
+        "parents": [],
+        "derivation_evidence": [],
+        "discharge": "Open"
+      }
     }
   ]
 }

@@ -8,13 +8,15 @@
     "three-verifier-arithmetic-calibration",
     "frozen-policy-campaign",
     "pascal-research-presentations",
-    "logic-cryptographic-sealing-and-calibration-boundary"
+    "logic-cryptographic-sealing-and-calibration-boundary",
+    "arithmetic-golden-ratio-receipt-calibration"
   ],
   "owned": [
     "polynomial-shadow-epochs",
     "composite-proposal-recipes",
     "three-verifier-arithmetic-calibration",
-    "frozen-policy-campaign"
+    "frozen-policy-campaign",
+    "arithmetic-golden-ratio-receipt-calibration"
   ],
   "references": [
     "pascal-research-presentations",

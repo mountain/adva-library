@@ -5,12 +5,17 @@
   "entries": [
     "pascal-research-presentations",
     "q4-m6-relation-presentations",
-    "geometry-pascal-incidence-task"
+    "geometry-pascal-incidence-task",
+    "geometry-golden-ratio-external-reference",
+    "arithmetic-golden-ratio-receipt-calibration"
   ],
   "owned": [
     "pascal-research-presentations",
     "q4-m6-relation-presentations",
-    "geometry-pascal-incidence-task"
+    "geometry-pascal-incidence-task",
+    "geometry-golden-ratio-external-reference"
   ],
-  "references": []
+  "references": [
+    "arithmetic-golden-ratio-receipt-calibration"
+  ]
 }
