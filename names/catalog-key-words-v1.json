@@ -222,6 +222,16 @@
         "external",
         "reference"
       ]
+    },
+    {
+      "key": "arithmetic-period-three-matrix-calibration",
+      "key_words": [
+        "arithmetic",
+        "period",
+        "three",
+        "matrix",
+        "calibration"
+      ]
     }
   ],
   "grandfathered_keys": [
