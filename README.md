@@ -1,10 +1,86 @@
-# Adva library: reusable research inputs and presentations
+# Adva library — the content and library layer
 
-This directory stages the two Pascal documents requested by Mingli Yuan on
-2026-09-06, together with a bounded orchestration design. The GitHub connection
-did not expose a separate `mountain/adva-library` repository at preparation
-time. This is a reviewable directory inside `adva`, not a newly created
-repository or a claim that a language module/loader exists.
+Status: a **separate repository** (`mountain/adva-library`), mounted as a git
+submodule at `adva-library/` inside the main [`adva`](../README.md) repository.
+It is **documentary only**. Nothing here is native admission, and no byte here
+becomes a native operation, type or builtin by being catalogued.
+
+Paths beginning `../` refer to that parent repository. This library is normally
+read through it, and several of its checkers live there rather than here.
+
+## What this is, and what it is not
+
+- **It is** the durable home of delivered research inputs, presentations and
+  content, together with the catalog that governs how each may be cited and
+  reused. Two kinds of thing live here, and they are not the same:
+  **delivered artifacts under byte pins**, and **catalog and admission metadata**
+  that describes them.
+- **It is not** a module system, a loader, a language runtime, a self-growing
+  knowledge base, or a source of semantic authority. The main repository's Rust
+  kernel is that authority, and it does not read this directory to decide what
+  is true.
+- **A digest records byte integrity only** — never authentication, semantic
+  identity, or proof. Registering a document changes what may be *cited*; it does
+  not change what is *true*.
+
+## How to check it
+
+The checker lives in the main repository, not here. Run it from that
+repository's root:
+
+```sh
+python -S python/adva/adva.py math-check --key-words
+```
+
+It checks metadata, directory membership and pinned bytes, and reports the
+growth obligation. Success grants **no** native admission and no proof authority.
+It reads a bounded number of declared files under a declared entry budget, so a
+new entry can require raising that budget explicitly rather than implicitly.
+
+## The rules that govern this layer
+
+- **One home per entry.** An entry has exactly one owning topic directory.
+  Appearing elsewhere is a reference, not a second home.
+- **A cross-topic reference is a documentary view.** It is never a derivation
+  parent, an implicit import, or a permission transfer.
+- **A documentary `seal` is not a Rust `Seal`.** The growth obligation's seal
+  pins an obligation; it does not discharge it.
+- **The geometry growth obligation is `Open`, and its native `Seal` is
+  `NotIssued`.** Geometry successors need a proposed same-directory ancestry
+  reaching the pinned Pascal root and, before admission, native import and
+  derivation certificates that do not yet exist.
+- **A recorded status names what the bytes are, not what they prove.** A note
+  that ships a checker is an external calibration record; a delivered
+  presentation is a proposed document; neither is native admission.
+- **A name is not an admission.** Cataloguing, renaming, or registering a
+  document does not register an operation, and it does not bridge two tasks by
+  making them share a word.
+
+## What is here
+
+| Area | Holds | Recorded as |
+|---|---|---|
+| `index.json`, `pascal-task.adva`, `pascal-witness.adva` | the delivered Pascal task and witness pair | proposed research documents |
+| `learn-free-six.contract.json`, `phase-runner/` | the six-slot orchestration contract and its pinned inputs | orchestration contract |
+| `math/` | one strict manifest, three topic indexes (arithmetic, geometry, logic), and the growth obligation | documentary catalog |
+| `stability/` | Rust-checked research library epochs 0000 and 0001 | checked research snapshots |
+| `exploration/0151/` | proposal recipes and their journal | replayable proposal journal |
+| `calibrations/` | bounded external calibrations with reports | external calibration records |
+| `golden-ratio/` | a staged resource set: atlas, plates, source and reproducer | staged delivery |
+| `names/` | the party naming layer and the catalog key words | proposed documents |
+| `symbol-surface/` | name-to-record swap, receipts, and a bounded text transport | proposed with open obligations |
+| `prime-universe/`, `knowledge-boundary/` | proposed finite tasks and distinction examples | proposed documents |
+| `meaning-*.md` | proposed duality documents, each with one topic home | proposed documents |
+| `validation/` | install-and-run acceptance records | acceptance records |
+| `vendor/` | pinned third-party submodules, not audited here | external dependencies |
+
+Every entry in `math/manifest.json` carries its own scope, assumptions,
+checker, evidence pins, open obligations and forbidden conflations. Read the
+entry, not this table, before reusing anything.
+
+---
+
+## The delivered Pascal pair
 
 - `pascal-task.adva`: three distinct Human/World/Machine roles, a shared Pascal
   question, finite resources, an explicit meeting gap and acceptance scope.
@@ -31,7 +107,7 @@ separate existing arithmetic calibration useful for testing orchestration.
 The missing Pascal importer must remain visible; this directory does not
 bridge the two tasks by renaming files.
 
-## Bounded runner
+### The bounded runner
 
 From the repository root, use a new report directory:
 
@@ -62,7 +138,7 @@ draft method. The `free` phase remains blocked even when learn and run
 succeed.
 There is no Python substitute for the native arithmetic operation.
 
-## Reporting and continuation
+### Reporting and continuation
 
 Each phase has six requested slots and an independent count of actual
 launches. A missing adapter records NotRun. A timeout preserves Unknown; a
@@ -84,7 +160,7 @@ programs that deliberately detach or evade operating-system limits.
 See `docs/research/0139-library-six-phase-and-communication.md` for the missing
 free predicate and the distinction among contract, seal and Seal.
 
-## Checked research library epochs (Research 0150)
+### Checked research library epochs (Research 0150)
 
 `stability/epoch-0000.json` and `stability/epoch-0001.json`, when published by
 the bounded 0150 run, use a **separate Rust-checked snapshot format**. They do
@@ -101,7 +177,7 @@ overwritten. See [the finite contract](../docs/research/0150-persistent-library-
 and its separate execution evidence. This remains a research loader, not a
 stable Lisp module system or automatically self-growing knowledge base.
 
-## Proposal exploration journal (Research 0151)
+### Proposal exploration journal (Research 0151)
 
 The `library_generation` example reads the checked `stability/` seed and
 generates exact arithmetic candidates from it. Successful compositions are
@@ -111,7 +187,7 @@ recipe in a later bounded search; decoding alone never authorizes reuse.
 Rejected candidates, expanded alternatives, nonzero checks and macro/disabled
 controls remain visible. See the [finite contract](../docs/research/0151-library-driven-proposal-feedback.md).
 
-## External arithmetic calibration (Research 0152)
+### External arithmetic calibration (Research 0152)
 
 The outer `python/adva/adva.py verifier-search` command loads the unchanged
 `stability/` seed through Rust, then checks selected arithmetic rewrite steps
@@ -130,7 +206,7 @@ selected proposal policies, complete traversals and checked batch receipts.
 A selected policy is not a new library word, and no epoch is published by
 completing a round.
 
-## Constrained math topic view
+### The constrained math topic view
 
 [`math/`](math/README.md) now indexes existing arithmetic, geometry and logic
 materials through one strict manifest and three topic indexes. Each entry has
@@ -157,7 +233,7 @@ key-management, directory and finite-run obligations for any later work.
 This registration installs no crypto dependency, issues no signature or
 native Seal, and starts no calibration run.
 
-## Symbol surface swap proposal
+### The symbol surface swap proposal
 
 [Symbol surface swap v0](meaning-symbol-surface-swap-v0.md) is the library-side
 companion to Adva PR #170: a name-to-record view with unchanged source bytes,
