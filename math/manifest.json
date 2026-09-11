@@ -1225,7 +1225,7 @@
         },
         {
           "path": "docs/research/0168-triadic-cycle-and-continuation-discipline.md",
-          "sha256": "b29d26991d56f69b0463b68e0782c25bd7ff18e07e8bfe6ebebd0942f88ecb69"
+          "sha256": "6ffa2b436ac4c4423566acd03a1ba17ab3fdc075393114f8fdb60415e2a00bf1"
         }
       ],
       "evidence": [
@@ -1255,12 +1255,13 @@
       "reuse_requires": [
         "Re-run the bounded calibration from its frozen contract; the derived interval graph is recomputed, never read back from the evidence.",
         "Keep the two refusals attached: the monotone golden one-hole map and the period-three rotation are the reason the identity is not a dynamical claim.",
-        "Cite the evidence pins with the exact command and retain the stated residuals."
+        "Cite the evidence pins with the exact command and retain the stated residuals.",
+        "Research 0168 was corrected on 2026-09-11 by a separate bounded correction (claim adva.bounded-experiment.triadic-period-bridge-correction.v0), which separates quotient descent, injectivity, periodicity and interval-domain obligations; the pinned digest follows that correction rather than the original."
       ],
       "open_obligations": [
         "No native Adva, Rust or Lisp operation, type or builtin, and no Seal.",
-        "The folding that separates the tame regime from the chaotic one is not characterized.",
-        "Topological entropy, the sharpness of the Sharkovsky ordering and the least-entropy role of the golden ratio are imported, not proved.",
+        "No general folding criterion is established; the two controls exhibit different dynamics without supplying one.",
+        "Entropy bounds and the attainment of least entropy at period three are outside this certificate; no primary theorem, map family and applicability argument is supplied for that bridge. The sharpness of the Sharkovsky ordering remains imported.",
         "No Adva object is shown to be an interval map or to have a periodic orbit of any period; the native three-machine identification remains Open.",
         "This entry was admitted by raising the catalog file bound from 96 to 120; the raise is recorded in python/adva/math_catalog.py and is not a standing invitation."
       ],
