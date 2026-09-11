@@ -44,7 +44,7 @@ GitHub 仓库的**纯 Python 版本**（提交 `fc9a81b`，已检出在 `vendor/
 ### 2.2 获取纯 Python 版 zksnake（确认源码存在后才可跳过）
 
 以下命令从 `adva-library` 目录执行。demo 实际导入的是 `vendor/zksnake-py/src`。
-仓库目前缺少 `.gitmodules`；只有 Git 引用或空目录不代表源码已恢复，
+仓库根目录**已有** `.gitmodules`（四个 vendor 子模块）；但文件存在不等于源码已恢复，`vendor/zksnake-py` 目前是未初始化的普通文件而非检出，只有 Git 引用或空目录同样不代表源码已恢复，
 不能假定 clone 主仓库后即可跳过此步。仅在目标目录不存在或为空时克隆；
 若已有源码，先检查 HEAD 和本地改动，不要覆盖已有工作。
 
