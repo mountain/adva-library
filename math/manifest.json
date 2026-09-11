@@ -629,7 +629,7 @@
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "99979fb74bdc8b0d1f456658add2cf52d7c59f4b72d123961dd2a6e84736e7f1"
+          "sha256": "7693e751825e9726a8cc331e9b0346c3c36804ba4161d30ec8dabb50dc3e78aa"
         }
       ],
       "evidence": [],
@@ -1199,6 +1199,73 @@
         "derivation_evidence": [],
         "discharge": "Open"
       }
+    },
+    {
+      "key": "arithmetic-period-three-matrix-calibration",
+      "title": "Period-three interval graph and the golden one-hole matrix: one exact 2x2 linear identity, two refusals of its dynamical reading",
+      "domains": [
+        "arithmetic"
+      ],
+      "theory": {
+        "name": "Exact integer 2x2 matrices with exact rational one-dimensional dynamics",
+        "version": "Research period-three matrix calibration v0"
+      },
+      "assumptions": [
+        "The 1975 Li-Yorke theorem, the Sharkovsky ordering and the intermediate value theorem are imported from their sources, not reproved.",
+        "The interval graph is derived from exact tent-map interval images, not supplied as data.",
+        "Python Fraction arithmetic is an external oracle, not Rust semantic authority, and a bounded replay is not an independent kernel.",
+        "An equal characteristic polynomial is not evidence of an identified space, semantics or dynamics."
+      ],
+      "scope": "One bounded 30-second external calibration over exact integers and Fractions: matrix powers to n = 24, all 2^n tent-map branches for n = 1..8, exact root brackets for x^2 - x - 1, a twelve-point rotation grid, and 2505 assertions with no floating-point value in any acceptance test.",
+      "recorded_status": "external-calibration-record",
+      "materials": [
+        {
+          "path": "docs/research/0167-li-yorke-period-three-and-homotopy-continuation.md",
+          "sha256": "8e100382dc4bdb36df6d7d16ef2ea31eae9b1d8d332d139032cc018b5772fdd4"
+        },
+        {
+          "path": "docs/research/0168-triadic-cycle-and-continuation-discipline.md",
+          "sha256": "b29d26991d56f69b0463b68e0782c25bd7ff18e07e8bfe6ebebd0942f88ecb69"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "experiments/li_yorke_period_three/evidence.json",
+          "sha256": "e557a20ab20e3775a0202bb09c8b73e2f16a2e8f3fdc6f66c7006f05be13a790"
+        },
+        {
+          "path": "docs/research/0167-evidence/README.md",
+          "sha256": "2be2c216492201fadbfcbcf0a57291e87b3e72a8f377c9408034b87703b11bfd"
+        }
+      ],
+      "checker": {
+        "name": "Bounded external period-three matrix calibration",
+        "version": "contract v0",
+        "sources": [
+          {
+            "path": "experiments/li_yorke_period_three/contract.json",
+            "sha256": "5010d8aea9a77ad7bc785365fcb7249d92a10920dfec7c4ecc68f0d06e189207"
+          },
+          {
+            "path": "experiments/li_yorke_period_three/replay.py",
+            "sha256": "c07258af5ecaae67d4af698ab00175793ccb452cb01be2429f15d92e5135fbf3"
+          }
+        ]
+      },
+      "reuse_requires": [
+        "Re-run the bounded calibration from its frozen contract; the derived interval graph is recomputed, never read back from the evidence.",
+        "Keep the two refusals attached: the monotone golden one-hole map and the period-three rotation are the reason the identity is not a dynamical claim.",
+        "Cite the evidence pins with the exact command and retain the stated residuals."
+      ],
+      "open_obligations": [
+        "No native Adva, Rust or Lisp operation, type or builtin, and no Seal.",
+        "The folding that separates the tame regime from the chaotic one is not characterized.",
+        "Topological entropy, the sharpness of the Sharkovsky ordering and the least-entropy role of the golden ratio are imported, not proved.",
+        "No Adva object is shown to be an interval map or to have a periodic orbit of any period; the native three-machine identification remains Open.",
+        "This entry was admitted by raising the catalog file bound from 96 to 120; the raise is recorded in python/adva/math_catalog.py and is not a standing invitation."
+      ],
+      "home": "arithmetic",
+      "geometry_lineage": null
     }
   ]
 }
