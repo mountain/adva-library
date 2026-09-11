@@ -4,7 +4,9 @@
 Machine→Substrate（基底）、World→Knowledge（知识）、Human→Surface（界面）。
 pascal 原始字节不变；本目录只新增映射，不重命名任何目录或文件。登记为
 math 目录学条目 `logic-party-naming-layer`（proposed-document）。
-过程记录见 proto 仓 `party-naming-layer.md`（跨仓引用，字节不复制）。
+过程记录见 **protocol-engineering** 仓（旧名 `proto`，2026-09-11 改名）的
+`party-naming-layer.md`（跨仓引用，字节不复制）。改名理由与反向操作见该仓
+`naming-decision-2026-09-11.md`。
 
 
 `catalog-key-words.json`：目录学 15 个 key 的显式源短语（链接操作的输入），
@@ -37,3 +39,25 @@ The current manifest and both naming documents now cover 17 keys.
 `logic-symbol-surface-swap` is appended after the sixteen-entry baseline;
 the source digest and the naming-layer material pins are updated together.
 Earlier counts above describe historical checkpoints. No lexical policy changes.
+
+## Period-three calibration continuation (2026-09-11)
+
+The manifest and `catalog-key-words-v1.json` now cover **24 keys**; the
+seventeenth-key paragraph above and the earlier counts describe historical
+checkpoints and are not restated. The appended key is
+`arithmetic-period-three-matrix-calibration`, recording an external bounded
+calibration of the period-three interval graph and the golden one-hole matrix.
+
+Two facts about coverage that the earlier sections do not state:
+
+- The **v1 document and the manifest are the gated pair**: the checker requires
+  v1 to cover every declared catalog key exactly once, and no foreign key.
+- `catalog-key-words.json` remains the **earlier partial source** at 17 entries.
+  It is registered material whose bytes are pinned, not a coverage gate, so a
+  catalog larger than its source is consistent. Do not "repair" it by copying
+  v1's list into it; that would rewrite a pinned historical input.
+
+Admitting this entry required raising the catalog's declared read-file bound
+from 96 to 120, because 95 of 96 slots were already spent. The raise is recorded
+in `python/adva/math_catalog.py` and in the new entry's `open_obligations`, and
+it is granted once rather than made a standing allowance.
