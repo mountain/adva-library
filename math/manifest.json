@@ -767,11 +767,11 @@
         },
         {
           "path": "adva-library/symbol-surface/record-to-name.json",
-          "sha256": "e2357ee44d3c428e6190767105410aa24db4865ef0f4eb2ef689935573adb10b"
+          "sha256": "0a8aa78cce54331dc7387e6aaaa51c4476fe23d5df13bae7d6e78e8b13b15e32"
         },
         {
           "path": "adva-library/symbol-surface/name-to-record.json",
-          "sha256": "79d5c998543b547dff96326718b649dacb1d1d0f3aa8e39008c0a226407f9b2b"
+          "sha256": "eb68a6c80d721205c25406129b2fcda0272a00e291b1ed20e51103e8a0ef0c57"
         },
         {
           "path": "adva-library/symbol-surface/source/README.md",
