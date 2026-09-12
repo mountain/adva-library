@@ -232,6 +232,15 @@
         "matrix",
         "calibration"
       ]
+    },
+    {
+      "key": "logic-nim-rule-constraint",
+      "key_words": [
+        "logic",
+        "nim",
+        "rule",
+        "constraint"
+      ]
     }
   ],
   "grandfathered_keys": [

@@ -28,16 +28,20 @@ programs, identifies two programs or copies their evidence.
 
 ## Current contents
 
-| Topic | Entries | Examples |
+| Topic | Memberships | Examples |
 | --- | ---: | --- |
-| arithmetic | 7 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference, golden-ratio receipt calibration |
+| arithmetic | 8 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference, golden-ratio receipt calibration, period-three matrix calibration |
 | geometry | 5 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor, golden-ratio external reference |
-| logic | 15 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals |
+| logic | 16 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals, the Nim rule-constraint typing |
 
-There are **23 distinct entries**, with 27 topic memberships. Counts are
+There are **25 distinct entries**, with 29 topic memberships. Counts are
 recomputed from the manifest rather than carried over from an earlier
 revision, and they describe this catalog only, not an inventory of all project
-knowledge. In particular, Pascal remains proposed; M6 retains its missing
+knowledge. The column is headed memberships because each row counts topic
+memberships, not entries: one entry may appear in several views. An earlier
+revision of this table read 23 entries and 27 memberships because it had been
+written before the period-three matrix calibration was appended; that stale
+count is corrected here rather than left to drift. In particular, Pascal remains proposed; M6 retains its missing
 filler; logic has no newly installed native calculus. The old
 `adva-library/index.json` remains its original two-document catalog.
 
@@ -188,3 +192,41 @@ The al-Khwarizmi, Jiuzhang and Qin Jiushao proposed mappings extend the catalog
 to 20 entries. The [finite CRT source-boundary calibration](../calibrations/crt-source-boundary-v0/README.md)
 attached to the Qin Jiushao entry distinguishes unique reconstruction from
 faithfulness to the declared source; it does not validate the historical prose.
+
+## Nim rule-constraint typing
+
+The `game` block of the [symbol surface](../symbol-surface/source/README.md) is
+admitted as the entry `logic-nim-rule-constraint` (`logic`, proposed-document).
+The typing is the direction's: the block is a **syntactic operation-rule
+constraint**, not an arithmetic result and not a knowledge classification.
+
+The reason is what the block already is. It carries registration, continuation
+and fuel discipline, and it declares its own four rules missing — players, turn
+order, legal move relation and winning condition. Rules are what the logic home
+already holds. The nearest precedent is
+`logic-cryptographic-sealing-and-calibration-boundary`: that entry **contains**
+exact finite computation and its home is still logic, with arithmetic only
+referencing the finite-computation discussion.
+
+Three boundaries the entry states about itself:
+
+- It does **not** claim that Nim is logic. ADR 0042 already fixes that a topic
+  home is a documentary coordinate, not a classification of the subject, and the
+  entry's `domains` lists `logic` alone rather than `[logic, arithmetic]` — the
+  XOR criterion is an internal detail of a criterion, not the entry's kind.
+- The pair 形上 / 形下 appears in the naming record as **borrowed descriptive
+  vocabulary, not an authority**. The descending half of the crossing is not
+  established either: `logic-as-research-content` already records that a semantic
+  account of logic lowering remains unconstructed.
+- Its four materials are the symbol-surface `presentation.json`,
+  `obligations.json`, `contract.json` and `README.md`. The external Bouton
+  criterion, the Sprague-Grundy normal form and the misère results are recorded
+  as **declared imports only**: not pinned, not read in full, and supporting no
+  import claim.
+
+The entry supplies no game rules, no fuel allocation, no execution, search or
+proof, and it changes no byte of the payloads. Its open obligations keep the game
+name withheld, require any future name to come from this system's own rule
+description rather than from the traditional game it resembles, and note that an
+executable half would need its own home `arithmetic` entry with
+`domains: [arithmetic, logic]`, mirroring `three-verifier-arithmetic-calibration`.
