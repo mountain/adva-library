@@ -13,7 +13,7 @@
   },
   "source_document": {
     "path": "adva-library/names/catalog-key-words.json",
-    "sha256": "0a3a8f6213e62f414008e67ff458d6e5fa212641a3f68cf8bae7a781d8005e7f"
+    "sha256": "ff9874aa079c539cb0af345c870bc7aa1aa0e9249f32c17f87d0c9b831d55ade"
   },
   "entries": [
     {
@@ -240,6 +240,24 @@
         "nim",
         "rule",
         "constraint"
+      ]
+    },
+    {
+      "key": "arithmetic-start-word-calibration",
+      "key_words": [
+        "arithmetic",
+        "start",
+        "word",
+        "calibration"
+      ]
+    },
+    {
+      "key": "logic-start-type-word",
+      "key_words": [
+        "logic",
+        "start",
+        "type",
+        "word"
       ]
     }
   ],

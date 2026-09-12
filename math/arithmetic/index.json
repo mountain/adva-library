@@ -10,7 +10,9 @@
     "pascal-research-presentations",
     "logic-cryptographic-sealing-and-calibration-boundary",
     "arithmetic-golden-ratio-receipt-calibration",
-    "arithmetic-period-three-matrix-calibration"
+    "arithmetic-period-three-matrix-calibration",
+    "arithmetic-start-word-calibration",
+    "logic-start-type-word"
   ],
   "owned": [
     "polynomial-shadow-epochs",
@@ -18,10 +20,12 @@
     "three-verifier-arithmetic-calibration",
     "frozen-policy-campaign",
     "arithmetic-golden-ratio-receipt-calibration",
-    "arithmetic-period-three-matrix-calibration"
+    "arithmetic-period-three-matrix-calibration",
+    "arithmetic-start-word-calibration"
   ],
   "references": [
     "pascal-research-presentations",
-    "logic-cryptographic-sealing-and-calibration-boundary"
+    "logic-cryptographic-sealing-and-calibration-boundary",
+    "logic-start-type-word"
   ]
 }
