@@ -17,7 +17,8 @@
     "logic-al-khwarizmi-duality",
     "logic-jiuzhang-gaussian-duality",
     "logic-qin-jiushao-dayan-duality",
-    "logic-reflexive-duality-conservation"
+    "logic-reflexive-duality-conservation",
+    "logic-nim-rule-constraint"
   ],
   "owned": [
     "fixed-checking-rule-boundary",
@@ -33,7 +34,8 @@
     "logic-al-khwarizmi-duality",
     "logic-jiuzhang-gaussian-duality",
     "logic-qin-jiushao-dayan-duality",
-    "logic-reflexive-duality-conservation"
+    "logic-reflexive-duality-conservation",
+    "logic-nim-rule-constraint"
   ],
   "references": [
     "three-verifier-arithmetic-calibration"

@@ -629,7 +629,7 @@
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "7693e751825e9726a8cc331e9b0346c3c36804ba4161d30ec8dabb50dc3e78aa"
+          "sha256": "a3b55ddaabbc42e1d3b9d79d3cc97fce47da8883315b3da0e49712d0de4bbbc6"
         }
       ],
       "evidence": [],
@@ -1267,6 +1267,63 @@
       ],
       "home": "arithmetic",
       "geometry_lineage": null
+    },
+    {
+      "key": "logic-nim-rule-constraint",
+      "title": "Nim admitted as a syntactic operation-rule constraint: home logic, with the game's own rules still undefined",
+      "domains": [
+        "logic"
+      ],
+      "home": "logic",
+      "geometry_lineage": null,
+      "theory": {
+        "name": "Documentary typing of a game protocol as an operation-rule constraint, not a knowledge classification",
+        "version": "Symbol-surface game block v0; naming record 2026-09-11"
+      },
+      "assumptions": [
+        "The symbol-surface payload names no game and declares its four rules missing: players, turn order, legal move relation and winning condition are all absent from the block.",
+        "The identification of that block with Nim is the direction's proposal recorded here (Mingli Yuan, 2026-09-11). It is not a payload field, and the same payload's contract excludes Nim play from the symbol surface's own scope.",
+        "The typing claim is documentary. As ADR 0042 already states, a topic home is not a native type, a semantic identity, a classification of the subject, or a claim that Nim is logic.",
+        "The pair \u5f62\u4e0a / \u5f62\u4e0b used in the naming record is borrowed descriptive vocabulary, not an authority. It names a crossing the direction observed between the two placements and carries no claim about logic's history or about metaphysics.",
+        "The imported external results (Bouton's criterion, the Sprague-Grundy normal form, the misere exception and the misere quotient) are declared imports only. Their sources are not pinned by this entry and were read as search snippets, not in full.",
+        "The catalog key uses the token nim to identify the game family the direction named. The withheld variant label from the naming record is a separate matter and stays withheld."
+      ],
+      "scope": "One documentary typing: the symbol-surface game block is admitted as a syntactic operation-rule constraint with home logic. This entry supplies no game rules, no rule calculus, no fuel allocation, no executed computation, no search and no proof. XOR and Bouton's criterion are treated as an internal detail of a criterion rather than as this entry's kind, which is why domains lists logic alone and not arithmetic; whether Nim is also a genuine arithmetic subject is deliberately not decided here. The naming record lives in the protocol-engineering repository, outside this catalog's pinnable root, and a reader of this entry cannot resolve it from these materials.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/symbol-surface/source/presentation.json",
+          "sha256": "c8f97bdd90ff33805f4db93660b9d6de432e4ca117c9f794027d24a99cdc5d34"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/obligations.json",
+          "sha256": "8443a82b97c1e2e0665c4c073f7d9a87095438dc82509d6001c1260b4be34587"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/contract.json",
+          "sha256": "c566ca8994543a60ff40bdf3ea60fe4d76756258fd72ac657b2a934fe7faa97c"
+        },
+        {
+          "path": "adva-library/symbol-surface/source/README.md",
+          "sha256": "de552030c202dea5c734e9880931f946b167015792d3e4572fa29c04900ae2dd"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "The four game rules must be defined before any fuel is allocated; the catalog check permits browsing declared references only.",
+        "Pin the four symbol-surface references and replay the outer documentary check; a changed input requires a reviewed re-pin rather than an automatic update.",
+        "Any import of Bouton, Sprague-Grundy or the misere results needs its own pinned source and declared scope before it can support a claim.",
+        "This entry creates no native word, semantic identity or catalog-driven permission."
+      ],
+      "open_obligations": [
+        "Players, turn order, legal move relation and winning condition remain undefined; obligation game-turn-and-exit under the symbol-surface payload stays Open.",
+        "The game's name remains withheld. Whatever name is chosen must come from this system's own rule description rather than from the traditional game it resembles, and must declare its relation to the external Reverse NIM name for a single-pile subtraction game.",
+        "Which topic home the executable half would take is not settled here. This entry claims logic for the rule-constraint typing; a separate executable Nim calibration would need home arithmetic with domains [arithmetic, logic], mirroring three-verifier-arithmetic-calibration.",
+        "The imported results are unpinned and were read only as search snippets, so no import claim is made and none should be read out of this entry.",
+        "The descending half of the crossing is not established. logic-as-research-content already records that a semantic account of logic lowering remains unconstructed, and ADR 0042 states the placement is organizational rather than a historical claim.",
+        "The naming record is outside this catalog's root and cannot be resolved from these materials."
+      ]
     }
   ]
 }
