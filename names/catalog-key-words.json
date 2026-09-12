@@ -160,6 +160,24 @@
         "surface",
         "swap"
       ]
+    },
+    {
+      "key": "arithmetic-start-word-calibration",
+      "key_words": [
+        "arithmetic",
+        "start",
+        "word",
+        "calibration"
+      ]
+    },
+    {
+      "key": "logic-start-type-word",
+      "key_words": [
+        "logic",
+        "start",
+        "type",
+        "word"
+      ]
     }
   ],
   "grandfathered_keys": [

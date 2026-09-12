@@ -1,0 +1,52 @@
+{
+  "schema": "adva.knowledge-start.research",
+  "version": 0,
+  "name": "start-type-word",
+  "type_name": "Start",
+  "kind": "typed-entry-state",
+  "declaration": {
+    "fields": [
+      "source_binding",
+      "policy_binding",
+      "observation_rows"
+    ],
+    "reading": "An instance of Start is a state that can begin a disclosed-source residue projection: a source record bound to its pin, a projection policy bound to its pin, and the ordered observation rows that the projection declares. The two codomain ports r0 and r1 are bound to the observation rows in slot order."
+  },
+  "formation_judgment": {
+    "presented_by": "exactly the three conditions of the source-projection witness (calibrations/source-projection-witness-v0); the same three conditions are executed byte-for-byte by the typed entry word Start (calibrations/start-word-v0).",
+    "conditions": [
+      {
+        "id": "C1",
+        "name": "source-pin-match",
+        "statement": "The exact source bytes match the caller's independent expected_source_sha256, and the declared witness source_sha256 agrees with it."
+      },
+      {
+        "id": "C2",
+        "name": "policy-pin-match",
+        "statement": "The exact policy bytes match the caller's independent expected_policy_sha256, and the declared witness policy_sha256 agrees with it."
+      },
+      {
+        "id": "C3",
+        "name": "division-equation-rows",
+        "statement": "Every declared observation row satisfies value = quotient * modulus + remainder with 0 <= remainder < modulus; each row modulus equals the policy modulus of its slot; slots are distinct and ordered (the slot-to-port binding); both ports are covered."
+      }
+    ],
+    "positive_status": "StartWordChecked",
+    "lattice": "Unknown (missing input or fewer than two covered rows) below Rejected (any gate failure) below Checked (C1 and C2 and C3)."
+  },
+  "refusals_inherited": [
+    "Schema and field gates for adva.disclosed-integer-record.v0, adva.residue-projection-policy.v0 and adva.record-projection-witness.v0",
+    "Source value domain [0,1024]; moduli domain [2,32]; interval [0, m*n); byte budget 4096 per input; duplicate JSON keys",
+    "No CRT reconstruction, no modular inverse, no floating point, no contraction of equal-valued occurrences"
+  ],
+  "boundary": [
+    "This file declares the type word Start as documentary knowledge content. It does not extend the pascal task interface triple subject/method/object, and it is not a native Rust type, a native operation, an admission, or a Seal.",
+    "The formation judgment is presented by the three conditions above; its executable companion is the external finite checker in calibrations/start-word-v0, not a native authority.",
+    "physical_source_truth remains NotEstablished; native_admission remains NotGranted."
+  ],
+  "provenance": {
+    "direction": "Mingli Yuan",
+    "formalization_and_execution": "deepseek-v4-pro (DeepSeek Harness), submitted through the author's account as an authorized proxy",
+    "review_status": "not reviewed or endorsed by the author; his name is not evidence for any content here"
+  }
+}

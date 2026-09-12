@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "0a3a8f6213e62f414008e67ff458d6e5fa212641a3f68cf8bae7a781d8005e7f"
+          "sha256": "ff9874aa079c539cb0af345c870bc7aa1aa0e9249f32c17f87d0c9b831d55ade"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "a3b55ddaabbc42e1d3b9d79d3cc97fce47da8883315b3da0e49712d0de4bbbc6"
+          "sha256": "e13499cd56144e639175bf7eb7f76a87a4ebb7f8d3e652997a522263cabed612"
         }
       ],
       "evidence": [],
@@ -1324,6 +1324,119 @@
         "The descending half of the crossing is not established. logic-as-research-content already records that a semantic account of logic lowering remains unconstructed, and ADR 0042 states the placement is organizational rather than a historical claim.",
         "The naming record is outside this catalog's root and cannot be resolved from these materials."
       ]
+    },
+    {
+      "key": "arithmetic-start-word-calibration",
+      "title": "Typed entry word Start: the three-condition judgment over the disclosed-source projection",
+      "domains": [
+        "arithmetic"
+      ],
+      "theory": {
+        "name": "Typed entry word Start with the source-projection witness judgment",
+        "version": "Start word v0; inherits source-projection-witness v0"
+      },
+      "assumptions": [
+        "The disclosed-integer-record, residue-projection-policy and record-projection-witness schemas are inherited from the source-projection witness unchanged.",
+        "The typed frontier (domain ports source/policy, codomain ports r0/r1) is a documentary reading over the same bytes; it adds no arithmetic and no new schema.",
+        "Python integer arithmetic and hashlib are external oracles, not native Rust authority; caller-side authority for the expected pins is assumed, not established."
+      ],
+      "scope": "One bounded external calibration over exact integers: two instances (m,n,x)=(3,4,5) and (5,7,17), twelve mutation controls, 28 checks, typed-boundary and port reading asserted in the positive cases, and full JSON replay.",
+      "recorded_status": "external-calibration-record",
+      "materials": [
+        {
+          "path": "adva-library/calibrations/start-word-v0/README.md",
+          "sha256": "fece851d5676410f4eb893130334f41e4f6b69ee0950e6fd6bd232a83ae9b0b8"
+        },
+        {
+          "path": "adva-library/calibrations/start-word-v0/start_word.py",
+          "sha256": "9892e01f577abd27f370127d1c07f06ac2d5566fe7c1a9becb7c9b1f02ecb9af"
+        },
+        {
+          "path": "adva-library/calibrations/start-word-v0/calibrate.py",
+          "sha256": "671542357cff9bd21886907c5739e9085cb4f22d63cc0010fd34da389e22625c"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "adva-library/calibrations/start-word-v0/report.json",
+          "sha256": "ceb487c2f5fb8cb0a7158b57d3638a1a9ace99eb169ed73dfd1a449227354a41"
+        }
+      ],
+      "checker": {
+        "name": "Bounded external typed-word calibration",
+        "version": "start-word v0",
+        "sources": [
+          {
+            "path": "adva-library/calibrations/start-word-v0/start_word.py",
+            "sha256": "9892e01f577abd27f370127d1c07f06ac2d5566fe7c1a9becb7c9b1f02ecb9af"
+          },
+          {
+            "path": "adva-library/calibrations/start-word-v0/calibrate.py",
+            "sha256": "671542357cff9bd21886907c5739e9085cb4f22d63cc0010fd34da389e22625c"
+          }
+        ]
+      },
+      "reuse_requires": [
+        "Re-run the bounded calibration from its frozen README contract; a positive judgment is StartWordChecked, presenting the source-projection three conditions C1/C2/C3 and nothing more.",
+        "Keep the word layer (typed frontier and ports) distinct from the judgment conditions; no fourth condition is added.",
+        "Cite the evidence pins with the exact command and retain the stated residuals."
+      ],
+      "open_obligations": [
+        "No native Adva, Rust or Lisp operation, type or builtin, and no Seal.",
+        "Caller-side authority for the expected pins is assumed, not established; physical_source_truth stays NotEstablished.",
+        "No CRT reconstruction, modular inverse, privacy or acceleration claim.",
+        "The two instances are fixtures, not a coverage theorem over all bounded inputs."
+      ],
+      "home": "arithmetic",
+      "geometry_lineage": null
+    },
+    {
+      "key": "logic-start-type-word",
+      "title": "The type word Start: a typed entry state whose formation judgment is the source-projection three conditions",
+      "domains": [
+        "logic",
+        "arithmetic"
+      ],
+      "theory": {
+        "name": "Documentary type declaration Start over the source-projection three conditions",
+        "version": "knowledge-start v0"
+      },
+      "assumptions": [
+        "The formation judgment of the type Start is presented by exactly the three conditions of the source-projection witness; the executable companion is the external checker in calibrations/start-word-v0.",
+        "This is a documentary type declaration, not a native Rust type, not an extension of the pascal task interface triple subject/method/object, and not an admission.",
+        "The author has not reviewed or endorsed the declaration; his name is not evidence for any content here."
+      ],
+      "scope": "One documentary declaration in knowledge-boundary: fields source_binding/policy_binding/observation_rows, formation judgment C1/C2/C3 with the positive status StartWordChecked, the inherited refusal lattice, and the claim boundary.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/knowledge-boundary/start.adva",
+          "sha256": "f9ed1d26efcb0950e26931e769d6f4b320a0f19f715eb5656f2019f703542d7c"
+        },
+        {
+          "path": "adva-library/calibrations/start-word-v0/README.md",
+          "sha256": "fece851d5676410f4eb893130334f41e4f6b69ee0950e6fd6bd232a83ae9b0b8"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "adva-library/calibrations/start-word-v0/report.json",
+          "sha256": "ceb487c2f5fb8cb0a7158b57d3638a1a9ace99eb169ed73dfd1a449227354a41"
+        }
+      ],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the entry pins; treat the type declaration as proposed.",
+        "The executable companion is the external finite checker in calibrations/start-word-v0; a checked run establishes the three conditions for the fixed instances only, not the type itself.",
+        "Any import of the type into native syntax needs its own separately authorized boundary."
+      ],
+      "open_obligations": [
+        "No native type admission, no operation, no Seal.",
+        "native_admission NotGranted and physical_source_truth NotEstablished remain attached to the companion calibration.",
+        "Human review of the declaration is not recorded."
+      ],
+      "home": "logic",
+      "geometry_lineage": null
     }
   ]
 }
