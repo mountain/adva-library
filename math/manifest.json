@@ -1462,6 +1462,10 @@
         {
           "path": "adva-library/knowledge-boundary/absurdity-emptiness-counterexample-v0.adva",
           "sha256": "a190b2f12d6067acaf411b3dc2dc71c3090273d19d31f81ce5bcb47f79c5e895"
+        },
+        {
+          "path": "docs/research/0174-absurdity-emptiness-counterexample-checkpoint.json",
+          "sha256": "8812485caf11c03fb0e39a9c7f4aa40a31953cae5568ff3d4bbde3cdcdfa30ba"
         }
       ],
       "evidence": [],
