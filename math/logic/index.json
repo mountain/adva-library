@@ -19,7 +19,8 @@
     "logic-qin-jiushao-dayan-duality",
     "logic-reflexive-duality-conservation",
     "logic-nim-rule-constraint",
-    "logic-start-type-word"
+    "logic-start-type-word",
+    "logic-absurdity-emptiness-counterexample"
   ],
   "owned": [
     "fixed-checking-rule-boundary",
@@ -37,7 +38,8 @@
     "logic-qin-jiushao-dayan-duality",
     "logic-reflexive-duality-conservation",
     "logic-nim-rule-constraint",
-    "logic-start-type-word"
+    "logic-start-type-word",
+    "logic-absurdity-emptiness-counterexample"
   ],
   "references": [
     "three-verifier-arithmetic-calibration"

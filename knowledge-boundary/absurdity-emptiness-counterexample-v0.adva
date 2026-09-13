@@ -1,0 +1,149 @@
+{
+  "schema": "adva.knowledge-boundary-counterexample.research",
+  "version": 0,
+  "kind": "knowledge-boundary counter-example registration; a proposed document, not an admission, an operation, a checker or a proof",
+  "name": "absurdity-emptiness-counterexample",
+  "recorded_on": "2026-09-13",
+  "recorded_by": "deepseek-v4-flash-vision-exp (DeepSeek Harness), submitted through Mingli Yuan's account as an authorized proxy; he has not reviewed or endorsed it",
+  "source_instruction": {
+    "author": "Mingli Yuan",
+    "date": "2026-09-13",
+    "language": "zh",
+    "text_verbatim": "目前国际最为公认的单位制、对应的物理常数和测量关系与理论，我们对宇宙各种时间、空间、物质组织形态范围的上限与下限估计，来做归谬学习，直到证明 adva 主线 Abserdity 为空。",
+    "spelling_preserved": "Abserdity",
+    "spelling_note": "The source spelling is retained byte for byte and is not corrected here. Reading it as the reserved epistemic class Absurdity is one applied reading, not a rewrite of the source and not a claim about the author's intent.",
+    "requested_registration": "adva main line and adva-library, simultaneously, as a counter-example to be carried into future learning"
+  },
+  "class_under_discussion": {
+    "name": "Absurdity",
+    "carrier": "crates/adva-witness/src/closure_transport.rs; ClosureFindingClassV0",
+    "formation_condition": "introduced only by a future method that validates a claim and its negation under the same scope, interpretation and verifier version (ADR 0028)",
+    "version_zero_emission": "never; the first experiment intentionally never emits it",
+    "citations": [
+      "docs/adr/0028-local-closure-transport-and-epistemic-names.md",
+      "docs/research/0118-local-closure-transport-and-adversarial-naming.md",
+      "docs/research/0174-absurdity-emptiness-counterexample.md"
+    ]
+  },
+  "homonyms_that_must_not_be_substituted": [
+    {
+      "use": "reserved epistemic class Absurdity",
+      "home": "docs/adr/0028; ClosureFindingClassV0",
+      "can_be_stated_exactly": true
+    },
+    {
+      "use": "the absurdity of a conjecture's rigidity",
+      "home": "docs/research/0172 section 5",
+      "can_be_stated_exactly": false,
+      "reading": "an aesthetic and rhetorical judgement, not a check result"
+    },
+    {
+      "use": "the narrative absurdity witnesses",
+      "home": "programs/bootstrap-0/second-absurdity-witness.adva; programs/bootstrap-0/third-absurdity-euler-cut-witness.adva",
+      "can_be_stated_exactly": false,
+      "reading": "a story structure; it corresponds to no check"
+    }
+  ],
+  "proposed_operation": {
+    "steps": [
+      "Adopt the internationally most recognized system of units, its defining constants, and the measurement relations and theories derived from them.",
+      "Take our upper and lower bound estimates for the ranges of time, space and forms of matter organization in the universe.",
+      "Perform reductio learning inside those ranges.",
+      "Terminate when Absurdity has been proved empty."
+    ],
+    "terminal_condition": "until Absurdity is proved empty",
+    "strongest_form": "If the universe's total information and total number of elementary operations are finite, then the claims any physically realizable observer can raise are finite too, so the reductio could in principle be exhausted; if after exhaustion no same-scope claim and negation pair has been validated, the class Absurdity is empty. This strongest form is the one the registered counter-example addresses; it is not a straw man."
+  },
+  "registration_role": {
+    "is": "a distortion boundary retained for future learning: a named shape that future work should recognize when it recurs",
+    "is_not": "a proof that Absurdity is empty, a proof that it is nonempty, a claim, a trial, a contract, a checker or an admission",
+    "one_home_rule": "the research record lives in docs/research/0174-absurdity-emptiness-counterexample.md and is not copied here; this file carries only the knowledge-boundary registration: the class boundary, the homonyms, the forbidden conflations and the conditions for a legitimate successor"
+  },
+  "boundary_defects_index": [
+    {
+      "id": "D1",
+      "name": "scope substitution",
+      "boundary_kept": "a declared scope, interpretation and verifier version are not the physical universe"
+    },
+    {
+      "id": "D2",
+      "name": "unit mismatch reaches only incommensurate",
+      "boundary_kept": "an import with a typed-unit mismatch claims neither truth nor falsity, so it cannot reach separation or absurdity"
+    },
+    {
+      "id": "D3",
+      "name": "finite enumeration cannot yield a universal negative",
+      "boundary_kept": "search exhaustion reports Unknown, never nonexistence; the quantified scopes and verifier versions are open future objects"
+    },
+    {
+      "id": "D4",
+      "name": "a contingent estimate cannot serve as a necessary premise",
+      "boundary_kept": "model-dependent estimates with stated uncertainty are not reductio premises"
+    },
+    {
+      "id": "D5",
+      "name": "physical horizons are not observer apertures",
+      "boundary_kept": "Probe and ObservationPolicy are semantic objects; a past light cone is a physical one"
+    },
+    {
+      "id": "D6",
+      "name": "inverted authority direction",
+      "boundary_kept": "an external discipline cannot be the authority over native semantic identities; physical interpretations stay outside the stable API"
+    },
+    {
+      "id": "D7",
+      "name": "no finite stopping point",
+      "boundary_kept": "a bounded trial declares numeric resource and exit bounds before it starts"
+    },
+    {
+      "id": "D8",
+      "name": "never emitted read as empty",
+      "boundary_kept": "an implementation fact about a frozen method is not a theorem about the class"
+    }
+  ],
+  "recognition_triggers": [
+    "An external discipline's global estimate is used to close a native epistemic class.",
+    "A model-dependent estimate is used as a necessary premise.",
+    "Not found is read as does not exist, and exhaustion as something other than Unknown.",
+    "An unbounded process with no numeric limit, no stop and no residual is used as a proof method.",
+    "The current implementation not emitting X is read as X being empty.",
+    "One spelling is treated as one object."
+  ],
+  "forbidden_conflations": [
+    "A physical upper or lower bound with a declared semantic scope",
+    "A unit-system constant with a native typed unit",
+    "An incommensurate import with a separation certificate",
+    "Search exhaustion with a proof of nonexistence",
+    "A model-dependent cosmological estimate with an exact premise",
+    "A past light cone or event horizon with a Probe or ObservationPolicy",
+    "A physical measurement relation with a native semantic identity",
+    "A frozen implementation never emitting a class with that class being empty",
+    "The reserved epistemic class Absurdity with the rhetorical or narrative absurdity of another record",
+    "Registering a documentary entry with granting native admission",
+    "Borrowing the word absurdity with borrowing a certificate"
+  ],
+  "legitimate_successor_requires": [
+    "A frozen run contract with the six declared parts before any execution (Research 0129 section 3).",
+    "The universe's ranges replaced by a declared finite scope: finitely many exact candidate claims and their negations under one frozen interpretation and verifier version.",
+    "Physical material admitted only as declared external assumptions with source, version and uncertainty, and retaining incommensurate status.",
+    "A finite terminal condition: either one genuine same-scope claim and negation pair is found, or the search is exhausted and reports Unknown with its residual retained.",
+    "A checker and a negative control frozen before the search, where the control must expose a checker that judges everything empty.",
+    "A conclusion restricted to the declared finite scope, with no lift to a statement about the class.",
+    "No automatic refuelling, no automatic widening, and a separate finite contract for any continuation."
+  ],
+  "non_claims": [
+    "Does not claim Absurdity is empty, and does not claim it is nonempty.",
+    "Does not record any physical value as a repository claim; no external document is pinned here and none was rechecked.",
+    "Does not start a trial, does not write a run contract and does not substitute for one.",
+    "Does not rewrite the source spelling, and does not adopt a philosophical reading on the author's behalf."
+  ],
+  "open_obligations": [
+    "No checker, no evidence file and no executed run exist for this registration.",
+    "Human review of this registration is not recorded.",
+    "Whether a genuine same-scope claim and negation pair can be presented under the existing ClosureFindingClassV0 remains Unknown; nothing here shows either answer.",
+    "The full defect statements live in one place only: docs/research/0174-absurdity-emptiness-counterexample.md.",
+    "native_admission remains NotGranted; this registration grants no operation, no type, no Seal and no library admission."
+  ],
+  "native_admission": "NotGranted",
+  "checker": null
+}
