@@ -1466,6 +1466,10 @@
         {
           "path": "docs/research/0174-absurdity-emptiness-counterexample-checkpoint.json",
           "sha256": "8812485caf11c03fb0e39a9c7f4aa40a31953cae5568ff3d4bbde3cdcdfa30ba"
+        },
+        {
+          "path": "docs/research/0174-absurdity-emptiness-counterexample.md",
+          "sha256": "b6027c83ee066b0e44776c2b79ac3fc96c5a93fea0d8c9f4dc82b3eae17a20af"
         }
       ],
       "evidence": [],
