@@ -7,13 +7,15 @@
     "q4-m6-relation-presentations",
     "geometry-pascal-incidence-task",
     "geometry-golden-ratio-external-reference",
-    "arithmetic-golden-ratio-receipt-calibration"
+    "arithmetic-golden-ratio-receipt-calibration",
+    "geometry-moonshine-k3-elliptic-genus-external-reference"
   ],
   "owned": [
     "pascal-research-presentations",
     "q4-m6-relation-presentations",
     "geometry-pascal-incidence-task",
-    "geometry-golden-ratio-external-reference"
+    "geometry-golden-ratio-external-reference",
+    "geometry-moonshine-k3-elliptic-genus-external-reference"
   ],
   "references": [
     "arithmetic-golden-ratio-receipt-calibration"

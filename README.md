@@ -71,6 +71,7 @@ new entry can require raising that budget explicitly rather than implicitly.
 | `symbol-surface/` | name-to-record swap, receipts, and a bounded text transport | proposed with open obligations |
 | `prime-universe/`, `knowledge-boundary/` | proposed finite tasks and distinction examples | proposed documents |
 | `meaning-*.md` | proposed duality documents, each with one topic home | proposed documents |
+| `moonshine-k3-elliptic-genus-external-reference-v0.md` | one external-reference registration over the umbral-moonshine / K3 elliptic-genus literature | proposed document; catalog home `geometry`, lineage `external-reference` |
 | `validation/` | install-and-run acceptance records | acceptance records |
 | `vendor/` | pinned third-party submodules, not audited here | external dependencies |
 

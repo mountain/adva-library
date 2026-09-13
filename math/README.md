@@ -31,10 +31,10 @@ programs, identifies two programs or copies their evidence.
 | Topic | Memberships | Examples |
 | --- | ---: | --- |
 | arithmetic | 10 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference, golden-ratio receipt calibration, period-three matrix calibration, start-word calibration |
-| geometry | 5 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor, golden-ratio external reference |
+| geometry | 6 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor, golden-ratio external reference, the moonshine / K3 elliptic-genus external reference |
 | logic | 18 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals, the Nim rule-constraint typing, the Start type word, the Absurdity emptiness counter-example registration |
 
-There are **28 distinct entries**, with 33 topic memberships. Counts are
+There are **29 distinct entries**, with 34 topic memberships. Counts are
 recomputed from the manifest rather than carried over from an earlier
 revision, and they describe this catalog only, not an inventory of all project
 knowledge. The column is headed memberships because each row counts topic
@@ -47,7 +47,9 @@ calibration had been appended without recomputing this table, and the two test
 counts that assert the real catalog's shape had been left at 25 and 26 while
 the catalog held 27. Those stale counts are corrected here, together with the
 tests, rather than left to drift; the two assertions moved to 28 and 29 in the
-same change that appended the counter-example registration. In particular, Pascal remains proposed; M6 retains its missing
+same change that appended the counter-example registration, and to 29 and 30 in
+the change that appended the moonshine external reference, whose own geometry
+membership moved the topic counts to 10 / 6 / 18. In particular, Pascal remains proposed; M6 retains its missing
 filler; logic has no newly installed native calculus. The old
 `adva-library/index.json` remains its original two-document catalog.
 
