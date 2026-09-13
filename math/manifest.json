@@ -369,7 +369,7 @@
     },
     {
       "key": "logic-as-research-content",
-      "title": "Mingli Yuan's organizational proposal: logic \u964d\u4f4d into math",
+      "title": "Mingli Yuan's organizational proposal: logic 降位 into math",
       "domains": [
         "logic"
       ],
@@ -531,7 +531,7 @@
     },
     {
       "key": "logic-cryptographic-sealing-and-calibration-boundary",
-      "title": "\u5bc6\u7801\u5b66\u5c01\u5b58\u3001Python/Rust \u6821\u51c6\u4e0e Adva \u7684\u4fe1\u4efb\u8fb9\u754c",
+      "title": "密码学封存、Python/Rust 校准与 Adva 的信任边界",
       "domains": [
         "logic",
         "arithmetic"
@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "22d917dc4d4e8878dbff18efb81f9929d1b30b201304e17d743c2a51f9e3842b"
+          "sha256": "08da94643a98bef2b3dc84285938bf4d920691ba413fbbdcde8e0e7dae2c102f"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "a37c2fdb9c015e2a72d69fcd743c23090961cc2b787942d38ceec2f68eab06a5"
+          "sha256": "886f6ec7b186e6798a5da71b23ddcc4b88f224f245976c361cc3058dcd3e3c70"
         }
       ],
       "evidence": [],
@@ -1284,7 +1284,7 @@
         "The symbol-surface payload names no game and declares its four rules missing: players, turn order, legal move relation and winning condition are all absent from the block.",
         "The identification of that block with Nim is the direction's proposal recorded here (Mingli Yuan, 2026-09-11). It is not a payload field, and the same payload's contract excludes Nim play from the symbol surface's own scope.",
         "The typing claim is documentary. As ADR 0042 already states, a topic home is not a native type, a semantic identity, a classification of the subject, or a claim that Nim is logic.",
-        "The pair \u5f62\u4e0a / \u5f62\u4e0b used in the naming record is borrowed descriptive vocabulary, not an authority. It names a crossing the direction observed between the two placements and carries no claim about logic's history or about metaphysics.",
+        "The pair 形上 / 形下 used in the naming record is borrowed descriptive vocabulary, not an authority. It names a crossing the direction observed between the two placements and carries no claim about logic's history or about metaphysics.",
         "The imported external results (Bouton's criterion, the Sprague-Grundy normal form, the misere exception and the misere quotient) are declared imports only. Their sources are not pinned by this entry and were read as search snippets, not in full.",
         "The catalog key uses the token nim to identify the game family the direction named. The withheld variant label from the naming record is a separate matter and stays withheld."
       ],
@@ -1583,6 +1583,52 @@
         "Layer v1 is appended, not merged into v0. v0 keeps its wrong or imprecise statements visible on purpose, and v1 carries the correction, including the retraction of v0's claim that Monge-Ampere is not the route taken.",
         "The det-of-cohomology and Quillen sentence in v0 remains unsourced: the word Quillen occurs in none of the four texts read for v1, and the Faltings height defined there uses the Hodge bundle.",
         "The four source PDFs were fetched but are not retained here, so their quotations cannot be re-verified against a pinned copy in this repository; only their digests are recorded, and the texts were searched rather than read end to end."
+      ]
+    },
+    {
+      "key": "geometry-zhang-jingzhong-finite-example-point-elimination-external-reference",
+      "title": "External reference: Zhang Jingzhong on the finite-example method and point elimination, registered as a non-derivational documentary reference",
+      "domains": [
+        "geometry"
+      ],
+      "home": "geometry",
+      "geometry_lineage": {
+        "kind": "external-reference",
+        "parents": [],
+        "derivation_evidence": [],
+        "discharge": "Open"
+      },
+      "theory": {
+        "name": "External literature on the numerical parallel method for finite-example geometry theorem proving and on the area-based point-elimination method, recorded with sources, readings and unknowns",
+        "version": "zhang-jingzhong-finite-example-point-elimination-external-reference v0"
+      },
+      "assumptions": [
+        "This is a documentary registration of external literature. Every mathematical statement in it is attributed to a named source and none of it was re-derived, re-computed or independently verified here.",
+        "No full text was read: two institutional pages were read in full, one journal page and a bibliographic database were read as abstract and as records, and the Chinese Wikipedia entry named in the request was not retrievable at all.",
+        "The attribution layering (an earlier naming attributed to Hong Jiawei in 1986 and the 1990 numerical realisation attributed to Zhang Jingzhong and Yang Lu) rests on one journal abstract and one institute page, and is carried as the sources state it.",
+        "The home is geometry because that is the only home in which the catalog checker mechanically refuses derivation parents for an external reference. The choice follows the checker, not a topic claim, and no topic ownership is asserted (ADR 0043 axiom 1).",
+        "The proposal was made by Mingli Yuan on 2026-09-13, asking for reliable material on the finite-example method and the point-elimination method. He has not reviewed or endorsed the registration, and his name is not evidence for any content in it."
+      ],
+      "scope": "One documentary registration in adva-library/zhang-jingzhong-finite-example-point-elimination-external-reference-v0.md: five readings with the depth of each one recorded (an institute page for attribution and naming, a university academician page for the contribution list including a weak non-degeneracy condition algorithm, two zbMATH bibliographic records with the review text licence-blocked, one journal abstract for the earlier attribution, and a Coq formalisation page for the executable vocabulary of the point-elimination method), the verbatim quotations, the list of what could not be retrieved, the pointer to this repository's own bounded run, the open obligations and the explicit non-claims.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/zhang-jingzhong-finite-example-point-elimination-external-reference-v0.md",
+          "sha256": "06b0acc53e0732a4e89fa32a3f0133eb6e49feae9c63512984fc8cd3e7497304"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the entry pins and keep the source and the depth of its reading attached. Cite the primary source, not this file, for any mathematical statement.",
+        "Keep the external-reference status attached: it is not a derivation parent, not a Pascal descendant and not a growth-obligation successor.",
+        "Any use in a bounded trial needs its own six-part contract under Research 0129 section 3, its own checker and its own residual; this registration authorizes no translation."
+      ],
+      "open_obligations": [
+        "No checker, no evidence file and no executed run; the entry introduces no executable claim and changes nothing in docs/claims.toml.",
+        "The priority layering between the 1986 naming and the 1990 numerical realisation rests on one abstract and one institute page; the primary texts were not read.",
+        "The foreign name Zhang-Yang theorem is the institute page's claim and no English-language confirmation was fetched.",
+        "The a priori degree-bound theory that makes the finite-example method sound was not read, so nothing here supports that method beyond one bounded run of this repository's own."
       ]
     }
   ]
