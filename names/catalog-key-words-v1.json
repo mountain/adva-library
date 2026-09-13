@@ -13,7 +13,7 @@
   },
   "source_document": {
     "path": "adva-library/names/catalog-key-words.json",
-    "sha256": "08da94643a98bef2b3dc84285938bf4d920691ba413fbbdcde8e0e7dae2c102f"
+    "sha256": "dfe8c2b2d200dfb8c22c7773e07774cad8ae34c7df545051e4d8b8eb147f53ad"
   },
   "entries": [
     {
@@ -304,6 +304,18 @@
         "example",
         "point",
         "elimination",
+        "external",
+        "reference"
+      ]
+    },
+    {
+      "key": "geometry-yang-lu-inequality-proving-external-reference",
+      "key_words": [
+        "geometry",
+        "yang",
+        "lu",
+        "inequality",
+        "proving",
         "external",
         "reference"
       ]
