@@ -13,7 +13,7 @@
   },
   "source_document": {
     "path": "adva-library/names/catalog-key-words.json",
-    "sha256": "22d917dc4d4e8878dbff18efb81f9929d1b30b201304e17d743c2a51f9e3842b"
+    "sha256": "08da94643a98bef2b3dc84285938bf4d920691ba413fbbdcde8e0e7dae2c102f"
   },
   "entries": [
     {
@@ -290,6 +290,20 @@
         "arakelov",
         "monge",
         "ampere",
+        "external",
+        "reference"
+      ]
+    },
+    {
+      "key": "geometry-zhang-jingzhong-finite-example-point-elimination-external-reference",
+      "key_words": [
+        "geometry",
+        "zhang",
+        "jingzhong",
+        "finite",
+        "example",
+        "point",
+        "elimination",
         "external",
         "reference"
       ]

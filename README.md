@@ -73,6 +73,7 @@ new entry can require raising that budget explicitly rather than implicitly.
 | `meaning-*.md` | proposed duality documents, each with one topic home | proposed documents |
 | `moonshine-k3-elliptic-genus-external-reference-v0.md` | one external-reference registration over the umbral-moonshine / K3 elliptic-genus literature | proposed document; catalog home `geometry`, lineage `external-reference` |
 | `yuan-xinyi-arakelov-monge-ampere-external-reference-v0.md`, `…-v1.md` | one external-reference registration over 袁新意's Arakelov-geometry work: v0 is the supplied reading with its correction, v1 is the source-backed layer that re-checks v0 against four of the author's own texts | proposed document; catalog home `geometry`, lineage `external-reference` |
+| `zhang-jingzhong-finite-example-point-elimination-external-reference-v0.md` | one external-reference registration over Zhang Jingzhong's finite-example (数值并行法) and point-elimination (消点法) literature, with the depth of each reading recorded | proposed document; catalog home `geometry`, lineage `external-reference` |
 | `validation/` | install-and-run acceptance records | acceptance records |
 | `vendor/` | pinned third-party submodules, not audited here | external dependencies |
 

@@ -9,7 +9,8 @@
     "geometry-golden-ratio-external-reference",
     "arithmetic-golden-ratio-receipt-calibration",
     "geometry-moonshine-k3-elliptic-genus-external-reference",
-    "geometry-yuan-xinyi-arakelov-monge-ampere-external-reference"
+    "geometry-yuan-xinyi-arakelov-monge-ampere-external-reference",
+    "geometry-zhang-jingzhong-finite-example-point-elimination-external-reference"
   ],
   "owned": [
     "pascal-research-presentations",
@@ -17,7 +18,8 @@
     "geometry-pascal-incidence-task",
     "geometry-golden-ratio-external-reference",
     "geometry-moonshine-k3-elliptic-genus-external-reference",
-    "geometry-yuan-xinyi-arakelov-monge-ampere-external-reference"
+    "geometry-yuan-xinyi-arakelov-monge-ampere-external-reference",
+    "geometry-zhang-jingzhong-finite-example-point-elimination-external-reference"
   ],
   "references": [
     "arithmetic-golden-ratio-receipt-calibration"
