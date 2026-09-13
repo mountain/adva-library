@@ -178,6 +178,15 @@
         "type",
         "word"
       ]
+    },
+    {
+      "key": "logic-absurdity-emptiness-counterexample",
+      "key_words": [
+        "logic",
+        "absurdity",
+        "emptiness",
+        "counterexample"
+      ]
     }
   ],
   "grandfathered_keys": [

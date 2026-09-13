@@ -13,7 +13,7 @@
   },
   "source_document": {
     "path": "adva-library/names/catalog-key-words.json",
-    "sha256": "ff9874aa079c539cb0af345c870bc7aa1aa0e9249f32c17f87d0c9b831d55ade"
+    "sha256": "daaf735a9b49625c495e6337b03cb3a2fd25f4e9dbe11ec940c1947a68ae675b"
   },
   "entries": [
     {
@@ -258,6 +258,15 @@
         "start",
         "type",
         "word"
+      ]
+    },
+    {
+      "key": "logic-absurdity-emptiness-counterexample",
+      "key_words": [
+        "logic",
+        "absurdity",
+        "emptiness",
+        "counterexample"
       ]
     }
   ],

@@ -30,18 +30,24 @@ programs, identifies two programs or copies their evidence.
 
 | Topic | Memberships | Examples |
 | --- | ---: | --- |
-| arithmetic | 8 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference, golden-ratio receipt calibration, period-three matrix calibration |
+| arithmetic | 10 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference, golden-ratio receipt calibration, period-three matrix calibration, start-word calibration |
 | geometry | 5 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor, golden-ratio external reference |
-| logic | 16 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals, the Nim rule-constraint typing |
+| logic | 18 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals, the Nim rule-constraint typing, the Start type word, the Absurdity emptiness counter-example registration |
 
-There are **25 distinct entries**, with 29 topic memberships. Counts are
+There are **28 distinct entries**, with 33 topic memberships. Counts are
 recomputed from the manifest rather than carried over from an earlier
 revision, and they describe this catalog only, not an inventory of all project
 knowledge. The column is headed memberships because each row counts topic
 memberships, not entries: one entry may appear in several views. An earlier
 revision of this table read 23 entries and 27 memberships because it had been
-written before the period-three matrix calibration was appended; that stale
-count is corrected here rather than left to drift. In particular, Pascal remains proposed; M6 retains its missing
+written before the period-three matrix calibration was appended, and the
+revision before this one read 25 and 29 while the manifest already held 27
+entries and 32 memberships: the Start type word and its arithmetic companion
+calibration had been appended without recomputing this table, and the two test
+counts that assert the real catalog's shape had been left at 25 and 26 while
+the catalog held 27. Those stale counts are corrected here, together with the
+tests, rather than left to drift; the two assertions moved to 28 and 29 in the
+same change that appended the counter-example registration. In particular, Pascal remains proposed; M6 retains its missing
 filler; logic has no newly installed native calculus. The old
 `adva-library/index.json` remains its original two-document catalog.
 

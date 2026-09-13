@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "ff9874aa079c539cb0af345c870bc7aa1aa0e9249f32c17f87d0c9b831d55ade"
+          "sha256": "daaf735a9b49625c495e6337b03cb3a2fd25f4e9dbe11ec940c1947a68ae675b"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "e13499cd56144e639175bf7eb7f76a87a4ebb7f8d3e652997a522263cabed612"
+          "sha256": "37212e3f449b200d4ec52f29f5c019afc9543aa029a2220a61d3e335fbb915f0"
         }
       ],
       "evidence": [],
@@ -1437,6 +1437,47 @@
       ],
       "home": "logic",
       "geometry_lineage": null
+    },
+    {
+      "key": "logic-absurdity-emptiness-counterexample",
+      "title": "Physical bounds cannot empty Absurdity: an operation registered as a future counter-example",
+      "domains": [
+        "logic"
+      ],
+      "home": "logic",
+      "geometry_lineage": null,
+      "theory": {
+        "name": "Knowledge-boundary counter-example registration over the reserved epistemic class Absurdity",
+        "version": "absurdity-emptiness-counterexample v0"
+      },
+      "assumptions": [
+        "The reserved epistemic class Absurdity is formed only by a future method that validates a claim and its negation under the same scope, interpretation and verifier version (ADR 0028); version zero never emits it.",
+        "The instruction of 2026-09-13 is registered, not executed: this registration carries no checker, no evidence file and no run.",
+        "Physical constants, measurement relations and cosmological bound estimates are external references. They are not pinned here, were not rechecked, and are not repository claims.",
+        "The author has not reviewed or endorsed this registration; his name is not evidence for any content here."
+      ],
+      "scope": "One knowledge-boundary registration in adva-library/knowledge-boundary/absurdity-emptiness-counterexample-v0.adva: the verbatim instruction with its spelling preserved, the three homonyms of absurdity, the four proposed steps with their strongest form, an eight-item boundary-defect index, six recognition triggers, eleven forbidden conflations, the conditions for a legitimate bounded successor, and the non-claims.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/knowledge-boundary/absurdity-emptiness-counterexample-v0.adva",
+          "sha256": "a190b2f12d6067acaf411b3dc2dc71c3090273d19d31f81ce5bcb47f79c5e895"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the entry pins; treat the registration as proposed and as a counter-example, never as a result.",
+        "Read the full defect statements in docs/research/0174-absurdity-emptiness-counterexample.md; this entry carries only the boundary index.",
+        "Any trial built on this shape needs its own frozen six-part contract (Research 0129 section 3) before execution; registration does not authorize one.",
+        "Do not read the registration as establishing either that Absurdity is empty or that it is nonempty."
+      ],
+      "open_obligations": [
+        "No checker, no evidence and no executed run; the entry records a shape, not a checked statement.",
+        "The physical values named in the companion research note are unverified here and unpinned.",
+        "Whether a genuine same-scope claim and negation pair can be presented under the existing ClosureFindingClassV0 remains Unknown.",
+        "Human review of the registration is not recorded."
+      ]
     }
   ]
 }
