@@ -1547,7 +1547,7 @@
       },
       "theory": {
         "name": "External literature and one supplied reading about the relation between Arakelov geometry and two PDE questions, recorded with sources, versions and corrections",
-        "version": "yuan-xinyi-arakelov-monge-ampere-external-reference v0"
+        "version": "yuan-xinyi-arakelov-monge-ampere-external-reference v1"
       },
       "assumptions": [
         "This is a documentary registration of external literature plus one supplied reading of it. No theorem was re-derived, and no full text was read.",
@@ -1555,12 +1555,16 @@
         "The supplied reading was received from Mingli Yuan on 2026-09-13, ended at a truncation marker, and its own provenance is unknown; it is retained verbatim rather than deleted.",
         "The home is geometry because that is the only home in which the catalog checker mechanically refuses derivation parents for an external reference (ADR 0043 axiom 1). No topic ownership is asserted."
       ],
-      "scope": "One documentary registration in adva-library/yuan-xinyi-arakelov-monge-ampere-external-reference-v0.md: the supplied two-paragraph reading verbatim, four named sources with the version each was read from, a claim-by-claim assessment with corrections and the evidence for each, the corrected account of the work, the unknowns, and the explicit non-claims.",
+      "scope": "One documentary registration in adva-library/yuan-xinyi-arakelov-monge-ampere-external-reference-v0.md: the supplied two-paragraph reading verbatim, four named sources with the version each was read from, a claim-by-claim assessment with corrections and the evidence for each, the corrected account of the work, the unknowns, and the explicit non-claims, plus layer v1: four of the author's own texts registered by digest, against which every v0 assessment is re-checked, with one confirmed, one shown partly wrong, one retracted and one softened.",
       "recorded_status": "proposed-document",
       "materials": [
         {
           "path": "adva-library/yuan-xinyi-arakelov-monge-ampere-external-reference-v0.md",
           "sha256": "9b02499471f0bb491c9348167445e7ec6e19fd74665484b63589fe3936cc004c"
+        },
+        {
+          "path": "adva-library/yuan-xinyi-arakelov-monge-ampere-external-reference-v1.md",
+          "sha256": "a09f4ea3d6338b34bf58fdb5f47cb97ebc675c34f0240c29fc96c12275c26a34"
         }
       ],
       "evidence": [],
@@ -1575,7 +1579,10 @@
         "No checker, no evidence file and no executed run; the entry introduces no executable claim and changes nothing in docs/claims.toml.",
         "The corrections in section 3 rest on standard background that was not fetched or re-derived here; a source-backed version of them is not yet recorded.",
         "The claim that no pluripotential-regularity programme appears in this work is an argument from a publication list, not a proof of absence.",
-        "The supplied reading's provenance is unknown and its source message was truncated, so further points may exist and are not recorded."
+        "The supplied reading's provenance is unknown and its source message was truncated, so further points may exist and are not recorded.",
+        "Layer v1 is appended, not merged into v0. v0 keeps its wrong or imprecise statements visible on purpose, and v1 carries the correction, including the retraction of v0's claim that Monge-Ampere is not the route taken.",
+        "The det-of-cohomology and Quillen sentence in v0 remains unsourced: the word Quillen occurs in none of the four texts read for v1, and the Faltings height defined there uses the Hodge bundle.",
+        "The four source PDFs were fetched but are not retained here, so their quotations cannot be re-verified against a pinned copy in this repository; only their digests are recorded, and the texts were searched rather than read end to end."
       ]
     }
   ]
