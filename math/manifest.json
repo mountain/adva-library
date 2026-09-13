@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "daaf735a9b49625c495e6337b03cb3a2fd25f4e9dbe11ec940c1947a68ae675b"
+          "sha256": "a5f45ad57cd4654e8601de381c5d07c77eff52de8d7bdc5660629b3a12d5bb19"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "37212e3f449b200d4ec52f29f5c019afc9543aa029a2220a61d3e335fbb915f0"
+          "sha256": "982c1c1ce37b6df9b598a392ed281742cdadf737b1a287604993acad77a142cb"
         }
       ],
       "evidence": [],
@@ -1485,6 +1485,51 @@
         "The physical values named in the companion research note are unverified here and unpinned.",
         "Whether a genuine same-scope claim and negation pair can be presented under the existing ClosureFindingClassV0 remains Unknown.",
         "Human review of the registration is not recorded."
+      ]
+    },
+    {
+      "key": "geometry-moonshine-k3-elliptic-genus-external-reference",
+      "title": "External reference: umbral moonshine and the K3 elliptic genus, registered as a non-derivational documentary reference",
+      "domains": [
+        "geometry"
+      ],
+      "home": "geometry",
+      "geometry_lineage": {
+        "kind": "external-reference",
+        "parents": [],
+        "derivation_evidence": [],
+        "discharge": "Open"
+      },
+      "theory": {
+        "name": "External literature on the relation between umbral moonshine and the K3 elliptic genus, recorded at named versions and without re-derivation",
+        "version": "moonshine-k3-elliptic-genus-external-reference v0"
+      },
+      "assumptions": [
+        "This is a documentary registration of external literature. Every mathematical statement in it is attributed to a named source and none of it was re-derived, re-computed or independently verified here.",
+        "No full text was read: several sources were read only through an abstract page, and the registration records how far each reading went.",
+        "The home is geometry because that is the only home in which the catalog checker mechanically refuses derivation parents for an external reference. The choice follows the checker, not a topic claim, and no topic ownership is asserted (ADR 0043 axiom 1).",
+        "The proposal was made by Mingli Yuan on 2026-09-13 with the explicit conditions that sources, versions and unknowns be carried and that the entry be neither a derivation parent nor a semantic authority. He has not reviewed or endorsed the registration, and his name is not evidence for any content in it."
+      ],
+      "scope": "One documentary registration in adva-library/moonshine-k3-elliptic-genus-external-reference-v0.md: eight named sources with the version each statement was read from, the relation as those sources state it with verbatim quotations, the unknowns (no full text read, no number checked, the count 23 quoted rather than derived, conventions that differ between sources, version drift), and the explicit non-claims.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/moonshine-k3-elliptic-genus-external-reference-v0.md",
+          "sha256": "963ffdac517eac7f10ccf9ba32dfc3445e0b079275bf0963fed0426645f4f79d"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the entry pins and keep the source and version attached. Cite the primary source, not this file, for any mathematical statement.",
+        "Keep the external-reference status attached: it is not a derivation parent, not a Pascal descendant and not a growth-obligation successor.",
+        "Any use in a bounded trial needs its own six-part contract under Research 0129 section 3, its own checker and its own residual; this registration authorizes no translation."
+      ],
+      "open_obligations": [
+        "No checker, no evidence file and no executed run; the entry introduces no executable claim and changes nothing in docs/claims.toml.",
+        "Publication data for the Niemeier-lattices paper, for Gannon, and for Duncan-Griffin-Ono is incomplete here, and several sources were read only through abstracts.",
+        "No coefficient, weight, index or character-table entry was verified; a reader who needs a number must go to the primary source.",
+        "Whether the quoted count of 23 Niemeier lattices and the quoted remaining 22 cases are one and the same count under one convention is not established."
       ]
     }
   ]
