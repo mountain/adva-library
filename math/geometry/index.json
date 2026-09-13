@@ -10,7 +10,8 @@
     "arithmetic-golden-ratio-receipt-calibration",
     "geometry-moonshine-k3-elliptic-genus-external-reference",
     "geometry-yuan-xinyi-arakelov-monge-ampere-external-reference",
-    "geometry-zhang-jingzhong-finite-example-point-elimination-external-reference"
+    "geometry-zhang-jingzhong-finite-example-point-elimination-external-reference",
+    "geometry-yang-lu-inequality-proving-external-reference"
   ],
   "owned": [
     "pascal-research-presentations",
@@ -19,7 +20,8 @@
     "geometry-golden-ratio-external-reference",
     "geometry-moonshine-k3-elliptic-genus-external-reference",
     "geometry-yuan-xinyi-arakelov-monge-ampere-external-reference",
-    "geometry-zhang-jingzhong-finite-example-point-elimination-external-reference"
+    "geometry-zhang-jingzhong-finite-example-point-elimination-external-reference",
+    "geometry-yang-lu-inequality-proving-external-reference"
   ],
   "references": [
     "arithmetic-golden-ratio-receipt-calibration"

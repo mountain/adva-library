@@ -589,7 +589,7 @@
         },
         {
           "path": "docs/adr/0043-directory-partition-contract.json",
-          "sha256": "9bd057f7c4bbfbb9f23b582063423646ecdbde7383e8947ae11a38142b52286b"
+          "sha256": "ca7751ff1cd2475020986ead49c2bfd1911df178f2f9dc2ace4e63da3dc7dc5f"
         }
       ],
       "evidence": [],
@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "08da94643a98bef2b3dc84285938bf4d920691ba413fbbdcde8e0e7dae2c102f"
+          "sha256": "dfe8c2b2d200dfb8c22c7773e07774cad8ae34c7df545051e4d8b8eb147f53ad"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "886f6ec7b186e6798a5da71b23ddcc4b88f224f245976c361cc3058dcd3e3c70"
+          "sha256": "fe2e9a9187e7cae2b950434964ee20110167a1701f8bed35d83251aaea93d493"
         }
       ],
       "evidence": [],
@@ -1629,6 +1629,54 @@
         "The priority layering between the 1986 naming and the 1990 numerical realisation rests on one abstract and one institute page; the primary texts were not read.",
         "The foreign name Zhang-Yang theorem is the institute page's claim and no English-language confirmation was fetched.",
         "The a priori degree-bound theory that makes the finite-example method sound was not read, so nothing here supports that method beyond one bounded run of this repository's own."
+      ]
+    },
+    {
+      "key": "geometry-yang-lu-inequality-proving-external-reference",
+      "title": "External reference: Yang Lu on inequality proving and machine discovery, registered as a non-derivational documentary reference",
+      "domains": [
+        "geometry"
+      ],
+      "home": "geometry",
+      "geometry_lineage": {
+        "kind": "external-reference",
+        "parents": [],
+        "derivation_evidence": [],
+        "discharge": "Open"
+      },
+      "theory": {
+        "name": "External literature on automated inequality proving by a cell-decomposition method and on the successive difference substitution, recorded with sources, readings and unknowns",
+        "version": "yang-lu-inequality-proving-external-reference v0"
+      },
+      "assumptions": [
+        "This is a documentary registration of external literature. Every mathematical statement in it is attributed to a named source and none of it was re-derived, re-computed or independently verified here.",
+        "No full text was read: one institute page was read in full, one journal page was read as its English abstract and keywords, and one bibliographic database entry was read as records.",
+        "The Baidu entry named in the request and the Chinese Wikipedia entries were not retrievable, and the successive-difference-substitution chapter was not read: only its title and DOI were obtained.",
+        "The framing of two mathematicians as one cohort of a golden generation is the requester's and is not corroborated by any source read here; only their shared 1959 graduation is recorded.",
+        "The registration was first reverted when the catalog had reached its declared entries bound, and was admitted after the direction gave that bound its own reason and widened it from 32 to 101; the attempt, the revert and the resolution are recorded in docs/research/yang-lu-reference-registration-deferred.md.",
+        "The home is geometry because that is the only home in which the catalog checker mechanically refuses derivation parents for an external reference. The choice follows the checker, not a topic claim, and no topic ownership is asserted (ADR 0043 axiom 1).",
+        "The proposal was made by Mingli Yuan on 2026-09-13. He has not reviewed or endorsed the registration, and his name is not evidence for any content in it."
+      ],
+      "scope": "One documentary registration in adva-library/yang-lu-inequality-proving-external-reference-v0.md: three readings with the depth of each recorded (the institute page for his positions and his own inequality-proving and machine-discovery programme, the 2003 Chinese Journal of Computers abstract for the method, the Maple program BOTTEMA, its reach and its benchmark in Bottema et al., and the bibliographic records for the 2016 World Scientific book and for the 1988 and 1990 parallel-numerical-method papers), the verbatim quotations, the list of what could not be retrieved, the admission history, the pointer to this repository's own bounded trial, the open obligations and the explicit non-claims.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/yang-lu-inequality-proving-external-reference-v0.md",
+          "sha256": "c885bc169235343026164b21a087ebf347ec90ae931cef7ad82218e229b4f279"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the entry pins and keep the source and the depth of its reading attached. Cite the primary source, not this file, for any mathematical statement.",
+        "Keep the external-reference status attached: it is not a derivation parent, not a Pascal descendant and not a growth-obligation successor.",
+        "Any use in a bounded trial needs its own six-part contract under Research 0129 section 3, its own checker and its own residual; this registration authorizes no translation."
+      ],
+      "open_obligations": [
+        "No checker, no evidence file and no executed run; the entry introduces no executable claim and changes nothing in docs/claims.toml.",
+        "The method's name, program, reach and benchmark rest on one journal abstract, and the algorithm was not read.",
+        "The quoted capability of the published program to disprove as well as to prove is not tested here.",
+        "The cohort framing in the request has no fetched support and is carried as the requester's framing only."
       ]
     }
   ]
