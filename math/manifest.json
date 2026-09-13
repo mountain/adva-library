@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "a5f45ad57cd4654e8601de381c5d07c77eff52de8d7bdc5660629b3a12d5bb19"
+          "sha256": "22d917dc4d4e8878dbff18efb81f9929d1b30b201304e17d743c2a51f9e3842b"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "982c1c1ce37b6df9b598a392ed281742cdadf737b1a287604993acad77a142cb"
+          "sha256": "a37c2fdb9c015e2a72d69fcd743c23090961cc2b787942d38ceec2f68eab06a5"
         }
       ],
       "evidence": [],
@@ -1530,6 +1530,52 @@
         "Publication data for the Niemeier-lattices paper, for Gannon, and for Duncan-Griffin-Ono is incomplete here, and several sources were read only through abstracts.",
         "No coefficient, weight, index or character-table entry was verified; a reader who needs a number must go to the primary source.",
         "Whether the quoted count of 23 Niemeier lattices and the quoted remaining 22 cases are one and the same count under one convention is not established."
+      ]
+    },
+    {
+      "key": "geometry-yuan-xinyi-arakelov-monge-ampere-external-reference",
+      "title": "External reference: Xinyi Yuan on Arakelov geometry, with a supplied Monge-Ampere reading corrected and retained",
+      "domains": [
+        "geometry"
+      ],
+      "home": "geometry",
+      "geometry_lineage": {
+        "kind": "external-reference",
+        "parents": [],
+        "derivation_evidence": [],
+        "discharge": "Open"
+      },
+      "theory": {
+        "name": "External literature and one supplied reading about the relation between Arakelov geometry and two PDE questions, recorded with sources, versions and corrections",
+        "version": "yuan-xinyi-arakelov-monge-ampere-external-reference v0"
+      },
+      "assumptions": [
+        "This is a documentary registration of external literature plus one supplied reading of it. No theorem was re-derived, and no full text was read.",
+        "The two corrections in section 3 of the document are this registration's reading of standard Arakelov theory, stated as an assessment and not re-verified from a fetched source; they are open to correction like anything else here.",
+        "The supplied reading was received from Mingli Yuan on 2026-09-13, ended at a truncation marker, and its own provenance is unknown; it is retained verbatim rather than deleted.",
+        "The home is geometry because that is the only home in which the catalog checker mechanically refuses derivation parents for an external reference (ADR 0043 axiom 1). No topic ownership is asserted."
+      ],
+      "scope": "One documentary registration in adva-library/yuan-xinyi-arakelov-monge-ampere-external-reference-v0.md: the supplied two-paragraph reading verbatim, four named sources with the version each was read from, a claim-by-claim assessment with corrections and the evidence for each, the corrected account of the work, the unknowns, and the explicit non-claims.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/yuan-xinyi-arakelov-monge-ampere-external-reference-v0.md",
+          "sha256": "9b02499471f0bb491c9348167445e7ec6e19fd74665484b63589fe3936cc004c"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Quote with the entry pins and keep the source and version attached; cite the primary source, not this file, for any mathematical statement.",
+        "Keep the external-reference status attached: it is not a derivation parent, not a Pascal descendant and not a growth-obligation successor.",
+        "Keep the two corrected readings and the retained originals together; the correction is part of the record, not a replacement for it.",
+        "Any use in a bounded trial needs its own six-part contract under Research 0129 section 3, its own checker and its own residual."
+      ],
+      "open_obligations": [
+        "No checker, no evidence file and no executed run; the entry introduces no executable claim and changes nothing in docs/claims.toml.",
+        "The corrections in section 3 rest on standard background that was not fetched or re-derived here; a source-backed version of them is not yet recorded.",
+        "The claim that no pluripotential-regularity programme appears in this work is an argument from a publication list, not a proof of absence.",
+        "The supplied reading's provenance is unknown and its source message was truncated, so further points may exist and are not recorded."
       ]
     }
   ]

@@ -72,6 +72,7 @@ new entry can require raising that budget explicitly rather than implicitly.
 | `prime-universe/`, `knowledge-boundary/` | proposed finite tasks and distinction examples | proposed documents |
 | `meaning-*.md` | proposed duality documents, each with one topic home | proposed documents |
 | `moonshine-k3-elliptic-genus-external-reference-v0.md` | one external-reference registration over the umbral-moonshine / K3 elliptic-genus literature | proposed document; catalog home `geometry`, lineage `external-reference` |
+| `yuan-xinyi-arakelov-monge-ampere-external-reference-v0.md` | one external-reference registration over 袁新意's Arakelov-geometry work, with a supplied Monge-Ampère reading corrected and the originals retained | proposed document; catalog home `geometry`, lineage `external-reference` |
 | `validation/` | install-and-run acceptance records | acceptance records |
 | `vendor/` | pinned third-party submodules, not audited here | external dependencies |
 
