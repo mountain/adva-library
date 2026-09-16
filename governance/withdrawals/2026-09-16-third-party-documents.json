@@ -1,0 +1,64 @@
+{
+  "schema": "adva.publication-withdrawal.v1",
+  "date": "2026-09-16",
+  "reason": "Precautionary withdrawal of one full Wikipedia browser capture and seven externally supplied illustrations pending individual source/license/attribution verification. The original resource index and historical verification receipts remain unchanged; fresh replay requires lawfully obtained external inputs.",
+  "records": [
+    {
+      "path": "golden-ratio/plates/divina-proportione-illustration-13.jpg",
+      "bytes": 79168,
+      "sha256": "87cfbb435eb3cdd05cc4f012faaf6b1d0267a7823bbb2b28930c65d5f8c78590",
+      "git_blob": "5b8f96cbe99f4ffc873f973f6b9125cb2713864a",
+      "reason": "Precautionary withdrawal of a third-party browser capture or supplied illustration pending complete source/license/attribution verification; no finding that redistribution is prohibited."
+    },
+    {
+      "path": "golden-ratio/plates/dodecahedron-vertices.webp",
+      "bytes": 32408,
+      "sha256": "34095e25acd8fbe201dd4d5f37edb0c2d481661dcc358842750cd2f2e4eb3be1",
+      "git_blob": "8410feb7c76572eeda398828addc62daf92d0e53",
+      "reason": "Precautionary withdrawal of a third-party browser capture or supplied illustration pending complete source/license/attribution verification; no finding that redistribution is prohibited."
+    },
+    {
+      "path": "golden-ratio/plates/fake-real-log-spiral.webp",
+      "bytes": 17368,
+      "sha256": "0bede8692299d8d07ed1ae8533ad0cd027b6a0de7dc255853cc50548f0f0a897",
+      "git_blob": "42411ad55498a0c0bf9d96200e427a7a8f170672",
+      "reason": "Precautionary withdrawal of a third-party browser capture or supplied illustration pending complete source/license/attribution verification; no finding that redistribution is prohibited."
+    },
+    {
+      "path": "golden-ratio/plates/fibonacci-spiral.webp",
+      "bytes": 18012,
+      "sha256": "b6115f5d9c8b5dcbb6de870ac95dba2b065f0dc376d6e75c8dd967936d369eb8",
+      "git_blob": "c6a2a2620e4c90750f9f2a9235f76a2a60e91832",
+      "reason": "Precautionary withdrawal of a third-party browser capture or supplied illustration pending complete source/license/attribution verification; no finding that redistribution is prohibited."
+    },
+    {
+      "path": "golden-ratio/plates/golden-triangle-and-fibonacci-spiral.webp",
+      "bytes": 21544,
+      "sha256": "b301e3e87dbc0c8315bac646a05410f069d1183d6413407958e6fda83645e521",
+      "git_blob": "fad399a02c5405a73fba1353a96b21547b0d9731",
+      "reason": "Precautionary withdrawal of a third-party browser capture or supplied illustration pending complete source/license/attribution verification; no finding that redistribution is prohibited."
+    },
+    {
+      "path": "golden-ratio/plates/icosahedron-golden-rectangles.webp",
+      "bytes": 38720,
+      "sha256": "85c8dd69975c235c2e6cc92636b59d31797fdde1ac2d6362ddc093f68e723a7f",
+      "git_blob": "1cc07dd75c0d8376255bec3311fa6c735eec79d5",
+      "reason": "Precautionary withdrawal of a third-party browser capture or supplied illustration pending complete source/license/attribution verification; no finding that redistribution is prohibited."
+    },
+    {
+      "path": "golden-ratio/plates/whirling-squares.webp",
+      "bytes": 1348,
+      "sha256": "307b824de02155a05ea7e3c7ccac7d72a7deaa7a3eabca5aa90e1fb5b22a9835",
+      "git_blob": "01a913e177c0609068fd9c22074950b376787494",
+      "reason": "Precautionary withdrawal of a third-party browser capture or supplied illustration pending complete source/license/attribution verification; no finding that redistribution is prohibited."
+    },
+    {
+      "path": "golden-ratio/source/reference/Golden_ratio.pdf",
+      "bytes": 2714704,
+      "sha256": "981aa5a0d8b8a7c293925d5981ad3cbbc21eb86e996685bcdaf1e4d89af5fd04",
+      "git_blob": "6090421d0660ddfb4cfa54d83ac0872fe99af1da",
+      "reason": "Precautionary withdrawal of a third-party browser capture or supplied illustration pending complete source/license/attribution verification; no finding that redistribution is prohibited."
+    }
+  ],
+  "authorship": "ChatGPT (OpenAI), through Mingli Yuan's authorized account proxy; not personal authorship, review or a correctness guarantee by the account owner."
+}
