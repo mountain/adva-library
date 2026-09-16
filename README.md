@@ -13,6 +13,10 @@ becomes a native operation, type or builtin by being catalogued.
 Paths beginning `../` refer to that parent repository. This library is normally
 read through it, and several of its checkers live there rather than here.
 
+[Exchange records](exchanges/README.md) retain observations of checked transfers.
+The first naming-layer exchange has an observed Rust acknowledgment; the source
+materials, catalog home and unresolved obligations remain here unchanged.
+
 ## What this is, and what it is not
 
 - **It is** the durable home of delivered research inputs, presentations and
