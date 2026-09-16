@@ -1,6 +1,6 @@
 # Adva library — the content and library layer
 
-This library adopts [Unknown v0.2](Unknown-LICENSE-v0.2.md): public domain with
+This library adopts [Unknown v0.3](Unknown-LICENSE-v0.3.md): public domain with
 a voluntary philosophical statement. Its existing public-domain status continues.
 See [LICENSE](LICENSE) and [licensing scope](LICENSING.md); separately licensed
 third-party material retains its own terms.
