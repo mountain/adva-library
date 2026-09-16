@@ -10,7 +10,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   correct:
-    if: github.repository == 'mountain/adva-library' && contains(github.event.head_commit.message, 'Publication-Cleanup-Run: 20260916')
+    if: >-
+      github.repository == 'mountain/adva-library' && contains(github.event.head_commit.message, 'Publication-Cleanup-Run: 20260916')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:

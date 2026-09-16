@@ -3,5 +3,6 @@
   "requested_by": "Mingli Yuan",
   "purpose": "Withdraw enumerated accidentally published third-party material while preserving original research and attribution.",
   "publication": "Atomic leases on affected heads/tags only; stale remote or branch protection stops the action.",
-  "local_rehearsal": "Verified original author/committer metadata, messages, parent topology and all unaffected file bytes/modes. Clean core dependency build/run/native replay passed four checks."
+  "local_rehearsal": "Verified original author/committer metadata, messages, parent topology and all unaffected file bytes/modes. Clean core dependency build/run/native replay passed four checks.",
+  "attempt": 2
 }
