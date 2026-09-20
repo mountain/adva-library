@@ -1,0 +1,59 @@
+{
+  "schema": "adva.publication-admission.v1",
+  "status": "admitted",
+  "resource_id": "calabi-yau-fifty-years-reading-2026-09-20",
+  "eligible_basis": "project-original",
+  "files": [
+    {
+      "path": "yau-calabi-yau-fifty-years-reading-note-v0.md",
+      "bytes": 26354,
+      "sha256": "ec1ea41e60fb71a13436f239b58276bb65e4121f0cf6b5ae35e786a939081199"
+    }
+  ],
+  "provenance": {
+    "source_url": null,
+    "source_version": "Original v0 composed on 2026-09-20 from the authorized reading discussion; the supplied memoir edition is unverified and is not incorporated.",
+    "creator_or_rights_holder": "Codex (OpenAI), original project contribution through Mingli Yuan as authorized account proxy; not his authorship or review.",
+    "publication_basis_evidence_urls": [
+      "https://github.com/mountain/adva-library/blob/7e738217d175ea1d139274b6e1fce6dee5f318c9/Unknown-LICENSE-v0.3.md",
+      "https://github.com/mountain/adva-library/blob/7e738217d175ea1d139274b6e1fce6dee5f318c9/LICENSING.md",
+      "https://github.com/mountain/adva-library/blob/7e738217d175ea1d139274b6e1fce6dee5f318c9/PUBLICATION_BOUNDARY.md"
+    ],
+    "rights_holder_authority_evidence": "The authorized task requests a new study note. Codex composed this publication unit and dedicates the original contribution under the project's Unknown v0.3 terms to the extent applicable. The note contains its own explanations and organization, mathematical facts and definitions, and bibliographic identifiers/links. No third-party expressive contribution is claimed as project-owned.",
+    "jurisdictions_and_limitations": "Dedication applies only to the original contribution and only to rights that may be released, with the existing Unknown v0.3 fallback where needed. It does not assert worldwide public-domain status for any cited memoir, poem, paper, translation, figure or edition; none of those source artifacts is incorporated.",
+    "incorporated_components": [
+      {
+        "component": "New Chinese explanatory prose, English abstract, elementary algebra example, status and reading-depth tables",
+        "basis": "project-original",
+        "review": "Individually reviewed as newly composed expression and organization, not copied or closely translated source passages."
+      },
+      {
+        "component": "Standard mathematical notation, definitions, theorem statements, formulas and numerical values",
+        "basis": "mathematical facts and concepts expressed in the original exposition",
+        "review": "Used to identify scientific content with precise assumptions. No reproduced source proof, worked-example prose, source layout or image; no novel theorem claim."
+      },
+      {
+        "component": "Names, titles, DOI/arXiv identifiers and external source links R1-R23",
+        "basis": "bibliographic identification, not redistribution of the linked works",
+        "review": "Checked as references only. Reading depth and the unverified memoir edition are explicit; source licenses are not used as admission evidence."
+      },
+      {
+        "component": "Links to existing project license and historical mapping note",
+        "basis": "project-original bibliographic navigation",
+        "review": "Links only; no incorporation, relicensing or recertification of historical material."
+      }
+    ],
+    "transformations": [
+      "Independent synthesis organized around existence, mirror correspondences and generating functions; not a translation or transcription of the memoir.",
+      "Original Markdown and LaTeX notation; no external full text, screenshots, poem, archive, image, dataset or software dependency imported."
+    ]
+  },
+  "review": {
+    "reviewer": "Codex (OpenAI), author self-review; not an independent or human legal/mathematical review",
+    "reviewed_at": "2026-09-20T02:53:19+00:00",
+    "all_components_reviewed": true,
+    "output_publication_reviewed": true,
+    "unresolved_questions": [],
+    "decision_reason": "Admit only the exact original note identified above. Review covered the complete draft and its final terminology, formula and citation changes before copying into the repository. Source-specific poetic and memoir expression, source files and graphics are absent. Mathematical correctness and the memoir's publication provenance remain documented research limitations, not permissions to import those sources."
+  }
+}

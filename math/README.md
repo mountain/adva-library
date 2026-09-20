@@ -31,10 +31,10 @@ programs, identifies two programs or copies their evidence.
 | Topic | Memberships | Examples |
 | --- | ---: | --- |
 | arithmetic | 10 | epochs 0/1, recipes, three-verifier calibration, 100-round evidence, Pascal presentation, crypto calibration reference, golden-ratio receipt calibration, period-three matrix calibration, start-word calibration |
-| geometry | 9 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor, golden-ratio external reference, the moonshine / K3 elliptic-genus external reference, the Arakelov / Monge-Ampère external reference, the Zhang Jingzhong finite-example / point-elimination external reference, the Yang Lu inequality-proving external reference |
+| geometry | 10 | Pascal root, external Q4/M6 reference, proposed Pascal incidence-task successor, golden-ratio external reference, the moonshine / K3 elliptic-genus external reference, the Arakelov / Monge-Ampère external reference, the Zhang Jingzhong finite-example / point-elimination external reference, the Yang Lu inequality-proving external reference, the Calabi–Yau fifty-years study note |
 | logic | 18 | fixed rules, finite logic tasks, cryptographic boundary, naming and interpretation proposals, the Nim rule-constraint typing, the Start type word, the Absurdity emptiness counter-example registration |
 
-There are **32 distinct entries**, with 37 topic memberships. Counts are
+There are **33 distinct entries**, with 38 topic memberships. Counts are
 recomputed from the manifest rather than carried over from an earlier
 revision, and they describe this catalog only, not an inventory of all project
 knowledge. The column is headed memberships because each row counts topic
@@ -86,6 +86,16 @@ pascal 原始字节不动，只新增文档映射；不声称三机识别。
 [Yau-Calabi 映射 v0](../../docs/../adva-library/meaning-yau-calabi-mapping-v0.md)（条目
 `logic-yau-calabi-mapping`）：丘先生 Calabi 历程的五锚点算术映射 +
 对偶谱支柱；proposed-mapping，待人类评审；非等同声称。
+
+The [Calabi–Yau fifty-years study note](../yau-calabi-yau-fifty-years-reading-note-v0.md)
+adds one geometry-home external reference on 2026-09-20, bringing the current
+catalog to 33 entries and topic memberships to 10 / 10 / 18. It is original
+Chinese exposition with 23 source groups, explicit theorem/conjecture boundaries
+and a reviewed publication record. It also documents the distinction between
+Ricci forms and their cohomology classes without rewriting the historical
+Yau–Calabi arithmetic mapping. No geometry successor or native proof is admitted.
+The executable checker already declares 101 entries and 120 files; the bounds
+paragraph below is synchronized with those existing limits, not widened here.
 
 ## Read-only check through the outer CLI
 
@@ -149,7 +159,7 @@ this catalog keep their original research scope. See the
 [task-loop audit](../../docs/research/0154-math-catalog-and-task-loop-boundary.md)
 for what they can already compute.
 
-Bounds are 32 entries, 256 reference occurrences, 96 files, 256 KiB per
+Bounds are 101 entries, 256 reference occurrences, 120 files, 256 KiB per
 metadata file, 8 MiB per referenced file, 32 MiB total read bytes and a
 five-second cooperative deadline between reads. No subprocesses, retries,
 recursive imports, proof replay or pin repair are performed. This is a local

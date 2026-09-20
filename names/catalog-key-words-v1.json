@@ -13,7 +13,7 @@
   },
   "source_document": {
     "path": "adva-library/names/catalog-key-words.json",
-    "sha256": "dfe8c2b2d200dfb8c22c7773e07774cad8ae34c7df545051e4d8b8eb147f53ad"
+    "sha256": "4af7b013c4215d2c94f9d99f2e8be6eb6bd058e42084af0947ff0d9eb349a9c5"
   },
   "entries": [
     {
@@ -318,6 +318,17 @@
         "proving",
         "external",
         "reference"
+      ]
+    },
+    {
+      "key": "geometry-calabi-yau-fifty-years-reading",
+      "key_words": [
+        "geometry",
+        "calabi",
+        "yau",
+        "fifty",
+        "years",
+        "reading"
       ]
     }
   ],

@@ -625,11 +625,11 @@
         },
         {
           "path": "adva-library/names/catalog-key-words.json",
-          "sha256": "dfe8c2b2d200dfb8c22c7773e07774cad8ae34c7df545051e4d8b8eb147f53ad"
+          "sha256": "4af7b013c4215d2c94f9d99f2e8be6eb6bd058e42084af0947ff0d9eb349a9c5"
         },
         {
           "path": "adva-library/names/catalog-key-words-v1.json",
-          "sha256": "fe2e9a9187e7cae2b950434964ee20110167a1701f8bed35d83251aaea93d493"
+          "sha256": "e329c4a002d049d2b6c268a2a0b9f2deb2a7a9b2c924f4cd628ef0418f8694fb"
         }
       ],
       "evidence": [],
@@ -1677,6 +1677,56 @@
         "The method's name, program, reach and benchmark rest on one journal abstract, and the algorithm was not read.",
         "The quoted capability of the published program to disprove as well as to prove is not tested here.",
         "The cohort framing in the request has no fetched support and is carried as the requester's framing only."
+      ]
+    },
+    {
+      "key": "geometry-calabi-yau-fifty-years-reading",
+      "title": "Calabi-Yau fifty years: a Chinese study note on canonical metrics, stability, mirror symmetry and higher-genus invariants",
+      "domains": [
+        "geometry"
+      ],
+      "home": "geometry",
+      "geometry_lineage": {
+        "kind": "external-reference",
+        "parents": [],
+        "derivation_evidence": [],
+        "discharge": "Open"
+      },
+      "theory": {
+        "name": "Original exposition of external Calabi-Yau literature with theorem hypotheses, conjectural boundaries and documented reading depth",
+        "version": "calabi-yau-fifty-years-reading v0"
+      },
+      "assumptions": [
+        "The supplied memoir is a reading prompt whose formal edition was not verified; it and its poem, images and source papers are not redistributed.",
+        "The Chinese explanations are an original project contribution under Unknown v0.3. Published theorems are cited, not independently re-proved or admitted by this catalog.",
+        "Each of the 23 bibliography groups records whether the reading reached bibliographic information, abstracts or relevant passages; no complete proof audit is claimed.",
+        "The geometry home is a documentary coordinate with external-reference lineage and no derivation parents; this does not classify every cited subject or establish a Pascal-rooted successor.",
+        "Codex (OpenAI) wrote and self-reviewed the note through Mingli Yuan as authorized account proxy; his account does not imply his authorship, review or endorsement."
+      ],
+      "scope": "One original Chinese study note covering the Calabi-Yau theorem and canonical invariants, Chern-number applications, bundle and metric stability, Higgs bundles, heterotic motivation, Euler characteristic, Candelas genus-zero enumeration, homological and SYZ mirror symmetry, Thomas-Yau stability, dHYM, BCOV and finite generation. Includes terminology corrections, a finite-generation subalgebra example, source-reading depth and an exact-file publication admission record.",
+      "recorded_status": "proposed-document",
+      "materials": [
+        {
+          "path": "adva-library/yau-calabi-yau-fifty-years-reading-note-v0.md",
+          "sha256": "ec1ea41e60fb71a13436f239b58276bb65e4121f0cf6b5ae35e786a939081199"
+        },
+        {
+          "path": "adva-library/governance/publication/records/calabi-yau-fifty-years-reading-2026-09-20.json",
+          "sha256": "b57c49354a592eca472baa673963b90e13d8c3a040039ccd55c0123cc6474036"
+        }
+      ],
+      "evidence": [],
+      "checker": null,
+      "reuse_requires": [
+        "Retain the source links, exact hypotheses and theorem/conjecture/physical-motivation distinctions; use the primary papers for their mathematical results.",
+        "Keep the external-reference status and one geometry home; catalog checks are structural and do not authenticate the prose or recheck proofs.",
+        "Any executable use requires its own question, assumptions, finite contract and checker; this note authorizes no semantic translation or native admission."
+      ],
+      "open_obligations": [
+        "The memoir publication/version and relative historical dates remain unverified; biographical completeness and poem commentary are outside scope.",
+        "No independent verification of the cited analytic or enumerative proofs, new geometric construction, numerical experiment or formal proof was performed.",
+        "General mirror and stability frameworks retain the limitations described in the note; finite generation alone is not modularity, integrality or a determination of every higher-genus coefficient.",
+        "The Pascal-rooted growth obligation remains Open and native Seal NotIssued; the historical arithmetic mapping entry is not mathematical evidence for this note."
       ]
     }
   ]
