@@ -8,3 +8,6 @@
 /golden-ratio/plates/icosahedron-golden-rectangles.webp
 /golden-ratio/plates/whirling-squares.webp
 /golden-ratio/source/reference/Golden_ratio.pdf
+
+# Operating-system noise: never repository content.
+.DS_Store
