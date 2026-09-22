@@ -94,8 +94,20 @@ Chinese exposition with 23 source groups, explicit theorem/conjecture boundaries
 and a reviewed publication record. It also documents the distinction between
 Ricci forms and their cohomology classes without rewriting the historical
 Yau–Calabi arithmetic mapping. No geometry successor or native proof is admitted.
+
+A [layer v1](../yau-calabi-yau-fifty-years-reading-note-v1.md) appends on
+2026-09-22 and rewrites nothing: it adds two bibliography groups (R24, R25) on the
+"six → Calabi–Yau" literature, carries its own admission record, and records the
+distinction that this literature runs on six **lines** in the projective plane and
+**not** on six points on a conic, together with the zero-hit searches that leave a
+Pascal-to-Calabi–Yau bridge unestablished. Because it is a second `material` of the
+same entry, the entry and topic counts above are unchanged, and the v0 bytes, the
+v0 admission record and the Pascal-rooted growth obligation are untouched.
+
 The executable checker already declares 101 entries and 120 files; the bounds
-paragraph below is synchronized with those existing limits, not widened here.
+paragraph below is synchronized with those existing limits, not widened here. A
+checked run on 2026-09-22 with layer v1 in place reports `CatalogConsistent` at
+33 entries, 118 of 120 files and 132 of 256 references.
 
 ## Read-only check through the outer CLI
 

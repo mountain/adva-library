@@ -1694,16 +1694,17 @@
       },
       "theory": {
         "name": "Original exposition of external Calabi-Yau literature with theorem hypotheses, conjectural boundaries and documented reading depth",
-        "version": "calabi-yau-fifty-years-reading v0"
+        "version": "calabi-yau-fifty-years-reading v1"
       },
       "assumptions": [
         "The supplied memoir is a reading prompt whose formal edition was not verified; it and its poem, images and source papers are not redistributed.",
         "The Chinese explanations are an original project contribution under Unknown v0.3. Published theorems are cited, not independently re-proved or admitted by this catalog.",
-        "Each of the 23 bibliography groups records whether the reading reached bibliographic information, abstracts or relevant passages; no complete proof audit is claimed.",
+        "Each of the 23 bibliography groups in layer v0, and the two groups (R24, R25) added by layer v1, records whether the reading reached bibliographic information, abstracts or relevant passages; no complete proof audit is claimed.",
         "The geometry home is a documentary coordinate with external-reference lineage and no derivation parents; this does not classify every cited subject or establish a Pascal-rooted successor.",
-        "Codex (OpenAI) wrote and self-reviewed the note through Mingli Yuan as authorized account proxy; his account does not imply his authorship, review or endorsement."
+        "Codex (OpenAI) wrote and self-reviewed the note through Mingli Yuan as authorized account proxy; his account does not imply his authorship, review or endorsement.",
+        "Layer v1 was written and self-reviewed by deepseek-v4-flash-vision-exp (DeepSeek Harness) through the same authorized account proxy. Its two added groups were read at abstract level only, and its recorded zero-hit searches are a record of queries run, not a proof that no literature exists."
       ],
-      "scope": "One original Chinese study note covering the Calabi-Yau theorem and canonical invariants, Chern-number applications, bundle and metric stability, Higgs bundles, heterotic motivation, Euler characteristic, Candelas genus-zero enumeration, homological and SYZ mirror symmetry, Thomas-Yau stability, dHYM, BCOV and finite generation. Includes terminology corrections, a finite-generation subalgebra example, source-reading depth and an exact-file publication admission record.",
+      "scope": "One original Chinese study note covering the Calabi-Yau theorem and canonical invariants, Chern-number applications, bundle and metric stability, Higgs bundles, heterotic motivation, Euler characteristic, Candelas genus-zero enumeration, homological and SYZ mirror symmetry, Thomas-Yau stability, dHYM, BCOV and finite generation. Includes terminology corrections, a finite-generation subalgebra example, source-reading depth and an exact-file publication admission record. Plus layer v1: two added bibliography groups (Hosono-Lian-Takagi-Yau on K3 surfaces from configurations of six lines in P2 and mirror symmetry; Clingher-Malmendier-Shaska on six line configurations and string dualities in eight dimensions), the recorded distinction that this literature runs on six lines in the projective plane and not on six points on a conic, and the zero-hit searches recorded so that the absence of a Pascal-to-Calabi-Yau bridge is stated as a search result and not as a theorem.",
       "recorded_status": "proposed-document",
       "materials": [
         {
@@ -1713,6 +1714,14 @@
         {
           "path": "adva-library/governance/publication/records/calabi-yau-fifty-years-reading-2026-09-20.json",
           "sha256": "b57c49354a592eca472baa673963b90e13d8c3a040039ccd55c0123cc6474036"
+        },
+        {
+          "path": "adva-library/yau-calabi-yau-fifty-years-reading-note-v1.md",
+          "sha256": "6e7c71ae9b519133b1ad09057acd100ffea715845ee77b1e312d529de3751558"
+        },
+        {
+          "path": "adva-library/governance/publication/records/calabi-yau-fifty-years-reading-v1-2026-09-22.json",
+          "sha256": "635a08a3b13afa4dccb4e8daf42bd88ef676ba333833d1764422280b01578b67"
         }
       ],
       "evidence": [],

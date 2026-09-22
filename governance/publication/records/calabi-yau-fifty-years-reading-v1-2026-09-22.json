@@ -1,0 +1,59 @@
+{
+  "schema": "adva.publication-admission.v1",
+  "status": "admitted",
+  "resource_id": "calabi-yau-fifty-years-reading-v1-2026-09-22",
+  "eligible_basis": "project-original",
+  "files": [
+    {
+      "path": "yau-calabi-yau-fifty-years-reading-note-v1.md",
+      "bytes": 11388,
+      "sha256": "6e7c71ae9b519133b1ad09057acd100ffea715845ee77b1e312d529de3751558"
+    }
+  ],
+  "provenance": {
+    "source_url": null,
+    "source_version": "Appending layer v1 composed on 2026-09-22 in response to Mingli Yuan's 2026-09-22 literature-search request. It appends to yau-calabi-yau-fifty-years-reading-note-v0.md and does not rewrite it; the v0 bytes and the v0 admission record are unchanged.",
+    "creator_or_rights_holder": "deepseek-v4-flash-vision-exp (DeepSeek Harness), original project contribution through Mingli Yuan as authorized account proxy; not his authorship, review or endorsement.",
+    "publication_basis_evidence_urls": [
+      "https://github.com/mountain/adva-library/blob/main/Unknown-LICENSE-v0.3.md",
+      "https://github.com/mountain/adva-library/blob/main/LICENSING.md",
+      "https://github.com/mountain/adva-library/blob/main/PUBLICATION_BOUNDARY.md"
+    ],
+    "rights_holder_authority_evidence": "The authorized task asks for two bibliography entries to be added to an existing study note's source group and for one distinction to be recorded. The layer composes its own explanatory prose, its own search record and its own non-claims, and identifies external literature only by bibliographic identifiers and links. No third-party expressive contribution is claimed as project-owned.",
+    "jurisdictions_and_limitations": "Dedication applies only to the original contribution and only to rights that may be released, with the existing Unknown v0.3 fallback where needed. It does not assert worldwide public-domain status for any cited paper, abstract, figure or edition; none of those source artifacts is incorporated, and the cited arXiv records are linked rather than redistributed.",
+    "incorporated_components": [
+      {
+        "component": "New Chinese explanatory prose, English abstract, the six-lines-versus-six-points distinction, the search record with its zero-hit queries, and the status and boundary sections",
+        "basis": "project-original",
+        "review": "Individually reviewed as newly composed expression and organization. The two cited abstracts are quoted in English as short verbatim excerpts with their arXiv identifiers; everything else is the layer's own wording."
+      },
+      {
+        "component": "Two short verbatim English abstract excerpts from arXiv:1810.00606 and arXiv:1806.07460, and bibliographic identifiers and links",
+        "basis": "quotation for identification and comment",
+        "review": "Kept short, attributed to the named records with links, and used to state what those records claim. Not claimed as project-original, and no permission beyond the source's own terms is asserted."
+      },
+      {
+        "component": "Standard mathematical notation, definitions and standard facts (Euler characteristic, pants decomposition, b_1 = 0 for a simply connected Calabi-Yau threefold, Hodge and Betti counting)",
+        "basis": "mathematical facts and concepts expressed in the original exposition",
+        "review": "Stated as standard facts and explicitly marked in the layer as not carrying a fetched citation."
+      }
+    ],
+    "transformations": [
+      "Appended, not merged: the v0 file is untouched and its pin in math/manifest.json still resolves.",
+      "The v1 layer is registered as a second material of the same catalog entry geometry-calabi-yau-fifty-years-reading; no new catalog entry, no change to entry or topic counts."
+    ]
+  },
+  "review": {
+    "reviewer": "deepseek-v4-flash-vision-exp (DeepSeek Harness), author self-review through the authorized account proxy",
+    "reviewed_at": "2026-09-22",
+    "all_components_reviewed": true,
+    "output_publication_reviewed": true,
+    "unresolved_questions": [
+      "The two cited records were read at abstract level only; no full text was read and no proof in them was independently checked. The layer says so in its own section 1.",
+      "The metadata searches reported to return zero hits (OpenAlex and arXiv title/abstract queries for Pascal with Calabi-Yau or K3) were performed by a delegated search agent and were not independently reproduced by the layer's author; the layer records them as transmitted, not as verified.",
+      "The record's file pin is of the reviewed working-tree bytes. The layer is not yet committed at review time, so no commit is named here; the commit is the act that fixes these bytes.",
+      "This is a publication-content review, not a mathematical review. It does not verify any statement in the layer, and catalog checks are structural only."
+    ],
+    "decision_reason": "Admitted for the same reason as v0: the layer is original project prose and organization, cites external literature by identifier and link without incorporating third-party expressive content beyond short attributed abstract excerpts, adds no mathematical claim, and changes no existing pin, catalog entry, claim registry entry or growth obligation."
+  }
+}
