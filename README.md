@@ -10,6 +10,12 @@ submodule at `adva-library/` inside the main [`adva`](../README.md) repository.
 It is **documentary only**. Nothing here is native admission, and no byte here
 becomes a native operation, type or builtin by being catalogued.
 
+The [kernel and package boundary contract v0.1](https://github.com/mountain/adva-machine/blob/acfc9806fe18a36d0f7194dcc196a380b2834adf/spec/framework/kernel-package-boundary-v0.1.md)
+governs future kernel/profile, learning-method and package-interface design.
+It requires explicit premises, finite verification budgets and qualified
+cross-repository references. This documentary reference does not upgrade
+executable dependency locks or change historical evidence.
+
 Paths beginning `../` refer to that parent repository. This library is normally
 read through it, and several of its checkers live there rather than here.
 
