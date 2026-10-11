@@ -1,0 +1,31 @@
+{
+  "author": "ChatGPT (OpenAI); authorized proxy, not Mingli review",
+  "python": "3.12.14",
+  "git": "git version 2.51.1",
+  "jsonschema": "4.25.1",
+  "tests": 15,
+  "test_exit": 0,
+  "test_log": "test_budget (test_references.Controls.test_budget) ... ok\ntest_computation_and_premise_are_not_references (test_references.Controls.test_computation_and_premise_are_not_references) ... ok\ntest_dangling_trail (test_references.Controls.test_dangling_trail) ... ok\ntest_digest_mismatch (test_references.Controls.test_digest_mismatch) ... ok\ntest_duplicate_digest_fields (test_references.Controls.test_duplicate_digest_fields) ... ok\ntest_machine_tamper_before_import (test_references.Controls.test_machine_tamper_before_import) ... ok\ntest_missing_local_bytes (test_references.Controls.test_missing_local_bytes) ... ok\ntest_missing_source (test_references.Controls.test_missing_source) ... ok\ntest_no_pin_inference (test_references.Controls.test_no_pin_inference) ... ok\ntest_optional_unknown_extension (test_references.Controls.test_optional_unknown_extension) ... ok\ntest_oversized_manifest (test_references.Controls.test_oversized_manifest) ... ok\ntest_real_sources (test_references.Controls.test_real_sources) ... ok\ntest_required_unknown_extension (test_references.Controls.test_required_unknown_extension) ... ok\ntest_revision_mismatch (test_references.Controls.test_revision_mismatch) ... ok\ntest_source_contract_mismatch (test_references.Controls.test_source_contract_mismatch) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.307s\n\nOK\n",
+  "lookup": {
+    "elapsed_seconds": 0.10140149899962125,
+    "ignored_optional_extensions": [],
+    "metadata_status": "MetadataConsistent",
+    "native_admission": "NotGranted",
+    "native_launches": 0,
+    "reason_code": "Located",
+    "references_checked": 3,
+    "residuals": [
+      "Local repository label is caller-bound, not authenticated.",
+      "Documentary lookup does not establish truth, rights or completed KPB-14 adoption."
+    ],
+    "semantic_verification": "NotRun",
+    "status": "ReferenceBytesLocated"
+  },
+  "aggregate_elapsed_seconds": 0.5489505529985763,
+  "initial_failure": "First run lacked separately installed jsonschema and returned Unknown; it was not successful evidence.",
+  "limits": "60s test watchdog and 30s CLI watchdog; no memory ceiling; native_launches=0",
+  "residuals": [
+    "Formal consumer adoption and upstream lock updates not performed.",
+    "KPB-14 migration incomplete."
+  ]
+}

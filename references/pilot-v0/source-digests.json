@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "mountain/adva-library",
+    "commit": "19cede9c4532b7abd85f200daf7a9611a84563f0",
+    "path": "README.md",
+    "sha256": "d808fe25644632174e054154369a322d87a2aa32d185caa053e70b20efd9e02e"
+  },
+  {
+    "repository": "mountain/adva-library",
+    "commit": "19cede9c4532b7abd85f200daf7a9611a84563f0",
+    "path": "math/README.md",
+    "sha256": "57149a8753c3dc4bb1c909944c49d5a29b06e29c8f69dde1ff13471e068b2009"
+  },
+  {
+    "repository": "mountain/adva-library",
+    "commit": "19cede9c4532b7abd85f200daf7a9611a84563f0",
+    "path": "meaning-symbol-surface-swap-v0.md",
+    "sha256": "255264ccd158da5e092b910c863e544807b1a115e388f9a905c86af1f9766fc1"
+  }
+]
