@@ -38,6 +38,16 @@ materials, catalog home and unresolved obligations remain here unchanged.
   identity, or proof. Registering a document changes what may be *cited*; it does
   not change what is *true*.
 
+## Standalone content reference pilot
+
+The [executable content-reference pilot](references/pilot-v0/README.md) provides
+an offline library-side interface to three existing original documents, with
+independent revision/byte pins, cross-material navigation and two reading paths.
+It uses the exact first-party draft schema/checkers from adva-machine PR #7.
+Success locates reference bytes only; formal consumer adoption, upstream lock
+selection and KPB-14 migration remain incomplete. Existing catalog ownership
+and documentary authority rules remain binding.
+
 ## How to check it
 
 The checker lives in the main repository, not here. Run it from that

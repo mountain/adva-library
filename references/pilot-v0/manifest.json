@@ -1,0 +1,121 @@
+{
+  "schema": "adva.package-manifest.draft.v0.1",
+  "identity": {
+    "namespace": "mountain.adva-library",
+    "name": "content-reference-pilot",
+    "revision": "pilot-v0-not-a-release",
+    "home": "mountain/adva-library"
+  },
+  "capabilities": [
+    {
+      "kind": "library",
+      "profile": "adva.library-carrier.draft.v0",
+      "source_contract": {
+        "repository": "mountain/adva-machine",
+        "commit": "089c5ab8ec5f04768d03a377d0180e942fd77216",
+        "path": "spec/framework/kernel-package-boundary-v0.1.md"
+      }
+    }
+  ],
+  "content": [
+    {
+      "id": "library-boundary",
+      "kind": "material",
+      "text": "Read the content ownership and citation boundary.",
+      "sources": [
+        {
+          "repository": "mountain/adva-library",
+          "commit": "19cede9c4532b7abd85f200daf7a9611a84563f0",
+          "path": "README.md"
+        }
+      ]
+    },
+    {
+      "id": "topic-catalog",
+      "kind": "material",
+      "text": "Follow the existing topic catalog and its unresolved growth obligation.",
+      "sources": [
+        {
+          "repository": "mountain/adva-library",
+          "commit": "19cede9c4532b7abd85f200daf7a9611a84563f0",
+          "path": "math/README.md"
+        }
+      ]
+    },
+    {
+      "id": "symbol-view",
+      "kind": "material",
+      "text": "Inspect the original logic-home symbol surface proposal.",
+      "sources": [
+        {
+          "repository": "mountain/adva-library",
+          "commit": "19cede9c4532b7abd85f200daf7a9611a84563f0",
+          "path": "meaning-symbol-surface-swap-v0.md"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "kind": "associative",
+      "from": "library-boundary",
+      "to": "topic-catalog"
+    },
+    {
+      "kind": "associative",
+      "from": "topic-catalog",
+      "to": "symbol-view"
+    }
+  ],
+  "trails": [
+    {
+      "id": "boundary-first",
+      "name": "Boundary to original proposal",
+      "steps": [
+        "library-boundary",
+        "topic-catalog",
+        "symbol-view"
+      ]
+    },
+    {
+      "id": "proposal-first",
+      "name": "Proposal back to catalog obligations",
+      "steps": [
+        "symbol-view",
+        "topic-catalog",
+        "library-boundary"
+      ],
+      "origin": {
+        "trail": "boundary-first",
+        "step": 1
+      }
+    }
+  ],
+  "extensions": [],
+  "provenance": {
+    "basis": "project-original/Unknown-v0.3",
+    "author": "ChatGPT (OpenAI), authorized account proxy; no human review implied",
+    "sources": [
+      {
+        "repository": "mountain/adva-library",
+        "commit": "19cede9c4532b7abd85f200daf7a9611a84563f0",
+        "path": "README.md"
+      },
+      {
+        "repository": "mountain/adva-library",
+        "commit": "19cede9c4532b7abd85f200daf7a9611a84563f0",
+        "path": "math/README.md"
+      },
+      {
+        "repository": "mountain/adva-library",
+        "commit": "19cede9c4532b7abd85f200daf7a9611a84563f0",
+        "path": "meaning-symbol-surface-swap-v0.md"
+      }
+    ]
+  },
+  "residuals": [
+    "Navigation view only; existing catalog homes remain authoritative.",
+    "No computation dependency or proof premise is granted.",
+    "Formal consumer adoption, upstream dependency locks and KPB-14 migration remain incomplete."
+  ]
+}

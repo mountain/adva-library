@@ -1,0 +1,20 @@
+name: Content references
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  offline-references:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install jsonschema==4.25.1
+      - run: timeout 60s python -m unittest discover -s references/pilot-v0 -v
+      - run: timeout 30s python references/pilot-v0/check_references.py --checkout . --commit 19cede9c4532b7abd85f200daf7a9611a84563f0
