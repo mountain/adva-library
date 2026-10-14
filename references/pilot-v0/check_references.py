@@ -93,9 +93,9 @@ def check(manifest, checkout, commit, digests, seconds=10.0):
                     return result
         result.update(status='ReferenceBytesLocated', reason_code='Located', metadata_status=metadata['status'],
                       ignored_optional_extensions=metadata['ignored_optional_extensions'])
-    except (sys.modules['check_manifest'].Exhausted if 'check_manifest' in sys.modules else TimeoutError) as error:
+    except (getattr(sys.modules.get('check_manifest'), 'Exhausted', TimeoutError)) as error:
         result.update(reason_code='BudgetExhausted', reason=str(error)[:256])
-    except (sys.modules['check_manifest'].Refusal if 'check_manifest' in sys.modules else RuntimeError) as error:
+    except (getattr(sys.modules.get('check_manifest'), 'Refusal', RuntimeError)) as error:
         result.update(status='Rejected', reason_code='InvalidInput', reason=str(error)[:256])
     except (ValueError, KeyError, TypeError, UnicodeError, RecursionError) as error:
         result.update(status='Rejected', reason_code='InvalidInput', reason=str(error)[:256])

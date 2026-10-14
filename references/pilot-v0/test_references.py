@@ -3,6 +3,8 @@ import copy
 import json
 from pathlib import Path
 import tempfile
+import subprocess
+import sys
 import unittest
 from unittest.mock import patch
 from check_references import check, load_receiver, ROOT
@@ -24,6 +26,18 @@ class Controls(unittest.TestCase):
                 d = Path(temp)/'digests.json'
                 d.write_text(json.dumps(digests))
             return check(p, CHECKOUT, commit, d, seconds)
+
+    def test_missing_dependency_returns_unknown(self):
+        # A clean interpreter without site packages cannot import jsonschema.
+        r = subprocess.run([sys.executable, '-S', str(ROOT/'check_references.py'),
+                            '--checkout', str(CHECKOUT), '--commit', BASE],
+                           capture_output=True, text=True, timeout=30)
+        self.assertEqual(r.returncode, 3, r.stderr)
+        report = json.loads(r.stdout)
+        self.assertEqual((report['status'], report['reason_code']), ('Unknown', 'Unavailable'))
+        self.assertEqual((report['native_launches'], report['semantic_verification'],
+                          report['native_admission']), (0, 'NotRun', 'NotGranted'))
+        self.assertNotIn('Traceback', r.stderr)
 
     def test_real_sources(self):
         r = self.run_case()

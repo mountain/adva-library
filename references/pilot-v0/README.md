@@ -102,3 +102,40 @@ custody where required, actual KPB-14 consumer migration, migration refusal chec
 and native admission/reverification. This pilot completes neither KPB-14 nor a
 new native package boundary. A successor must select its own exact library and
 machine bytes and rerun checks; this tool never repairs pins automatically.
+
+## Independent engineering review, 2026-10-14
+
+Review by ChatGPT (OpenAI), a fresh review session, through Mingli Yuan's
+explicitly authorized account proxy; not human review or endorsement.
+The reviewed predecessor is ac61143ea9500effc7b7bbe89908efe133cb130c.
+All six machine files were compared byte-for-byte against the pinned upstream
+commit, including Git blob, SHA-256 and size. All six publication-record payloads
+and three historical library source digests match. The admission record and
+first-party Unknown v0.3 contribution scope were reviewed; separately installed
+jsonschema is not vendored. This is not a legacy-corpus rights certification.
+
+One defect was reproduced: missing jsonschema left a partially initialized
+module whose missing exception classes caused an AttributeError instead of
+Unknown. The integration now uses safe exception-class fallbacks. A clean
+`python -S` subprocess control reproduces missing dependency and requires exit 3,
+valid Unknown JSON and no native authority. The sixteen test methods pass with
+Python 3.12.14, Git 2.51.1 and separately installed jsonschema 4.25.1; the actual
+CLI locates all three historical documents under the independent consumer pin.
+The original local-evidence.json is retained, including its earlier reported
+missing-dependency result; this review does not authenticate that historical
+failure description. The current failure and correction are separate evidence.
+
+Static review found no runtime HEAD selection, fetch, installation or linked
+source execution. Git lookup disables lazy fetching, replacement objects and
+network protocols. The pinned local schema uses no external reference resolver.
+Reading trails are documentary order; computation dependencies and proof
+premises are refused. Opaque optional extensions cannot grant native authority.
+Trusted, quiescent checkout/toolchain assumptions and the lack of a physical
+memory ceiling remain material limits; this is not a hostile-checkout sandbox.
+
+The current main, 19cede9c4532b7abd85f200daf7a9611a84563f0, is the PR base.
+The additive integration preserves historical catalog payloads, source homes,
+license notices, frozen evidence and dependency locks. Library content-reference
+tooling is implemented; formal adva/adva-machine consumer adoption, successor
+locks, receiving/effects and custody contracts, migration refusal controls and
+native revalidation remain incomplete. Merge is not KPB-14 completion.
